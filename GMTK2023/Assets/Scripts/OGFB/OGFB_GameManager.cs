@@ -14,6 +14,8 @@ namespace OGFB
         [SerializeField] private GameObject ui_GameOverPage;
         [SerializeField] private TMPro.TextMeshProUGUI scoreText;
 
+        [SerializeField] private Animator uiAnim;
+
         //Reset references
         [SerializeField] private OGFB_Flight birdScript;
         [SerializeField] private OGFB_PipePooler pipePooler;
@@ -24,6 +26,9 @@ namespace OGFB
         private void Awake()
         {
             if(instance == null) instance = this;
+
+            //Debug: Show for now
+            uiAnim.SetBool("Show", true);
         }
 
         private void Update()

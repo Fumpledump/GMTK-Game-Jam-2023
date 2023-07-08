@@ -24,6 +24,7 @@ namespace OGFB
             anim = GetComponent<Animator>();
             spriteRenderer = GetComponentInChildren<SpriteRenderer>();
             localOrigin = transform.localPosition;
+            SetStarted(false);
         }
 
         private void Update()
@@ -31,17 +32,19 @@ namespace OGFB
             if (active && Mouse.current.leftButton.wasPressedThisFrame)
             {
                 rb.velocity = Vector2.up * vel;
+                if (!started) SetStarted(true);
             }
         }
 
         private void FixedUpdate()
         {
-            spriteRenderer.transform.rotation = Quaternion.Euler(0, 0, rb.velocity.y * rotationSpeed);
+            if(started)
+                spriteRenderer.transform.rotation = Quaternion.Euler(0, 0, rb.velocity.y * rotationSpeed);
         }
 
         public void ResetFlight()
         {
-            started = false;
+            SetStarted(false);
             active = true;
             transform.localPosition = localOrigin;
             anim.SetBool("Active", true);
@@ -52,6 +55,12 @@ namespace OGFB
             active = false;
             anim.SetBool("Active", false);
             OGFB_GameManager.instance.GameOver();
+        }
+
+        private void SetStarted(bool set)
+        {
+            //rb.bodyType = set ? RigidbodyType2D.Dynamic : RigidbodyType2D.Kinematic;
+            started = set;
         }
     }
 }

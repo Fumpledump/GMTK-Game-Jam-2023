@@ -558,6 +558,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ui_GameOverPage: {fileID: 1375246809}
   scoreText: {fileID: 736162371}
+  uiAnim: {fileID: 1004829381}
   birdScript: {fileID: 1892415654}
   pipePooler: {fileID: 8952221924016710762}
   moveGround: {fileID: 1085008766}
