@@ -59,6 +59,9 @@ public class Character : MonoBehaviour {
             spriteLookup[i.name] = i;
 
         UpdateTargets();
+
+        position = Character_Handler.Position.Left;
+        AdjustExit();
     }
 
 
