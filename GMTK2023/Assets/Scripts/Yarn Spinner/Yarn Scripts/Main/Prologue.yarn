@@ -1,0 +1,202 @@
+﻿title: Prologue
+tags:
+---
+ : > January 6th, 7:45 AM, School Exterior
+
+{Name()}: “Welp, here I am again...”
+Mobile Prep, the go to school for all applications.
+Entry here is brutal, thousands of students apply, but only a select few are trendy enough to make it in.
+Getting accepted is based less on skill and more on dumb luck.
+Only those who are trendy enough make it through selections on popularity alone.
+I suppose I should feel lucky to be here, but the only reason I got in is because-
+
+<<if Name() == "Pipe-Kun">>
+    ???: “Pipe-Kunnnnnnn!”
+<<else>>
+    ???: “Pipe-Channnnnn!”
+<<endif>>
+
+{Name()}: “Oh, morning 404.”
+This is 404, my best friend in this cut-throat hellhole.
+She’s basically my rock, my anchor; the only reason I’ve gotten through these past 3 years without blowing my casing out.
+Her family is ludicrously wealthy, but so big, they almost always forget about her.
+School isn’t much better, she’s so shy and introverted she almost got held back last year because half of her teachers forgot she existed.
+She’s quiet, but incredibly kind. She’s the best friend anyone could ever have.
+Just another miracle I should be grateful for.
+{Name()}: “How was your winter break?”
+
+404: “Pretty good!”
+404: “I got to spend all weekend bundled up in my room rewatching pirated anime.” 
+404: “But now, I’m back outside and-”
+
+{Name()}: “You’d rather stay indoors all day?”
+
+404: “No way! I’d spend all day running if I could”
+404: “But I’m a cold blooded gal \\(°Ω°)\/, weather like this could literally extinct Cool Ranch and I” 
+
+{Name()}: “Ah, fair enough, let’s head on in then-” 
+{Name()}: “Wait, what the hell is Cool Ranch?” 
+
+404: “My cacti! <(^_^)>” 
+404: “Isn’t it such a cute name?” 
+-> {Name()}: “Yeah that's an adorable name.”
+    404: Thanks! I knew it was!”
+-> {Name()}: “Nope.”
+    404: “It’s a really good name, you’ll see!”
+-> {Name()}: “I guess...”
+    404: “It’s a really good name, you’ll see!”
+
+: > January 6th, 8:00 AM, Classroom Interior
+
+Professor Jump: “Good morning class, I hope everyone had a good break.”
+Professor Jump: “After all, it’ll be the last break you ever get.” 
+Professor Jump: “In just two months from now, you’ll all be graduating from here and expected to fully integrate into the real world.” 
+Professor Jump: “I’m sure you all found highschool a fast, turbulent time in your life” 
+Professor Jump: “And I’m sure you’ll find the real world to move much slower, and be far less forgiving” 
+
+That’s Professor Jump for you.
+He graduated from the school before all of us, he’s treated like a veteran by both staff and students.
+He never sugarcoats anything, it freaks me out at times, but I respect it.
+It’s genuine, he’s gained a lot of wisdom in those 2 years since graduation.
+
+Professor Jump: “For that reason, I’m giving everyone Study Hall for the next two weeks.” 
+
+{Name()}: "No Classwork for 2 weeks?"
+That’s unusually kind.
+
+Professor Jump: “Use this freedom I’ve given you however you see fit, but keep in mind…”
+Professor Jump: “In the real world, you’ll keep jumping forever, but eventually, you will fall.”
+Professor Jump: “Everyone does…”
+
+…
+…
+
+Professor Jump: “What I mean to say,”
+Professor Jump: “I suggest everyone use this time I’ve given to find out what you need before then”
+Professor Jump: “...”
+Professor Jump: “Class dismissed, study hall until the end of the day”
+
+404: “Professor Jump is kind of… (╥_╥)”
+
+{Name()}: “Yeah, I know what you mean” 
+{Name()}: “But he’s not wrong, I’ve got no clue what I’m doing with my life or where to go next.” 
+
+???: “I guess we can’t all be mega sexy successful icons” 
+Fruit Ninja: “But don’t feel bad, some people just aren’t born to make the cut~” 
+
+{Name()}: "Fruit Ninja…"
+Class president, 3D art, released on XBox
+She’s basically perfect. She embodies all of the qualities every student wants
+That being said, I have no clue why she keeps butting in with a bunch of nobodies like us
+
+// TODO: Insert Dialogue once finished
+(INSERT DIALOG HERE)
+
+404: Cool Ranch, the potted Cactus! 
+
+Fruit Ninja: “....”
+Fruit Ninja: “Tf kind of name is Cool Ranch?”  
+
+404: “It’s catching on!” 
+
+{Name()}: “The name of your potted cactus is catching on?”
+
+404: “Y-yeah” 
+404: “A lot of people are talking about it!”
+
+Fruit Ninja: “Like, who?”  
+
+404: “Ya know… People… Of the popular variety” 
+
+Fruit Ninja: “Okay, that might just be the 3rd saddest thing I’ve heard today.”
+Fruit Ninja: “Anyways, I just wanted to let you know, if you’re thinking about using this freetime to get with Flappy-”
+Fruit Ninja: “The two of us will have trouble~”
+
+404:
+“(uh-oh, this is bad!)”
+
+Options: 
+404, please don’t aggravate the weaponized ninja in my name. (Free)
+Why did you say that threat with a flirtatious intonation? (5 points)
+What kind of trouble? Are you threatening me with violence? (10 points)
+
+1 - 
+Fruit Ninja:
+“Ha! I knew I was right!” 
+“Damn, I am just so smart.”
+
+Pipe: 
+“Except, I never said I liked him! 404 is just putting words in my mouth for some reason.”
+
+2 - 
+Fruit Ninja:
+“Wait what?! T-that was supposed to be my scary sexy tone, not a sexy sexy tone.”
+“W-why are you two looking at me like that? There’s a MAJOR difference, OK?”
+
+3 - 
+Fruit Ninja:
+“Ah shit.”
+“No, not really. I was just kinda hoping being the girl with visible weapons and bombs at school would earn me a kind of unspoken clout, ya know?”
+“Like, “don’t get on her bad side” and stuff?”
+“No? I don’t have that effect? Well… shit.”  
+
+1, 2, 3: 
+Fruit Ninja:
+“Anywas, Flappy is a total MSSI. (mega sexy succssful icon), so it’s just natrual we’d end up together.”
+“Besides, you’re nothing more than a hazard, you’d just hurt him if you got too close~” 
+
+Pipe:
+(Harsh, but true)
+(Flappy is the reason I got into this school in the first place.)
+(Our game became mega popular, like MSSI level of popular)
+(So popular, even a nobody hazard like me was considered popular enough to be let in)
+(But the truth is, I’m not popular at all. I’m just a green pipe meant to blend into the background.)
+(... Ugh, now I’m just depressed and feeling sorry for myself.)
+“I should get going. There’s still a lot of studying to do”
+
+404:
+“W-wait!”
+“L-let me come with you.”
+
+Pipe:
+“No, it’s too cold in the library. Besides, you should use this time to garden” 
+
+404:
+“o-okay”
+“See you later then” 
+
+Fruit Ninja:
+“Sayonara~”
+
+Act 1: Encounter
+
+> January 6th, Library, 9:40 am 
+
+Pipe:
+(I’ve been here for over an hour, and it’s stayed surprisingly empty the whole time.) 
+(With finals right around the corner, you’d expect to see more students focusing on their students.) 
+(Maybe everyone is just working towards that “thing they need”.)
+(So I guess I’m the real fool for wasting what little time I have left of highschool studying for classes I don’t even care about.)
+(…)
+(I guess if there was one thing I wish I could have done-) 
+(No, that’s a stupid thought. I’m sitting alone in this big empty library, it’s too late for me to fall in love.)
+(Well, if I suppose there’s one person I could fall in love with…)
+(Stupid idea. I’m just letting Ninja’s idiot threats get to me)
+(Besides, there’s no way he’d even-)
+
+Flappy:
+“Hello there ✨” 
+
+Pipe:
+(I’ve be
+
+
+Future Lines:
+
+Flappy:
+“Telling me not to be with you is like telling Cool Ranch not to be the most popular kid in school!”
+
+Pipe: 
+“But- you’re a total MSSI and, I’m just some nobody P.I.P.E”
+
+===
