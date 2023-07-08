@@ -9,7 +9,6 @@ using OGFB;
 public class NarrativeHandler : MonoBehaviour
 {
     public string gender;
-    public int flappyPoints = 5;
 
     [SerializeField] private DialogueRunner dialogueRunner; // Yarn Spinner Dialogue Runner
 
