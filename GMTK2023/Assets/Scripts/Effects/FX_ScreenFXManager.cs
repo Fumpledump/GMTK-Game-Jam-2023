@@ -26,9 +26,8 @@ public class FX_ScreenFXManager : MonoBehaviour
 
     private Animator anim;
 
+    //NOTE: Look here for screen fx types
     //public enum FX_ScreenFXType { None, Suprised, Shock, Confused, Extreme_Shock, Angry, Cutesy, Love, Saucy, Heartbeat, DeskSlam, Doritos };
-    [Header("Debug")]
-    [SerializeField] private string debugType;
 
     private void Awake()
     {

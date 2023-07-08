@@ -17,7 +17,8 @@ public class FX_CameraShake : MonoBehaviour {
 
     private void Start()
     {
-        VirtualCamera = GetComponent<CinemachineVirtualCamera>();
+        if(VirtualCamera == null)
+            VirtualCamera = GetComponent<CinemachineVirtualCamera>();
         // Get Virtual Camera Noise Profile
         if (VirtualCamera != null)
             virtualCameraNoise = VirtualCamera.GetCinemachineComponent<Cinemachine.CinemachineBasicMultiChannelPerlin>();
