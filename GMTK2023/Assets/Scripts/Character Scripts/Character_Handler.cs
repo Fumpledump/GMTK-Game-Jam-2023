@@ -39,6 +39,8 @@ public class Character_Handler : MonoBehaviour
 
         foreach (Position i in slots.Keys)
             positionLookup[i.ToString()] = i;
+
+        AddYarnCommands();
     }
 
     public void ExitNotify(Character character, Position position) {
@@ -83,6 +85,9 @@ public class Character_Handler : MonoBehaviour
     }
 
     public void YarnEnter(string position, string character) {
+
+        Debug.Log("YarnEnter:" + position + " " + character);
+
         if (!positionLookup.ContainsKey(position) || !characterLookup.ContainsKey(character))
             return;
 
