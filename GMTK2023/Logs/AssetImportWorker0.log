@@ -1,0 +1,807 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.4f1 (35713cd46cd7) revision 3502396'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Education' Language: 'en' Physical Memory: 16328 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+G:/Documents/Unity Projects/GMTK-Game-Jam-2023/GMTK2023
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55791
+Successfully changed project path to: G:/Documents/Unity Projects/GMTK-Game-Jam-2023/GMTK2023
+G:/Documents/Unity Projects/GMTK-Game-Jam-2023/GMTK2023
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [22084] Host "[IP] 10.0.0.60 [Port] 0 [Flags] 2 [Guid] 3339108469 [EditorId] 3339108469 [Version] 1048832 [Id] WindowsEditor(7,Darko) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [22084] Host "[IP] 10.0.0.60 [Port] 0 [Flags] 2 [Guid] 3339108469 [EditorId] 3339108469 [Version] 1048832 [Id] WindowsEditor(7,Darko) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 19.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.4f1 (35713cd46cd7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path G:/Documents/Unity Projects/GMTK-Game-Jam-2023/GMTK2023/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2489)
+    Vendor:   NVIDIA
+    VRAM:     8038 MB
+    Driver:   31.0.15.3623
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56992
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011671 seconds.
+- Loaded All Assemblies, in  0.280 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.210 seconds
+Domain Reload Profiling: 487ms
+	BeginReloadAssembly (74ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (109ms)
+		LoadAssemblies (72ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (101ms)
+			TypeCache.Refresh (101ms)
+				TypeCache.ScanAssembly (92ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (210ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (164ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (111ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image G:\Documents\Unity Projects\GMTK-Game-Jam-2023\GMTK2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image G:\Documents\Unity Projects\GMTK-Game-Jam-2023\GMTK2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.739 seconds
+Refreshing native plugins compatible for Editor in 6.54 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Adding registration method Yarn.Unity.DefaultActions.RegisterActions
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Yarn.Unity.Actions:AddRegistrationMethod (System.Action`1<Yarn.Unity.IActionRegistration>) (at ./Library/PackageCache/dev.yarnspinner.unity@80c1e26e8a/Runtime/Commands/Actions.cs:606)
+Yarn.Unity.DefaultActions:AddRegisterFunction () (at ./Library/PackageCache/dev.yarnspinner.unity@80c1e26e8a/Runtime/Commands/DefaultActions.cs:18)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/dev.yarnspinner.unity@80c1e26e8a/Runtime/Commands/Actions.cs Line: 606)
+
+Adding registration method Yarn.Unity.Generated.ActionRegistration.RegisterActions
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Yarn.Unity.Actions:AddRegistrationMethod (System.Action`1<Yarn.Unity.IActionRegistration>) (at ./Library/PackageCache/dev.yarnspinner.unity@80c1e26e8a/Runtime/Commands/Actions.cs:606)
+Yarn.Unity.Generated.ActionRegistration:AddRegisterFunction () (at ./YarnSpinner.Unity.SourceCodeGenerator/ActionRegistrationSourceGenerator/YarnActionRegistration-YarnSpinnerTests.CommandsInAnAssemblyDefinition.Generated.cs:12)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/dev.yarnspinner.unity@80c1e26e8a/Runtime/Commands/Actions.cs Line: 606)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.558 seconds
+Domain Reload Profiling: 1294ms
+	BeginReloadAssembly (113ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (544ms)
+		LoadAssemblies (284ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (311ms)
+			TypeCache.Refresh (295ms)
+				TypeCache.ScanAssembly (285ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (558ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (445ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (350ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 6.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3176 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (68.7 KB). Loaded Objects now: 3616.
+Memory consumption went from 120.8 MB to 120.7 MB.
+Total: 2.908600 ms (FindLiveObjects: 0.202600 ms CreateObjectMapping: 0.073800 ms MarkObjects: 2.520800 ms  DeleteObjects: 0.110600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 35067.960166 seconds.
+  path: Packages/dev.yarnspinner.unity/package.json
+  artifactKey: Guid(e6335304c5696c743aedd0a77a6533ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/dev.yarnspinner.unity/package.json using Guid(e6335304c5696c743aedd0a77a6533ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e6119585421226f266d0fd3240bbf34') in 0.011007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 8.724592 seconds.
+  path: Assets/Art
+  artifactKey: Guid(529a5727d3fea6f4881619a78f4186a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art using Guid(529a5727d3fea6f4881619a78f4186a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51187fdb2a6d87bac2405b265c6fac62') in 0.000412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.585109 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(f51c63abebc09834e8dbbf2bccf15ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(f51c63abebc09834e8dbbf2bccf15ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd7d20a1c09a1ec4b9f5a5fa52222823') in 0.000416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.092862 seconds.
+  path: Assets/Audio
+  artifactKey: Guid(7a25c08ec525de54b88e17e32602ea55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio using Guid(7a25c08ec525de54b88e17e32602ea55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190fdbbeb68261e2ced200ccc12a429a') in 0.000409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 22.762025 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(b4eab2fae362edb40a1ed9458abb5252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(b4eab2fae362edb40a1ed9458abb5252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c891bcacc7738e9f2dacf3eed4519f1') in 0.000376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.869516 seconds.
+  path: Assets/Packages
+  artifactKey: Guid(3304bceff8659a74b8bbb5147a9ff2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages using Guid(3304bceff8659a74b8bbb5147a9ff2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddd7310acf9a7d94a2a6e07a53fbcb7b') in 0.000412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.231045 seconds.
+  path: Assets/Tools
+  artifactKey: Guid(3304bceff8659a74b8bbb5147a9ff2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tools using Guid(3304bceff8659a74b8bbb5147a9ff2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e42078cfe60a88912dab5f0407da0cb8') in 0.000376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 281.836760 seconds.
+  path: Assets/Art/FlappyBird_OG
+  artifactKey: Guid(e8d3085dae2156d44979d6cdae6b347f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/FlappyBird_OG using Guid(e8d3085dae2156d44979d6cdae6b347f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38747e3bfee276f360b0ad6a3ac10ec5') in 0.000583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.081341 seconds.
+  path: Assets/Art/OG_FlappyBird
+  artifactKey: Guid(e8d3085dae2156d44979d6cdae6b347f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OG_FlappyBird using Guid(e8d3085dae2156d44979d6cdae6b347f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5a48a25d20b0be87a87d039e68c2cd5') in 0.000404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.752491 seconds.
+  path: Assets/Art/OG_FlappyBird/Mobile - Flappy Bird - Version 12 Sprites.png
+  artifactKey: Guid(dbfeabfed55ef684ba65bf554d5dcd1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OG_FlappyBird/Mobile - Flappy Bird - Version 12 Sprites.png using Guid(dbfeabfed55ef684ba65bf554d5dcd1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a841c845ca1aac43e03e92a9bc967b7') in 0.056785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.040361 seconds.
+  path: Assets/Art/OG_FlappyBird/SpriteSheet.png
+  artifactKey: Guid(dbfeabfed55ef684ba65bf554d5dcd1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OG_FlappyBird/SpriteSheet.png using Guid(dbfeabfed55ef684ba65bf554d5dcd1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ad93389ab5c74d55eff8673d6d2fd9') in 0.005612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 9.651366 seconds.
+  path: Assets/Art/OG_FlappyBird/SpriteSheet.png
+  artifactKey: Guid(dbfeabfed55ef684ba65bf554d5dcd1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OG_FlappyBird/SpriteSheet.png using Guid(dbfeabfed55ef684ba65bf554d5dcd1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16238ce22d9b60f38508d431b049ffad') in 0.040001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 6.691346 seconds.
+  path: Assets/Art/OG_FlappyBird/SpriteSheet.png
+  artifactKey: Guid(dbfeabfed55ef684ba65bf554d5dcd1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OG_FlappyBird/SpriteSheet.png using Guid(dbfeabfed55ef684ba65bf554d5dcd1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4abe17f9a75743d7f38eca98061aed29') in 0.018955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image G:\Documents\Unity Projects\GMTK-Game-Jam-2023\GMTK2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image G:\Documents\Unity Projects\GMTK-Game-Jam-2023\GMTK2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  5.604 seconds
+Refreshing native plugins compatible for Editor in 7.01 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Adding registration method Yarn.Unity.DefaultActions.RegisterActions
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Yarn.Unity.Actions:AddRegistrationMethod (System.Action`1<Yarn.Unity.IActionRegistration>) (at ./Library/PackageCache/dev.yarnspinner.unity@80c1e26e8a/Runtime/Commands/Actions.cs:606)
+Yarn.Unity.DefaultActions:AddRegisterFunction () (at ./Library/PackageCache/dev.yarnspinner.unity@80c1e26e8a/Runtime/Commands/DefaultActions.cs:18)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/dev.yarnspinner.unity@80c1e26e8a/Runtime/Commands/Actions.cs Line: 606)
+
+Adding registration method Yarn.Unity.Generated.ActionRegistration.RegisterActions
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Yarn.Unity.Actions:AddRegistrationMethod (System.Action`1<Yarn.Unity.IActionRegistration>) (at ./Library/PackageCache/dev.yarnspinner.unity@80c1e26e8a/Runtime/Commands/Actions.cs:606)
+Yarn.Unity.Generated.ActionRegistration:AddRegisterFunction () (at ./YarnSpinner.Unity.SourceCodeGenerator/ActionRegistrationSourceGenerator/YarnActionRegistration-YarnSpinnerTests.CommandsInAnAssemblyDefinition.Generated.cs:12)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/dev.yarnspinner.unity@80c1e26e8a/Runtime/Commands/Actions.cs Line: 606)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 19.332 seconds
+Domain Reload Profiling: 24932ms
+	BeginReloadAssembly (174ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (5359ms)
+		LoadAssemblies (5120ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (328ms)
+			TypeCache.Refresh (310ms)
+				TypeCache.ScanAssembly (298ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (19332ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (457ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (340ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 6.94 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4247 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (199.4 KB). Loaded Objects now: 4701.
+Memory consumption went from 150.8 MB to 150.6 MB.
+Total: 3.702800 ms (FindLiveObjects: 0.268900 ms CreateObjectMapping: 0.095100 ms MarkObjects: 3.149900 ms  DeleteObjects: 0.188200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 151.979106 seconds.
+  path: Assets/Art/OG_FlappyBird/SpriteSheet.png
+  artifactKey: Guid(dbfeabfed55ef684ba65bf554d5dcd1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OG_FlappyBird/SpriteSheet.png using Guid(dbfeabfed55ef684ba65bf554d5dcd1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14aefa55b4857aef67ad6bec504995df') in 0.032653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 492.114131 seconds.
+  path: Assets/Art/OG_FlappyBird/OGFB_Background.png
+  artifactKey: Guid(1e161fa6a5d62a145bbb3347cef1d392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OG_FlappyBird/OGFB_Background.png using Guid(1e161fa6a5d62a145bbb3347cef1d392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a98478e2010ecf21b752ab8bb5dd2583') in 0.015948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Art/OG_FlappyBird/OGFB_Bird.png
+  artifactKey: Guid(a3fdc83c51eb3d24a807e1f8c0ae2c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OG_FlappyBird/OGFB_Bird.png using Guid(a3fdc83c51eb3d24a807e1f8c0ae2c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5291e23fcfe763ded012145352404448') in 0.009779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Art/OG_FlappyBird/OGFB_Tutorial.png
+  artifactKey: Guid(f7c1b13d886b3e7479010bbab5da0e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OG_FlappyBird/OGFB_Tutorial.png using Guid(f7c1b13d886b3e7479010bbab5da0e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3081b69430c27becf84c15d2698a26db') in 0.010294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Art/OG_FlappyBird/OGFB_GetReady.png
+  artifactKey: Guid(49ea49d9ea0521447867eb41a66c1df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OG_FlappyBird/OGFB_GetReady.png using Guid(49ea49d9ea0521447867eb41a66c1df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64ab3a2a78d638fe124cef6283d02f50') in 0.009001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Art/OG_FlappyBird/OGFB_GameOver.png
+  artifactKey: Guid(bda0b78f51a92ef4f9ec7cd97637d769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OG_FlappyBird/OGFB_GameOver.png using Guid(bda0b78f51a92ef4f9ec7cd97637d769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c2a87ebb317e226ee1e0d241af9bc2c') in 0.009944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Art/OG_FlappyBird/OGFB_Counter.png
+  artifactKey: Guid(44d9aab4e6a38c14795c46518ff72fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OG_FlappyBird/OGFB_Counter.png using Guid(44d9aab4e6a38c14795c46518ff72fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '628f874b5f492d6ff0e43a42c0a6f78f') in 0.013430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Art/OG_FlappyBird/OGFB_Ground.png
+  artifactKey: Guid(36c2420f5c20f4941be0f17c7b31e6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OG_FlappyBird/OGFB_Ground.png using Guid(36c2420f5c20f4941be0f17c7b31e6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca37929a6198adf9dcf964c1bc81228') in 0.009865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.652493 seconds.
+  path: Assets/Art/OG_FlappyBird/OGFB_Bird.png
+  artifactKey: Guid(a3fdc83c51eb3d24a807e1f8c0ae2c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OG_FlappyBird/OGFB_Bird.png using Guid(a3fdc83c51eb3d24a807e1f8c0ae2c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb9796cf0a95287932df982362e1f76') in 0.009399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Art/OG_FlappyBird/OGFB_Tutorial.png
+  artifactKey: Guid(f7c1b13d886b3e7479010bbab5da0e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OG_FlappyBird/OGFB_Tutorial.png using Guid(f7c1b13d886b3e7479010bbab5da0e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd5e8a666e7592c8ecaeb121e8534fb4') in 0.004284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Art/OG_FlappyBird/OGFB_GetReady.png
+  artifactKey: Guid(49ea49d9ea0521447867eb41a66c1df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OG_FlappyBird/OGFB_GetReady.png using Guid(49ea49d9ea0521447867eb41a66c1df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a40e5054c0da62ff676406bd150f29') in 0.007721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Art/OG_FlappyBird/OGFB_GameOver.png
+  artifactKey: Guid(bda0b78f51a92ef4f9ec7cd97637d769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OG_FlappyBird/OGFB_GameOver.png using Guid(bda0b78f51a92ef4f9ec7cd97637d769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67fb4d93c980a1f875317f5e011139a0') in 0.004465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Art/OG_FlappyBird/OGFB_Counter.png
+  artifactKey: Guid(44d9aab4e6a38c14795c46518ff72fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OG_FlappyBird/OGFB_Counter.png using Guid(44d9aab4e6a38c14795c46518ff72fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '461d8117edcaa18d8921af1bc214cba1') in 0.004874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Art/OG_FlappyBird/OGFB_Ground.png
+  artifactKey: Guid(36c2420f5c20f4941be0f17c7b31e6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OG_FlappyBird/OGFB_Ground.png using Guid(36c2420f5c20f4941be0f17c7b31e6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ad042d9c2f8c019ce419ffb8f146358') in 0.005559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 10.883561 seconds.
+  path: Assets/Art/OG_FlappyBird/OGFB_Bird.png
+  artifactKey: Guid(a3fdc83c51eb3d24a807e1f8c0ae2c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OG_FlappyBird/OGFB_Bird.png using Guid(a3fdc83c51eb3d24a807e1f8c0ae2c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e796a4fd58ccb0cd31f91e216f74c2a7') in 0.014465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Art/OG_FlappyBird/OGFB_Tutorial.png
+  artifactKey: Guid(f7c1b13d886b3e7479010bbab5da0e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OG_FlappyBird/OGFB_Tutorial.png using Guid(f7c1b13d886b3e7479010bbab5da0e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd7902c51c6ab37cd5280ecddd82a399') in 0.009289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/OG_FlappyBird/OGFB_GetReady.png
+  artifactKey: Guid(49ea49d9ea0521447867eb41a66c1df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OG_FlappyBird/OGFB_GetReady.png using Guid(49ea49d9ea0521447867eb41a66c1df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34703662b2c90bd02e4f73b63c84c945') in 0.008958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Art/OG_FlappyBird/OGFB_GameOver.png
+  artifactKey: Guid(bda0b78f51a92ef4f9ec7cd97637d769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OG_FlappyBird/OGFB_GameOver.png using Guid(bda0b78f51a92ef4f9ec7cd97637d769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de4ba4994cb9c89fdd62fde660a5350a') in 0.012218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Art/OG_FlappyBird/SpriteSheet.png
+  artifactKey: Guid(dbfeabfed55ef684ba65bf554d5dcd1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OG_FlappyBird/SpriteSheet.png using Guid(dbfeabfed55ef684ba65bf554d5dcd1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e76ceaf5022ad78ac1b4f3106b9459b1') in 0.021217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Art/OG_FlappyBird/OGFB_Counter.png
+  artifactKey: Guid(44d9aab4e6a38c14795c46518ff72fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OG_FlappyBird/OGFB_Counter.png using Guid(44d9aab4e6a38c14795c46518ff72fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cb89f28ee093f8cfc14a3f4829d70ca') in 0.013338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/OG_FlappyBird/OGFB_Ground.png
+  artifactKey: Guid(36c2420f5c20f4941be0f17c7b31e6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OG_FlappyBird/OGFB_Ground.png using Guid(36c2420f5c20f4941be0f17c7b31e6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e67a7c66f0f6a9c8bb32a6b35b55fd1') in 0.015660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 32.222706 seconds.
+  path: Assets/Art/OG_FlappyBird/OGFB_Background.png
+  artifactKey: Guid(1e161fa6a5d62a145bbb3347cef1d392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OG_FlappyBird/OGFB_Background.png using Guid(1e161fa6a5d62a145bbb3347cef1d392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b59489a950b150e7f008b0b2f3054e74') in 0.010503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.806210 seconds.
+  path: Assets/Art/OG_FlappyBird/OGFB_Background.png
+  artifactKey: Guid(1e161fa6a5d62a145bbb3347cef1d392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OG_FlappyBird/OGFB_Background.png using Guid(1e161fa6a5d62a145bbb3347cef1d392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adcb04c7a38e0a34371f18467e11baf5') in 0.011308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.463771 seconds.
+  path: Assets/Art/OG_FlappyBird/OGFB_Background.png
+  artifactKey: Guid(1e161fa6a5d62a145bbb3347cef1d392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OG_FlappyBird/OGFB_Background.png using Guid(1e161fa6a5d62a145bbb3347cef1d392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87969d1e63168859fe5dfc20a3026b22') in 0.010738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 207.502889 seconds.
+  path: Assets/Art/OG_FlappyBird/OGFB_Bird.png
+  artifactKey: Guid(a3fdc83c51eb3d24a807e1f8c0ae2c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OG_FlappyBird/OGFB_Bird.png using Guid(a3fdc83c51eb3d24a807e1f8c0ae2c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67ba631259476b6815499202fd41ae1a') in 0.012629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.932306 seconds.
+  path: Assets/Art/OG_FlappyBird/OGFB_Counter.png
+  artifactKey: Guid(44d9aab4e6a38c14795c46518ff72fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OG_FlappyBird/OGFB_Counter.png using Guid(44d9aab4e6a38c14795c46518ff72fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '478b6628967719fdb0e883cf06589fe2') in 0.011420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/OG_FlappyBird/OGFB_GetReady.png
+  artifactKey: Guid(49ea49d9ea0521447867eb41a66c1df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OG_FlappyBird/OGFB_GetReady.png using Guid(49ea49d9ea0521447867eb41a66c1df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e2c33c7b10cb7dc69c9dd1b2e6ff00e') in 0.014121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Art/OG_FlappyBird/OGFB_GameOver.png
+  artifactKey: Guid(bda0b78f51a92ef4f9ec7cd97637d769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OG_FlappyBird/OGFB_GameOver.png using Guid(bda0b78f51a92ef4f9ec7cd97637d769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ded652b9bd86190ce7658dd9d947cc1') in 0.015842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art/OG_FlappyBird/OGFB_Ground.png
+  artifactKey: Guid(36c2420f5c20f4941be0f17c7b31e6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OG_FlappyBird/OGFB_Ground.png using Guid(36c2420f5c20f4941be0f17c7b31e6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad0a2a2b6ac45cffba6e423e1262bed6') in 0.018942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 19.966506 seconds.
+  path: Assets/Art/OG_FlappyBird/OGFB_Bird.png
+  artifactKey: Guid(a3fdc83c51eb3d24a807e1f8c0ae2c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OG_FlappyBird/OGFB_Bird.png using Guid(a3fdc83c51eb3d24a807e1f8c0ae2c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42e26d5d6dda90d43169a4a6a66ec9fb') in 0.039613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 56.805342 seconds.
+  path: Assets/Art/OG_FlappyBird/OGFB_Counter.png
+  artifactKey: Guid(44d9aab4e6a38c14795c46518ff72fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OG_FlappyBird/OGFB_Counter.png using Guid(44d9aab4e6a38c14795c46518ff72fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b4dc8e1638bee06cbade28a30b6659') in 0.042331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 30.439409 seconds.
+  path: Assets/Art/OG_FlappyBird/OGFB_Ground.png
+  artifactKey: Guid(36c2420f5c20f4941be0f17c7b31e6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OG_FlappyBird/OGFB_Ground.png using Guid(36c2420f5c20f4941be0f17c7b31e6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '712ff515cd635f63bf553cacd6e8023d') in 0.015266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.643309 seconds.
+  path: Assets/Art/OG_FlappyBird/OGFB_GetReady.png
+  artifactKey: Guid(49ea49d9ea0521447867eb41a66c1df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OG_FlappyBird/OGFB_GetReady.png using Guid(49ea49d9ea0521447867eb41a66c1df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '606f9dbe93b7744d4f9aee818bd913e3') in 0.004901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.171983 seconds.
+  path: Assets/Art/OG_FlappyBird/OGFB_GameOver.png
+  artifactKey: Guid(bda0b78f51a92ef4f9ec7cd97637d769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OG_FlappyBird/OGFB_GameOver.png using Guid(bda0b78f51a92ef4f9ec7cd97637d769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c763c03738384025207617d7a0cf0fbf') in 0.005507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.071172 seconds.
+  path: Assets/Art/OG_FlappyBird/OGFB_Tutorial.png
+  artifactKey: Guid(f7c1b13d886b3e7479010bbab5da0e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OG_FlappyBird/OGFB_Tutorial.png using Guid(f7c1b13d886b3e7479010bbab5da0e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21692a408ec62b9a91e9ea171278faaa') in 0.004991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 25.991788 seconds.
+  path: Assets/Art/OG_FlappyBird/OGFB_Tutorial.png
+  artifactKey: Guid(f7c1b13d886b3e7479010bbab5da0e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OG_FlappyBird/OGFB_Tutorial.png using Guid(f7c1b13d886b3e7479010bbab5da0e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5de3de1eaa3f15b3ad2a7e0c34b4b527') in 0.011872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 286.668613 seconds.
+  path: Assets/Art/UI/UI_DummyPhone.png
+  artifactKey: Guid(09d3d3bc8e103d24aaa62a20ff7afc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/UI/UI_DummyPhone.png using Guid(09d3d3bc8e103d24aaa62a20ff7afc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f093af08a243da3f4aef80bee8b8214b') in 0.019326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.012321 seconds.
+  path: Assets/Art/UI/Programmer_Art
+  artifactKey: Guid(ecc1d2ad2119a3d42b12c56829847da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/UI/Programmer_Art using Guid(ecc1d2ad2119a3d42b12c56829847da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ba9c2ca652ea9d7c77fb4181c64ba6') in 0.000470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.178253 seconds.
+  path: Assets/Art/UI/Programmer_Art/UI_DummyPhone.png
+  artifactKey: Guid(09d3d3bc8e103d24aaa62a20ff7afc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/UI/Programmer_Art/UI_DummyPhone.png using Guid(09d3d3bc8e103d24aaa62a20ff7afc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d5d75306566b42bed0046e7265b0c90') in 0.013457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.349602 seconds.
+  path: Assets/Art/UI/Programmer_Art/UI_DummyPhone.png
+  artifactKey: Guid(09d3d3bc8e103d24aaa62a20ff7afc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/UI/Programmer_Art/UI_DummyPhone.png using Guid(09d3d3bc8e103d24aaa62a20ff7afc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1184ed64739511437cabf64b9f34f320') in 0.007216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 61.822336 seconds.
+  path: Assets/Art/UI/Programmer_Art/UI_DummyPhone.png
+  artifactKey: Guid(09d3d3bc8e103d24aaa62a20ff7afc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/UI/Programmer_Art/UI_DummyPhone.png using Guid(09d3d3bc8e103d24aaa62a20ff7afc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aeb0afe4d10d57d0f308c5797cd0bc8') in 0.012179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 11.266707 seconds.
+  path: Assets/Art/UI/UI_DummyPhone.png
+  artifactKey: Guid(346e0c2a1dbdd32498cf02614b4d3bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/UI/UI_DummyPhone.png using Guid(346e0c2a1dbdd32498cf02614b4d3bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8141e907d46e1d00ae520dda59de9ea9') in 0.011716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 24.356719 seconds.
+  path: Assets/Scenes/OG_FlappyBird.unity
+  artifactKey: Guid(97069876a605edb45959322d073ab583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/OG_FlappyBird.unity using Guid(97069876a605edb45959322d073ab583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '507430cf9b50a4a6c6121c560ff066f9') in 0.000517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 57.939719 seconds.
+  path: Packages/dev.yarnspinner.unity/Textures/Divider.png
+  artifactKey: Guid(05af27d2817f5413ea5ba715b8378151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/dev.yarnspinner.unity/Textures/Divider.png using Guid(05af27d2817f5413ea5ba715b8378151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c9a2ee08b4717c6f9ac3a03bb5f78b0') in 0.014647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Packages/dev.yarnspinner.unity/Textures/Selector-Off.png
+  artifactKey: Guid(eaa71f36e30cb45f1876a4832d45cac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/dev.yarnspinner.unity/Textures/Selector-Off.png using Guid(eaa71f36e30cb45f1876a4832d45cac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '780e4d6bd6e229c39194d79c690338a9') in 0.010511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Packages/dev.yarnspinner.unity/Textures/Selector-On.png
+  artifactKey: Guid(7e9a80d90823e4648b6cfa68e570fad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/dev.yarnspinner.unity/Textures/Selector-On.png using Guid(7e9a80d90823e4648b6cfa68e570fad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340ba42a341336aeaa68382d766cbdc7') in 0.010123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Packages/dev.yarnspinner.unity/Editor/Icons/YarnSpinnerEditorWindow.psd
+  artifactKey: Guid(5eb29ddb696b54505b296d1c7a049150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/dev.yarnspinner.unity/Editor/Icons/YarnSpinnerEditorWindow.psd using Guid(5eb29ddb696b54505b296d1c7a049150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf387d3d19f0f1d3c8e3bf505ace5f2') in 0.011504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.008342 seconds.
+  path: Packages/dev.yarnspinner.unity/Editor/Icons/YarnSpinnerFailed.png
+  artifactKey: Guid(76d08d996a288451a9644f52ba7cbf74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/dev.yarnspinner.unity/Editor/Icons/YarnSpinnerFailed.png using Guid(76d08d996a288451a9644f52ba7cbf74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fd62d7eb618792100dae680a9ae8ebc') in 0.014062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Packages/dev.yarnspinner.unity/Editor/Icons/YarnSpinnerLogo.png
+  artifactKey: Guid(528a6dd601766934abb8b1053bd798ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/dev.yarnspinner.unity/Editor/Icons/YarnSpinnerLogo.png using Guid(528a6dd601766934abb8b1053bd798ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff90a782fec9dcbbcca9dedf63ede1f2') in 0.022043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Packages/dev.yarnspinner.unity/Editor/Icons/YarnSpinnerNotTested.png
+  artifactKey: Guid(9ce4f42ddeba844a487cedc0aaa2e793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/dev.yarnspinner.unity/Editor/Icons/YarnSpinnerNotTested.png using Guid(9ce4f42ddeba844a487cedc0aaa2e793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ee4d04cec29bf87275569ed295c6463') in 0.009331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.005963 seconds.
+  path: Packages/dev.yarnspinner.unity/Editor/Icons/YarnSpinnerSuccess.png
+  artifactKey: Guid(a6437d2f3b1bf4da7a9619a6b6446a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/dev.yarnspinner.unity/Editor/Icons/YarnSpinnerSuccess.png using Guid(a6437d2f3b1bf4da7a9619a6b6446a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '015bfe4eb2a06c7529623a4ea82ccb6f') in 0.016634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
