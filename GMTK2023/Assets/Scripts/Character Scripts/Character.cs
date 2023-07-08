@@ -31,30 +31,29 @@ public class Character : MonoBehaviour {
     protected Character_Handler.Position position;
     protected SpriteRenderer sr;
 
-    private float initX;
-    private float initY;
-
-    private Dictionary<Character_Handler.Position, Vector2> entranceTargets = new() {
+    protected Dictionary<Character_Handler.Position, Vector2> entranceTargets = new() {
         { Character_Handler.Position.Left, new() },
         { Character_Handler.Position.Right, new() },
         { Character_Handler.Position.Middle, new() },
     };
 
-    private Dictionary<Character_Handler.Position, Vector2> exitTargets = new() {
+    protected Dictionary<Character_Handler.Position, Vector2> exitTargets = new() {
         { Character_Handler.Position.Left, new() },
         { Character_Handler.Position.Right, new() },
         { Character_Handler.Position.Middle, new() },
     };
-    private Character_Handler ch;
+    protected Character_Handler ch;
 
-    private Dictionary<string, Sprite> spriteLookup = new();
+    protected Dictionary<string, Sprite> spriteLookup = new();
+
+    protected float targetX;
+    protected float targetY;
 
     void Awake() {
-        cameraBounds = new(Camera.main.transform.position, new Vector3(Camera.main.orthographicSize * 2 * Camera.main.aspect, Camera.main.orthographicSize * 2, 0));
-        initX = transform.position.x;
-        initY = transform.position.y;
         sr = GetComponent<SpriteRenderer>();
 
+        cameraBounds = new(Camera.main.transform.position, new Vector3(Camera.main.orthographicSize * 2 * Camera.main.aspect, Camera.main.orthographicSize * 2, 0));
+        
         foreach (Sprite i in sprites)
             spriteLookup[i.name] = i;
 
@@ -69,13 +68,15 @@ public class Character : MonoBehaviour {
         ch = GameObject.FindGameObjectWithTag("Character_Manager").GetComponent<Character_Handler>();
     }
     private void UpdateTargets() {
-        entranceTargets[Character_Handler.Position.Left] = new(cameraBounds.center.x - cameraBounds.extents.x + SIDE_BUFFER, initY);
-        entranceTargets[Character_Handler.Position.Right] = new(cameraBounds.center.x + cameraBounds.extents.x - SIDE_BUFFER, initY);
-        entranceTargets[Character_Handler.Position.Middle] = new(initX, initY);
+        targetX = cameraBounds.center.x;
+        targetY = cameraBounds.center.y - cameraBounds.extents.y + sr.bounds.extents.y;
+        entranceTargets[Character_Handler.Position.Left] = new(cameraBounds.center.x - cameraBounds.extents.x + SIDE_BUFFER, targetY);
+        entranceTargets[Character_Handler.Position.Right] = new(cameraBounds.center.x + cameraBounds.extents.x - SIDE_BUFFER, targetY);
+        entranceTargets[Character_Handler.Position.Middle] = new(targetX, targetY);
 
-        exitTargets[Character_Handler.Position.Left] = new(cameraBounds.center.x - cameraBounds.extents.x - sr.bounds.extents.x, initY);
-        exitTargets[Character_Handler.Position.Right] = new(cameraBounds.center.x + cameraBounds.extents.x + sr.bounds.extents.x, initY);
-        exitTargets[Character_Handler.Position.Middle] = new(initX, cameraBounds.center.y - cameraBounds.extents.y - sr.bounds.extents.y);
+        exitTargets[Character_Handler.Position.Left] = new(cameraBounds.center.x - cameraBounds.extents.x - sr.bounds.extents.x, targetY);
+        exitTargets[Character_Handler.Position.Right] = new(cameraBounds.center.x + cameraBounds.extents.x + sr.bounds.extents.x, targetY);
+        exitTargets[Character_Handler.Position.Middle] = new(targetX, cameraBounds.center.y - cameraBounds.extents.y - sr.bounds.extents.y);
 
     }
 
@@ -89,13 +90,13 @@ public class Character : MonoBehaviour {
         if (state == State.Appearing) {
             switch (position) {
                 case Character_Handler.Position.Left:
-                    transform.position = new Vector3(transform.position.x + SPEED * Time.deltaTime, initY, transform.position.z);
+                    transform.position = new Vector3(transform.position.x + SPEED * Time.deltaTime, targetY, transform.position.z);
                     break;
                 case Character_Handler.Position.Right:
-                    transform.position = new Vector3(transform.position.x - SPEED * Time.deltaTime, initY, transform.position.z);
+                    transform.position = new Vector3(transform.position.x - SPEED * Time.deltaTime, targetY, transform.position.z);
                     break;
                 case Character_Handler.Position.Middle:
-                    transform.position = new Vector3(initX, transform.position.y + SPEED * Time.deltaTime, transform.position.z);
+                    transform.position = new Vector3(targetX, transform.position.y + SPEED * Time.deltaTime, transform.position.z);
                     break;
             }
 
@@ -108,13 +109,13 @@ public class Character : MonoBehaviour {
         if (state == State.Disappearing) {
             switch (position) {
                 case Character_Handler.Position.Left:
-                    transform.position = new Vector3(transform.position.x - SPEED * Time.deltaTime, initY, transform.position.z);
+                    transform.position = new Vector3(transform.position.x - SPEED * Time.deltaTime, targetY, transform.position.z);
                     break;
                 case Character_Handler.Position.Right:
-                    transform.position = new Vector3(transform.position.x + SPEED * Time.deltaTime, initY, transform.position.z);
+                    transform.position = new Vector3(transform.position.x + SPEED * Time.deltaTime, targetY, transform.position.z);
                     break;
                 case Character_Handler.Position.Middle:
-                    transform.position = new Vector3(initX, transform.position.y - SPEED * Time.deltaTime, transform.position.z);
+                    transform.position = new Vector3(targetX, transform.position.y - SPEED * Time.deltaTime, transform.position.z);
                     break;
             }
 
