@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using Yarn.Unity;
+using OGFB;
 
 public class NarrativeHandler : MonoBehaviour
 {
@@ -60,6 +61,7 @@ public class NarrativeHandler : MonoBehaviour
 public static class AdderFunction
 {
     public static NarrativeHandler narrativeHandler = NarrativeHandler.Instance;
+    private static OGFB.OGFB_GameManager oGFB_GameManager = OGFB.OGFB_GameManager.instance;
 
     [YarnFunction("Name")]
     public static string Name()
@@ -79,6 +81,7 @@ public static class AdderFunction
     [YarnFunction("FlappyPoints")]
     public static int FlappyPoints()
     {
-        return narrativeHandler.flappyPoints;
+        Debug.Log(oGFB_GameManager.GetScore());
+        return oGFB_GameManager.GetScore();
     }
 }
