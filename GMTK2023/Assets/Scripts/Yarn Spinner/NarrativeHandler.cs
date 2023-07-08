@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,6 +7,9 @@ using Yarn.Unity;
 
 public class NarrativeHandler : MonoBehaviour
 {
+    public string gender;
+    public int flappyPoints = 5;
+
     [SerializeField] private DialogueRunner dialogueRunner; // Yarn Spinner Dialogue Runner
 
     private static NarrativeHandler instance; // Singleton for the Narrative Handler
@@ -30,6 +34,16 @@ public class NarrativeHandler : MonoBehaviour
         AddYarnCommands();
     }
 
+    public void StartDialogue(string node)
+    {
+        dialogueRunner.StartDialogue(node);
+    }
+
+    public void SetGender(string gender)
+    {
+        this.gender = gender;
+    }
+
     // Converts Functions to Yarn Commands
     private void AddYarnCommands()
     {
@@ -40,5 +54,31 @@ public class NarrativeHandler : MonoBehaviour
     private void YarnTest()
     {
         Debug.Log("Test");
+    }
+}
+
+public static class AdderFunction
+{
+    public static NarrativeHandler narrativeHandler = NarrativeHandler.Instance;
+
+    [YarnFunction("Name")]
+    public static string Name()
+    {
+        string name = "";
+        if (narrativeHandler.gender == "T")
+        {
+            name = "Pipe-Chan";
+        }
+        else
+        {
+            name = "Pipe-Kun";
+        }
+        return name;
+    }
+
+    [YarnFunction("FlappyPoints")]
+    public static int FlappyPoints()
+    {
+        return narrativeHandler.flappyPoints;
     }
 }
