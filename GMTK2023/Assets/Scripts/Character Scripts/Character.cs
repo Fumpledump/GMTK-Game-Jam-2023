@@ -47,13 +47,17 @@ public class Character : MonoBehaviour {
     };
     private Character_Handler ch;
 
+    private Dictionary<string, Sprite> spriteLookup = new();
 
     void Awake() {
         cameraBounds = new(Camera.main.transform.position, new Vector3(Camera.main.orthographicSize * 2 * Camera.main.aspect, Camera.main.orthographicSize * 2, 0));
         initX = transform.position.x;
         initY = transform.position.y;
         sr = GetComponent<SpriteRenderer>();
-        
+
+        foreach (Sprite i in sprites)
+            spriteLookup[i.name] = i;
+
         UpdateTargets();
     }
 
@@ -208,11 +212,11 @@ public class Character : MonoBehaviour {
             AdjustExit();
     }
     
-    public void SetSprite(int i) {
-        if (i >= sprites.Count)
+    public void SetSprite(string sprite) {
+        if (!spriteLookup.ContainsKey(sprite))
             return;
 
-        sr.sprite = sprites[i];
+        sr.sprite = spriteLookup[sprite];
         UpdateTargets();
         Adjust();
     }
