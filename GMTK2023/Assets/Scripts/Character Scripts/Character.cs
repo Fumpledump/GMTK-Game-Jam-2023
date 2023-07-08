@@ -47,13 +47,17 @@ public class Character : MonoBehaviour {
     };
     private Character_Handler ch;
 
+    private Dictionary<string, Sprite> spriteLookup = new();
 
     void Awake() {
         cameraBounds = new(Camera.main.transform.position, new Vector3(Camera.main.orthographicSize * 2 * Camera.main.aspect, Camera.main.orthographicSize * 2, 0));
         initX = transform.position.x;
         initY = transform.position.y;
         sr = GetComponent<SpriteRenderer>();
-        
+
+        foreach (Sprite i in sprites)
+            spriteLookup[i.name] = i;
+
         UpdateTargets();
     }
 
@@ -85,13 +89,13 @@ public class Character : MonoBehaviour {
         if (state == State.Appearing) {
             switch (position) {
                 case Character_Handler.Position.Left:
-                    transform.position = new Vector2(transform.position.x + SPEED * Time.deltaTime, initY);
+                    transform.position = new Vector3(transform.position.x + SPEED * Time.deltaTime, initY, transform.position.z);
                     break;
                 case Character_Handler.Position.Right:
-                    transform.position = new Vector2(transform.position.x - SPEED * Time.deltaTime, initY);
+                    transform.position = new Vector3(transform.position.x - SPEED * Time.deltaTime, initY, transform.position.z);
                     break;
                 case Character_Handler.Position.Middle:
-                    transform.position = new Vector2(initX, transform.position.y + SPEED * Time.deltaTime);
+                    transform.position = new Vector3(initX, transform.position.y + SPEED * Time.deltaTime, transform.position.z);
                     break;
             }
 
@@ -104,13 +108,13 @@ public class Character : MonoBehaviour {
         if (state == State.Disappearing) {
             switch (position) {
                 case Character_Handler.Position.Left:
-                    transform.position = new Vector2(transform.position.x - SPEED * Time.deltaTime, initY);
+                    transform.position = new Vector3(transform.position.x - SPEED * Time.deltaTime, initY, transform.position.z);
                     break;
                 case Character_Handler.Position.Right:
-                    transform.position = new Vector2(transform.position.x + SPEED * Time.deltaTime, initY);
+                    transform.position = new Vector3(transform.position.x + SPEED * Time.deltaTime, initY, transform.position.z);
                     break;
                 case Character_Handler.Position.Middle:
-                    transform.position = new Vector2(initX, transform.position.y - SPEED * Time.deltaTime);
+                    transform.position = new Vector3(initX, transform.position.y - SPEED * Time.deltaTime, transform.position.z);
                     break;
             }
 
@@ -153,9 +157,9 @@ public class Character : MonoBehaviour {
         if (state != State.Inactive && this.position != position)
             ch.ExitNotify(this, this.position);
 
-        if (!(state == State.Disappearing && this.position == position)) {
-            transform.position = exitTargets[position];
-        }
+        if (!(state == State.Disappearing && this.position == position))
+            transform.position = new(exitTargets[position].x, exitTargets[position].y, transform.position.z);
+
         SetState(State.Appearing);
         this.position = position;
     }
@@ -170,7 +174,7 @@ public class Character : MonoBehaviour {
             ch.ExitNotify(this, this.position);
 
         if (!(state == State.Appearing && this.position == position))
-            transform.position = entranceTargets[position];
+            transform.position = new(entranceTargets[position].x, entranceTargets[position].y, transform.position.z);
 
         SetState(State.Disappearing);
         this.position = position;
@@ -194,11 +198,11 @@ public class Character : MonoBehaviour {
     }
 
     private void AdjustEnter() {
-        transform.position = entranceTargets[position];
+        transform.position = new(entranceTargets[position].x, entranceTargets[position].y, transform.position.z);
     }
 
     private void AdjustExit() {
-        transform.position = exitTargets[position];
+        transform.position = new(exitTargets[position].x, exitTargets[position].y, transform.position.z);
     }
 
     private void Adjust() {
@@ -208,11 +212,11 @@ public class Character : MonoBehaviour {
             AdjustExit();
     }
     
-    public void SetSprite(int i) {
-        if (i >= sprites.Count)
+    public void SetSprite(string sprite) {
+        if (!spriteLookup.ContainsKey(sprite))
             return;
 
-        sr.sprite = sprites[i];
+        sr.sprite = spriteLookup[sprite];
         UpdateTargets();
         Adjust();
     }

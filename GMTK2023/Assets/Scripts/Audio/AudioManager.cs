@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.Audio;
 using System;
+using Yarn.Unity;
 
 public class AudioManager : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class AudioManager : MonoBehaviour
     public Sound[] sounds;
     public Sound curTrack;
     public string startTrack;
+
+    [SerializeField] private DialogueRunner dialogueRunner; // Yarn Spinner Dialogue Runner
 
     private static AudioManager instance;
 
@@ -49,6 +52,12 @@ public class AudioManager : MonoBehaviour
             m.source.volume = m.volume;
             m.source.pitch = m.pitch;
             m.source.loop = m.loop;
+        }
+
+        if (dialogueRunner != null)
+        {
+            dialogueRunner.AddCommandHandler<string>("Play", Play);
+            dialogueRunner.AddCommandHandler<string>("ChangeTrack", ChangeTrack);
         }
     }
 

@@ -24,6 +24,7 @@ public class FX_ScreenFXManager : MonoBehaviour
     [SerializeField] private ParticleSystem questionFX;
     [SerializeField] private ParticleSystem doritosFX;
 
+    private string[] enumString = new string[] { "None", "Suprised", "Shock", "Confused", "Extreme_Shock", "Angry", "Cutesy", "Love", "Saucy", "Heartbeat", "DeskSlam", "Doritos" };
     private Animator anim;
 
     public enum FX_ScreenFXType { None, Suprised, Shock, Confused, Extreme_Shock, Angry, Cutesy, Love, Saucy, Heartbeat, DeskSlam, Doritos };
@@ -43,7 +44,7 @@ public class FX_ScreenFXManager : MonoBehaviour
             RunScreenFX(debugType);
     }
 
-    private void RunScreenFX(FX_ScreenFXType fxType)
+    private void RunScreenFX(string fxType)
     {
         bool resetColor = true;
         bool resetIris = true;
@@ -52,12 +53,12 @@ public class FX_ScreenFXManager : MonoBehaviour
 
         switch(fxType)
         {
-            case FX_ScreenFXType.Suprised:
+            case enumString[FX_ScreenFXType.Suprised]:
                 exclaimationFX.Play();
                 suprisedFX.Play();
                 cameraShake.SetShake(0.1f, 2);
                 break;
-            case FX_ScreenFXType.Shock:
+            case enumString[(int)FX_ScreenFXType.Shock]:
                 sparksFX.Play();
                 suprisedFX.Play();
                 cameraShake.SetShake(0.1f, 4);

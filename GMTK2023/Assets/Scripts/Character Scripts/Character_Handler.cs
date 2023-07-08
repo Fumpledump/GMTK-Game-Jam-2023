@@ -26,13 +26,21 @@ public class Character_Handler : MonoBehaviour
         { Position.Middle, null },
     };
 
-    [SerializeField] //todo remove
+    [SerializeField]
     public List<Character> characters = new();
 
+    private Dictionary<string, Character> characterLookup = new();
+    private Dictionary<string, Position> positionLookup = new();
 
-    void Start()
+    void Awake()
     {
-                
+        foreach(Character i in characters)
+            characterLookup[i.gameObject.name] = i;
+
+        foreach (Position i in slots.Keys)
+            positionLookup[i.ToString()] = i;
+
+        AddYarnCommands();
     }
 
     public void ExitNotify(Character character, Position position) {
@@ -71,10 +79,40 @@ public class Character_Handler : MonoBehaviour
         awaitingSlots[position] = null;
     }
 
+    // USE THIS :)
+    public void SetSprite(Character character, string sprite) {
+        character.SetSprite(sprite);
+    }
+
+    public void YarnEnter(string position, string character) {
+
+        Debug.Log("YarnEnter:" + position + " " + character);
+
+        if (!positionLookup.ContainsKey(position) || !characterLookup.ContainsKey(character))
+            return;
+
+        Enter(positionLookup[position], characterLookup[character]);
+    }
+
+    public void YarnExit(string position) {
+        if (!positionLookup.ContainsKey(position))
+            return;
+
+        Exit(positionLookup[position]);
+    }
+
+    public void YarnSetSprite(string character, string sprite) {
+        if (!characterLookup.ContainsKey(character))
+            return;
+
+        SetSprite(characterLookup[character], sprite);
+    }
+
     // Converts Functions to Yarn Commands
     private void AddYarnCommands()
     {
-        dialogueRunner.AddCommandHandler<Position, Character>("Enter", Enter);
-        dialogueRunner.AddCommandHandler<Position>("Exit", Exit);
+        dialogueRunner.AddCommandHandler<string, string>("Enter", YarnEnter);
+        dialogueRunner.AddCommandHandler<string>("Exit", YarnExit);
+        dialogueRunner.AddCommandHandler<string, string>("SetSprite", YarnSetSprite);
     }
 }

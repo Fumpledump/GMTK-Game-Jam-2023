@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4560049515665839219}
   - component: {fileID: 4681688568790609841}
   - component: {fileID: 4498600764725472787}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Roses_FX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4857,7 +4857,7 @@ GameObject:
   - component: {fileID: 2287520771888690269}
   - component: {fileID: 7001012366485311048}
   - component: {fileID: 5742008560236667748}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Heart_Multiple_FX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9744,7 +9744,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0, b: 0, a: 0.4627451}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -9839,7 +9839,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -9866,7 +9866,7 @@ GameObject:
   - component: {fileID: 8218460138390875944}
   - component: {fileID: 3508861754750836717}
   - component: {fileID: 2906629868857961644}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeskSlam_FX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14828,7 +14828,7 @@ GameObject:
   - component: {fileID: 390048282041952682}
   - component: {fileID: 1989985799445360419}
   - component: {fileID: 928396968111107332}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Impact_FX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19714,7 +19714,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -19796,9 +19796,9 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 0
+  orthographic: 1
   orthographic size: 5
-  m_Depth: 3
+  m_Depth: 5
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 8
@@ -19860,7 +19860,7 @@ Transform:
   - {fileID: 1644935857320010982}
   - {fileID: 7087827552405921807}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6527675565243916311
 MonoBehaviour:
@@ -19936,7 +19936,7 @@ GameObject:
   - component: {fileID: 1644935857320010982}
   - component: {fileID: 7199328681095343699}
   - component: {fileID: 7220505317077420499}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Question_FX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24924,7 +24924,7 @@ MonoBehaviour:
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 0
 --- !u!1 &6284050437261033424
 GameObject:
   m_ObjectHideFlags: 0
@@ -24936,7 +24936,7 @@ GameObject:
   - component: {fileID: 7087827552405921807}
   - component: {fileID: 8300880289666430151}
   - component: {fileID: 8214946885693225880}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Doritos_FX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29831,7 +29831,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -34686,7 +34686,7 @@ GameObject:
   - component: {fileID: 3311404366616911543}
   - component: {fileID: 6522432770618461844}
   - component: {fileID: 8065962428359458544}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Steam_FX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39523,7 +39523,7 @@ GameObject:
   - component: {fileID: 360345365389397594}
   - component: {fileID: 3377251073666996363}
   - component: {fileID: 3209103317218428523}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sparks_FX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44360,7 +44360,7 @@ GameObject:
   - component: {fileID: 5082675614987228728}
   - component: {fileID: 7978193256512805371}
   - component: {fileID: 5831549541468123118}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Exclaimation_FX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49293,7 +49293,7 @@ GameObject:
   - component: {fileID: 5908446190747215127}
   - component: {fileID: 8630569650901468156}
   - component: {fileID: 5184194590427027208}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Flowers_FX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54139,7 +54139,7 @@ GameObject:
   - component: {fileID: 3040670057933964515}
   - component: {fileID: 7835343758219331044}
   - component: {fileID: 7625503472673964731}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Anime_Twinkle_FX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59034,7 +59034,7 @@ GameObject:
   - component: {fileID: 8325707027370530533}
   - component: {fileID: 4397024317931242267}
   - component: {fileID: 8247194332552317112}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Heart_Single_FX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
