@@ -1,9 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Yarn.Unity;
+using static Character_Handler;
 
 public class Character_Handler : MonoBehaviour
 {
+    [SerializeField] private DialogueRunner dialogueRunner; // Yarn Spinner Dialogue Runner
 
     public enum Position {
         Left,
@@ -30,42 +33,6 @@ public class Character_Handler : MonoBehaviour
     void Start()
     {
                 
-    }
-
-
-    void Update()
-    {
-        //todo remove testing
-        if (Input.GetKeyDown(KeyCode.Z))
-            Enter(Position.Left, characters.ToArray()[0]);
-        if (Input.GetKeyDown(KeyCode.X))
-            Exit(Position.Left);
-        if (Input.GetKeyDown(KeyCode.C))
-            Enter(Position.Right, characters.ToArray()[0]);
-        if (Input.GetKeyDown(KeyCode.V))
-            Exit(Position.Right);
-        if (Input.GetKeyDown(KeyCode.B))
-            Enter(Position.Middle, characters.ToArray()[0]);
-        if (Input.GetKeyDown(KeyCode.N))
-            Exit(Position.Middle);
-
-
-        if (Input.GetKeyDown(KeyCode.A))
-            Enter(Position.Left, characters.ToArray()[1]);
-        if (Input.GetKeyDown(KeyCode.S))
-            Exit(Position.Left);
-        if (Input.GetKeyDown(KeyCode.D))
-            Enter(Position.Right, characters.ToArray()[1]);
-        if (Input.GetKeyDown(KeyCode.F))
-            Exit(Position.Right);
-        if (Input.GetKeyDown(KeyCode.G))
-            Enter(Position.Middle, characters.ToArray()[1]);
-        if (Input.GetKeyDown(KeyCode.H))
-            Exit(Position.Middle);
-
-
-        if (Input.GetKeyDown(KeyCode.K))
-            characters[0].SetSprite(Random.Range(0,8));
     }
 
     public void ExitNotify(Character character, Position position) {
@@ -96,11 +63,18 @@ public class Character_Handler : MonoBehaviour
         }
     }
 
-
+    // USE THIS :)
     public void Exit(Position position) {
         if(slots[position] != null) {
             slots[position].Exit(position);
         }
         awaitingSlots[position] = null;
+    }
+
+    // Converts Functions to Yarn Commands
+    private void AddYarnCommands()
+    {
+        dialogueRunner.AddCommandHandler<Position, Character>("Enter", Enter);
+        dialogueRunner.AddCommandHandler<Position>("Exit", Exit);
     }
 }
