@@ -24,12 +24,11 @@ public class FX_ScreenFXManager : MonoBehaviour
     [SerializeField] private ParticleSystem questionFX;
     [SerializeField] private ParticleSystem doritosFX;
 
-    private string[] enumString = new string[] { "None", "Suprised", "Shock", "Confused", "Extreme_Shock", "Angry", "Cutesy", "Love", "Saucy", "Heartbeat", "DeskSlam", "Doritos" };
     private Animator anim;
 
-    public enum FX_ScreenFXType { None, Suprised, Shock, Confused, Extreme_Shock, Angry, Cutesy, Love, Saucy, Heartbeat, DeskSlam, Doritos };
+    //public enum FX_ScreenFXType { None, Suprised, Shock, Confused, Extreme_Shock, Angry, Cutesy, Love, Saucy, Heartbeat, DeskSlam, Doritos };
     [Header("Debug")]
-    [SerializeField] private FX_ScreenFXType debugType;
+    [SerializeField] private string debugType;
 
     private void Awake()
     {
@@ -38,44 +37,38 @@ public class FX_ScreenFXManager : MonoBehaviour
         cameraShake = GetComponent<FX_CameraShake>();
     }
 
-    private void OnValidate()
-    {
-        if(EditorApplication.isPlaying)
-            RunScreenFX(debugType);
-    }
-
     private void RunScreenFX(string fxType)
     {
         bool resetColor = true;
         bool resetIris = true;
         bool resetSteam = true;
-        anim.SetBool("ShowRoses", fxType == FX_ScreenFXType.Love);
+        anim.SetBool("ShowRoses", fxType == "Love");
 
         switch(fxType)
         {
-            case enumString[FX_ScreenFXType.Suprised]:
+            case "Suprised":
                 exclaimationFX.Play();
                 suprisedFX.Play();
                 cameraShake.SetShake(0.1f, 2);
                 break;
-            case enumString[(int)FX_ScreenFXType.Shock]:
+            case "Shock":
                 sparksFX.Play();
                 suprisedFX.Play();
                 cameraShake.SetShake(0.1f, 4);
                 anim.Play("FX_Color_Flash");
                 resetColor = false;
                 break;
-            case FX_ScreenFXType.Confused:
+            case "Confused":
                 questionFX.Play();
                 break;
-            case FX_ScreenFXType.Extreme_Shock:
+            case "Extreme_Shock":
                 sparksFX.Play();
                 impactFX.Play();
                 cameraShake.SetShake(0.3f, 6);
                 anim.Play("FX_Color_DoubleFlash");
                 resetColor = false;
                 break;
-            case FX_ScreenFXType.Angry:
+            case "Angry":
                 animeTwinkleFX.Play();
                 impactFX.Play();
                 cameraShake.SetShake(0.1f, 2);
@@ -84,40 +77,40 @@ public class FX_ScreenFXManager : MonoBehaviour
                 resetColor = false;
                 resetIris = false;
                 break;
-            case FX_ScreenFXType.Cutesy:
+            case "Cutesy":
                 flowersFX.Play();
                 anim.Play("FX_Iris_PinkStill");
                 anim.Play("FX_Color_PinkTint");
                 resetColor = false;
                 resetIris = false;
                 break;
-            case FX_ScreenFXType.Love:
+            case "Love":
                 rosesFX.Play();
                 anim.Play("FX_Iris_PinkStill");
                 anim.Play("FX_Color_PinkTint");
                 resetColor = false;
                 resetIris = false;
                 break;
-            case FX_ScreenFXType.Saucy:
+            case "Saucy":
                 steamFX.Play();
                 anim.Play("FX_Iris_RedPulsate");
                 resetIris = false;
                 resetSteam = false;
                 break;
-            case FX_ScreenFXType.Heartbeat:
+            case "Heartbeat":
                 heartSingleFX.Play();
                 impactFX.Play();
                 cameraShake.SetShake(0.1f, 2);
                 anim.Play("FX_Iris_RedPulsateFast");
                 resetIris = false;
                 break;
-            case FX_ScreenFXType.DeskSlam:
+            case "DeskSlam":
                 deskSlamFX.Play();
                 cameraShake.SetShake(0.1f, 4);
                 anim.Play("FX_Color_Flash");
                 resetColor = false;
                 break;
-            case FX_ScreenFXType.Doritos:
+            case "Doritos":
                 doritosFX.Play();
                 break;
             default:
