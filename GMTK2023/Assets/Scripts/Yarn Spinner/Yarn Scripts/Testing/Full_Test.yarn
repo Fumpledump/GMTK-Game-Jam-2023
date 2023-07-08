@@ -1,0 +1,31 @@
+﻿
+title: Full_Test
+tags:
+position: 17,-272
+---
+Bob:Yo we really do be testing the dialogue. What do you think?
+-> Pretty cool stuff.
+    <<jump PositiveResponse>>
+-> Ehhhh
+    <<jump NegativeResponse>>
+-> AAAAAAAAH
+    <<jump LoudResponse>>
+===
+
+title: PositiveResponse
+position: 12,85
+---
+Bob:Glad you agree.
+===
+
+title: NegativeResponse
+position: -184,-11
+---
+<<YarnTest>>
+Bob:Aww what the heck man.
+===
+title: LoudResponse
+position: 205,-82
+---
+Bob:Please do not scream...
+===
