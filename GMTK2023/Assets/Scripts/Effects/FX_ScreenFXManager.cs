@@ -2,10 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using Yarn.Unity;
 
 public class FX_ScreenFXManager : MonoBehaviour
 {
     public static FX_ScreenFXManager instance;
+    [SerializeField] private DialogueRunner dialogueRunner; // Yarn Spinner Dialogue Runner
 
     [SerializeField] private FX_CameraShake cameraShake;
 
@@ -34,6 +36,8 @@ public class FX_ScreenFXManager : MonoBehaviour
         if (instance == null) instance = this;
         anim = GetComponent<Animator>();
         cameraShake = GetComponent<FX_CameraShake>();
+
+        dialogueRunner.AddCommandHandler<string>("RunScreenFX", RunScreenFX);
     }
 
     private void RunScreenFX(string fxType)
@@ -45,7 +49,7 @@ public class FX_ScreenFXManager : MonoBehaviour
 
         switch(fxType)
         {
-            case "Suprised":
+            case "Surprised":
                 exclaimationFX.Play();
                 suprisedFX.Play();
                 cameraShake.SetShake(0.1f, 2);
