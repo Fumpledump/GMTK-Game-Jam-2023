@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.4f1 (35713cd46cd7) revision 3502396'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 16348 MB
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 15776 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-F:\Unity\2022.3.4f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/Fumple Desktop/Development Projects/Unity Projects/GMTK-Jam-2023/GMTK-Game-Jam-2023/GMTK2023
+C:/Users/EMall/Documents/GitHub/GMTK-Game-Jam-2023/GMTK2023
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63530
-Successfully changed project path to: D:/Fumple Desktop/Development Projects/Unity Projects/GMTK-Jam-2023/GMTK-Game-Jam-2023/GMTK2023
-D:/Fumple Desktop/Development Projects/Unity Projects/GMTK-Jam-2023/GMTK-Game-Jam-2023/GMTK2023
+60477
+Successfully changed project path to: C:/Users/EMall/Documents/GitHub/GMTK-Game-Jam-2023/GMTK2023
+C:/Users/EMall/Documents/GitHub/GMTK-Game-Jam-2023/GMTK2023
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,75 +49,64 @@ D:/Fumple Desktop/Development Projects/Unity Projects/GMTK-Jam-2023/GMTK-Game-Ja
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [17128] Host "[IP] 10.147.17.213 [Port] 0 [Flags] 2 [Guid] 203054349 [EditorId] 203054349 [Version] 1048832 [Id] WindowsEditor(7,Fumpleunit) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [12128] Host "[IP] 10.29.46.59 [Port] 0 [Flags] 2 [Guid] 702578885 [EditorId] 702578885 [Version] 1048832 [Id] WindowsEditor(7,Lappyboi) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [17128] Host "[IP] 10.147.17.213 [Port] 0 [Flags] 2 [Guid] 203054349 [EditorId] 203054349 [Version] 1048832 [Id] WindowsEditor(7,Fumpleunit) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [12128] Host "[IP] 10.29.46.59 [Port] 0 [Flags] 2 [Guid] 702578885 [EditorId] 702578885 [Version] 1048832 [Id] WindowsEditor(7,Lappyboi) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 136.17 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 25.81 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.4f1 (35713cd46cd7)
-[Subsystems] Discovering subsystems at path F:/Unity/2022.3.4f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Fumple Desktop/Development Projects/Unity Projects/GMTK-Jam-2023/GMTK-Game-Jam-2023/GMTK2023/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/EMall/Documents/GitHub/GMTK-Game-Jam-2023/GMTK2023/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Renderer: NVIDIA GeForce RTX 3070 Laptop GPU (ID=0x249d)
     Vendor:   NVIDIA
-    VRAM:     4017 MB
-    Driver:   31.0.15.3179
+    VRAM:     8033 MB
+    Driver:   31.0.15.3598
 Initialize mono
-Mono path[0] = 'F:/Unity/2022.3.4f1/Editor/Data/Managed'
-Mono path[1] = 'F:/Unity/2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'F:/Unity/2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56840
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56768
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: F:/Unity/2022.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: F:/Unity/2022.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: F:/Unity/2022.3.4f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Register platform support module: F:/Unity/2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: F:/Unity/2022.3.4f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.024432 seconds.
-- Loaded All Assemblies, in  0.757 seconds
-Native extension for UWP target not found
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005605 seconds.
+- Loaded All Assemblies, in  0.291 seconds
 Native extension for WindowsStandalone target not found
-[usbmuxd] Start listen thread
-[usbmuxd] Listen thread started
-Native extension for iOS target not found
-Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 484 ms
-Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.964 seconds
-Domain Reload Profiling: 1720ms
-	BeginReloadAssembly (147ms)
+- Finished resetting the current domain, in  0.236 seconds
+Domain Reload Profiling: 526ms
+	BeginReloadAssembly (79ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (90ms)
-	RebuildNativeTypeToScriptingClass (27ms)
-	initialDomainReloadingComplete (146ms)
-	LoadAllAssembliesAndSetupDomain (346ms)
-		LoadAssemblies (150ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (117ms)
+		LoadAssemblies (76ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (339ms)
-			TypeCache.Refresh (337ms)
-				TypeCache.ScanAssembly (314ms)
+		AnalyzeDomain (112ms)
+			TypeCache.Refresh (111ms)
+				TypeCache.ScanAssembly (101ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (965ms)
+	FinalizeReload (237ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (888ms)
+		SetupLoadedEditorAssemblies (183ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (669ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (145ms)
-			ProcessInitializeOnLoadMethodAttributes (67ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (124ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -125,15 +114,11 @@ Domain Reload Profiling: 1720ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Fumple Desktop\Development Projects\Unity Projects\GMTK-Jam-2023\GMTK-Game-Jam-2023\GMTK2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Fumple Desktop\Development Projects\Unity Projects\GMTK-Jam-2023\GMTK-Game-Jam-2023\GMTK2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  2.857 seconds
-Refreshing native plugins compatible for Editor in 32.43 ms, found 4 plugins.
-Native extension for UWP target not found
+Symbol file LoadedFromMemory doesn't match image C:\Users\EMall\Documents\GitHub\GMTK-Game-Jam-2023\GMTK2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\EMall\Documents\GitHub\GMTK-Game-Jam-2023\GMTK2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.981 seconds
+Refreshing native plugins compatible for Editor in 9.23 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
 Adding registration method Yarn.Unity.DefaultActions.RegisterActions
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
@@ -161,50 +146,51 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 (Filename: ./Library/PackageCache/dev.yarnspinner.unity@80c1e26e8a/Runtime/Commands/Actions.cs Line: 606)
 
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.079 seconds
-Domain Reload Profiling: 3924ms
-	BeginReloadAssembly (250ms)
+- Finished resetting the current domain, in  0.805 seconds
+Domain Reload Profiling: 1783ms
+	BeginReloadAssembly (123ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (47ms)
-	RebuildCommonClasses (57ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (78ms)
-	LoadAllAssembliesAndSetupDomain (2445ms)
-		LoadAssemblies (1322ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (775ms)
+		LoadAssemblies (421ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1246ms)
-			TypeCache.Refresh (1185ms)
-				TypeCache.ScanAssembly (1116ms)
-			ScanForSourceGeneratedMonoScriptInfo (53ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (1080ms)
+		AnalyzeDomain (404ms)
+			TypeCache.Refresh (372ms)
+				TypeCache.ScanAssembly (358ms)
+			ScanForSourceGeneratedMonoScriptInfo (28ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (806ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (845ms)
+		SetupLoadedEditorAssemblies (649ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (50ms)
+			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (140ms)
-			ProcessInitializeOnLoadAttributes (603ms)
-			ProcessInitializeOnLoadMethodAttributes (44ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			BeforeProcessingInitializeOnLoad (104ms)
+			ProcessInitializeOnLoadAttributes (493ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 28.65 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 17.83 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4653 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 94 unused Assets / (48.6 KB). Loaded Objects now: 5100.
-Memory consumption went from 164.9 MB to 164.8 MB.
-Total: 4.927100 ms (FindLiveObjects: 0.379100 ms CreateObjectMapping: 0.342400 ms MarkObjects: 4.068800 ms  DeleteObjects: 0.136000 ms)
+Unloading 4652 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 94 unused Assets / (48.6 KB). Loaded Objects now: 5095.
+Memory consumption went from 159.9 MB to 159.9 MB.
+Total: 4.305100 ms (FindLiveObjects: 0.305100 ms CreateObjectMapping: 0.136600 ms MarkObjects: 3.724700 ms  DeleteObjects: 0.137800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
@@ -217,40 +203,36 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 717822.649430 seconds.
-  path: Packages/dev.yarnspinner.unity/Tests/Editor/Editor Test Resources/TestYarnProject.yarnproject
-  artifactKey: Guid(47e2648812a0c4b58afe2b66a991a9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/dev.yarnspinner.unity/Tests/Editor/Editor Test Resources/TestYarnProject.yarnproject using Guid(47e2648812a0c4b58afe2b66a991a9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a138c893639b8246bc66fe7397a6b549') in 0.014896 seconds
+  Time since last request: 30326.452231 seconds.
+  path: Assets/Scenes/Yarn_Test.unity
+  artifactKey: Guid(07069535813bab04e84d46683e7145be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Yarn_Test.unity using Guid(07069535813bab04e84d46683e7145be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2afd6f3dde247ee83ee4bd3e03b028c') in 0.002636 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Packages/dev.yarnspinner.unity/Tests/Runtime/VariableStorageTests/VariableStorageTestProgram.yarnproject
-  artifactKey: Guid(43f86f87a9e6d454799e66e58df0d6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/dev.yarnspinner.unity/Tests/Runtime/VariableStorageTests/VariableStorageTestProgram.yarnproject using Guid(43f86f87a9e6d454799e66e58df0d6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0cab318304d93365fa2618cc79b6d33') in 0.001948 seconds
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scenes/OG_FlappyBird.unity
+  artifactKey: Guid(97069876a605edb45959322d073ab583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/OG_FlappyBird.unity using Guid(97069876a605edb45959322d073ab583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba17dfe52317ec3d4a38bcb4a57f27e') in 0.000365 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Packages/dev.yarnspinner.unity/Tests/Runtime/DialogueRunnerTests/DialogueRunnerTests.yarnproject
-  artifactKey: Guid(a9b357f08075f43cbad81d8ec757e1f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/dev.yarnspinner.unity/Tests/Runtime/DialogueRunnerTests/DialogueRunnerTests.yarnproject using Guid(a9b357f08075f43cbad81d8ec757e1f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41090876370c7f874042457de500b6ef') in 0.001810 seconds
+  Time since last request: 18.562851 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f59831343c0ffa1563c614994303d0') in 0.000490 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Fumple Desktop\Development Projects\Unity Projects\GMTK-Jam-2023\GMTK-Game-Jam-2023\GMTK2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Fumple Desktop\Development Projects\Unity Projects\GMTK-Jam-2023\GMTK-Game-Jam-2023\GMTK2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  2.413 seconds
-Refreshing native plugins compatible for Editor in 29.54 ms, found 4 plugins.
-Native extension for UWP target not found
+Symbol file LoadedFromMemory doesn't match image C:\Users\EMall\Documents\GitHub\GMTK-Game-Jam-2023\GMTK2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\EMall\Documents\GitHub\GMTK-Game-Jam-2023\GMTK2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.824 seconds
+Refreshing native plugins compatible for Editor in 8.05 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
 Adding registration method Yarn.Unity.DefaultActions.RegisterActions
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
@@ -278,50 +260,51 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 (Filename: ./Library/PackageCache/dev.yarnspinner.unity@80c1e26e8a/Runtime/Commands/Actions.cs Line: 606)
 
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in 29.498 seconds
-Domain Reload Profiling: 31898ms
-	BeginReloadAssembly (296ms)
+- Finished resetting the current domain, in  3.177 seconds
+Domain Reload Profiling: 3998ms
+	BeginReloadAssembly (148ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (36ms)
+		DisableScriptedObjects (12ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (70ms)
-	RebuildCommonClasses (63ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (63ms)
-	LoadAllAssembliesAndSetupDomain (1961ms)
-		LoadAssemblies (1450ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (611ms)
+		LoadAssemblies (327ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (630ms)
-			TypeCache.Refresh (617ms)
-				TypeCache.ScanAssembly (595ms)
-			ScanForSourceGeneratedMonoScriptInfo (6ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (29499ms)
+		AnalyzeDomain (329ms)
+			TypeCache.Refresh (325ms)
+				TypeCache.ScanAssembly (311ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (3178ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (727ms)
+		SetupLoadedEditorAssemblies (632ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (38ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (131ms)
-			ProcessInitializeOnLoadAttributes (512ms)
-			ProcessInitializeOnLoadMethodAttributes (36ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			BeforeProcessingInitializeOnLoad (120ms)
+			ProcessInitializeOnLoadAttributes (464ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 42.35 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 10.02 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4626 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 61 unused Assets / (49.2 KB). Loaded Objects now: 5106.
-Memory consumption went from 157.7 MB to 157.7 MB.
-Total: 6.272700 ms (FindLiveObjects: 0.959900 ms CreateObjectMapping: 0.690600 ms MarkObjects: 4.510400 ms  DeleteObjects: 0.110800 ms)
+Unloading 61 unused Assets / (49.2 KB). Loaded Objects now: 5100.
+Memory consumption went from 153.6 MB to 153.5 MB.
+Total: 4.823200 ms (FindLiveObjects: 0.492100 ms CreateObjectMapping: 0.132900 ms MarkObjects: 4.083800 ms  DeleteObjects: 0.112500 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
@@ -335,15 +318,11 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Fumple Desktop\Development Projects\Unity Projects\GMTK-Jam-2023\GMTK-Game-Jam-2023\GMTK2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Fumple Desktop\Development Projects\Unity Projects\GMTK-Jam-2023\GMTK-Game-Jam-2023\GMTK2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.807 seconds
-Refreshing native plugins compatible for Editor in 28.23 ms, found 4 plugins.
-Native extension for UWP target not found
+Symbol file LoadedFromMemory doesn't match image C:\Users\EMall\Documents\GitHub\GMTK-Game-Jam-2023\GMTK2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\EMall\Documents\GitHub\GMTK-Game-Jam-2023\GMTK2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.802 seconds
+Refreshing native plugins compatible for Editor in 10.37 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
 Adding registration method Yarn.Unity.DefaultActions.RegisterActions
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
@@ -371,50 +350,371 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 (Filename: ./Library/PackageCache/dev.yarnspinner.unity@80c1e26e8a/Runtime/Commands/Actions.cs Line: 606)
 
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.375 seconds
-Domain Reload Profiling: 4170ms
-	BeginReloadAssembly (238ms)
+- Finished resetting the current domain, in  1.155 seconds
+Domain Reload Profiling: 1954ms
+	BeginReloadAssembly (135ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (587ms)
+		LoadAssemblies (322ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (307ms)
+			TypeCache.Refresh (303ms)
+				TypeCache.ScanAssembly (290ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1156ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (642ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (131ms)
+			ProcessInitializeOnLoadAttributes (460ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 9.08 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4627 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (49.6 KB). Loaded Objects now: 5104.
+Memory consumption went from 153.8 MB to 153.8 MB.
+Total: 4.795100 ms (FindLiveObjects: 0.395200 ms CreateObjectMapping: 0.171500 ms MarkObjects: 4.130200 ms  DeleteObjects: 0.097300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 534.691357 seconds.
+  path: Assets/Scenes/OG_FlappyBird.unity
+  artifactKey: Guid(97069876a605edb45959322d073ab583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/OG_FlappyBird.unity using Guid(97069876a605edb45959322d073ab583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a59554298ce9566c8f2293747d998cd') in 0.002099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\EMall\Documents\GitHub\GMTK-Game-Jam-2023\GMTK2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\EMall\Documents\GitHub\GMTK-Game-Jam-2023\GMTK2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.806 seconds
+Refreshing native plugins compatible for Editor in 8.18 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Adding registration method Yarn.Unity.DefaultActions.RegisterActions
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Yarn.Unity.Actions:AddRegistrationMethod (System.Action`1<Yarn.Unity.IActionRegistration>) (at ./Library/PackageCache/dev.yarnspinner.unity@80c1e26e8a/Runtime/Commands/Actions.cs:606)
+Yarn.Unity.DefaultActions:AddRegisterFunction () (at ./Library/PackageCache/dev.yarnspinner.unity@80c1e26e8a/Runtime/Commands/DefaultActions.cs:18)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/dev.yarnspinner.unity@80c1e26e8a/Runtime/Commands/Actions.cs Line: 606)
+
+Adding registration method Yarn.Unity.Generated.ActionRegistration.RegisterActions
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Yarn.Unity.Actions:AddRegistrationMethod (System.Action`1<Yarn.Unity.IActionRegistration>) (at ./Library/PackageCache/dev.yarnspinner.unity@80c1e26e8a/Runtime/Commands/Actions.cs:606)
+Yarn.Unity.Generated.ActionRegistration:AddRegisterFunction () (at ./YarnSpinner.Unity.SourceCodeGenerator/ActionRegistrationSourceGenerator/YarnActionRegistration-YarnSpinnerTests.CommandsInAnAssemblyDefinition.Generated.cs:12)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/dev.yarnspinner.unity@80c1e26e8a/Runtime/Commands/Actions.cs Line: 606)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.116 seconds
+Domain Reload Profiling: 1918ms
+	BeginReloadAssembly (137ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (602ms)
+		LoadAssemblies (335ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (311ms)
+			TypeCache.Refresh (306ms)
+				TypeCache.ScanAssembly (294ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1116ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (603ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (118ms)
+			ProcessInitializeOnLoadAttributes (437ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 9.86 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4626 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (49.6 KB). Loaded Objects now: 5108.
+Memory consumption went from 153.6 MB to 153.5 MB.
+Total: 4.624600 ms (FindLiveObjects: 0.724800 ms CreateObjectMapping: 0.151900 ms MarkObjects: 3.633000 ms  DeleteObjects: 0.113500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\EMall\Documents\GitHub\GMTK-Game-Jam-2023\GMTK2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\EMall\Documents\GitHub\GMTK-Game-Jam-2023\GMTK2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.798 seconds
+Refreshing native plugins compatible for Editor in 8.43 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Adding registration method Yarn.Unity.DefaultActions.RegisterActions
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Yarn.Unity.Actions:AddRegistrationMethod (System.Action`1<Yarn.Unity.IActionRegistration>) (at ./Library/PackageCache/dev.yarnspinner.unity@80c1e26e8a/Runtime/Commands/Actions.cs:606)
+Yarn.Unity.DefaultActions:AddRegisterFunction () (at ./Library/PackageCache/dev.yarnspinner.unity@80c1e26e8a/Runtime/Commands/DefaultActions.cs:18)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/dev.yarnspinner.unity@80c1e26e8a/Runtime/Commands/Actions.cs Line: 606)
+
+Adding registration method Yarn.Unity.Generated.ActionRegistration.RegisterActions
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Yarn.Unity.Actions:AddRegistrationMethod (System.Action`1<Yarn.Unity.IActionRegistration>) (at ./Library/PackageCache/dev.yarnspinner.unity@80c1e26e8a/Runtime/Commands/Actions.cs:606)
+Yarn.Unity.Generated.ActionRegistration:AddRegisterFunction () (at ./YarnSpinner.Unity.SourceCodeGenerator/ActionRegistrationSourceGenerator/YarnActionRegistration-YarnSpinnerTests.CommandsInAnAssemblyDefinition.Generated.cs:12)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/dev.yarnspinner.unity@80c1e26e8a/Runtime/Commands/Actions.cs Line: 606)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.118 seconds
+Domain Reload Profiling: 1913ms
+	BeginReloadAssembly (136ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (595ms)
+		LoadAssemblies (338ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (300ms)
+			TypeCache.Refresh (296ms)
+				TypeCache.ScanAssembly (284ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1119ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (615ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (122ms)
+			ProcessInitializeOnLoadAttributes (446ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 8.82 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4627 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (49.7 KB). Loaded Objects now: 5112.
+Memory consumption went from 153.8 MB to 153.8 MB.
+Total: 4.925300 ms (FindLiveObjects: 0.328300 ms CreateObjectMapping: 0.122000 ms MarkObjects: 4.358100 ms  DeleteObjects: 0.115700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 645.052934 seconds.
+  path: Assets/Art
+  artifactKey: Guid(529a5727d3fea6f4881619a78f4186a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art using Guid(529a5727d3fea6f4881619a78f4186a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '104033248926d18ee2b197e36b2acb11') in 0.002204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.358005 seconds.
+  path: Assets/Art/ConceptArt
+  artifactKey: Guid(d9d76f2937a6ef34b80d39d2229e66dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/ConceptArt using Guid(d9d76f2937a6ef34b80d39d2229e66dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f329398107fde7361a6396fe07bc20') in 0.000530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 45.272267 seconds.
+  path: Assets/Art/ConceptArt/Flappy_ConceptArt.png
+  artifactKey: Guid(3b7980abb2183254da71ed692426b13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/ConceptArt/Flappy_ConceptArt.png using Guid(3b7980abb2183254da71ed692426b13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '918e905bab1662015be4ae5b421ea26b') in 0.054713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.273774 seconds.
+  path: Assets/Art/ConceptArt/Flappy_ConceptArt.png
+  artifactKey: Guid(3b7980abb2183254da71ed692426b13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/ConceptArt/Flappy_ConceptArt.png using Guid(3b7980abb2183254da71ed692426b13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2335c8a394dbeb2baad36fa2dfc4672d') in 0.060146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 24.883233 seconds.
+  path: Assets/Scenes/OG_FlappyBird.unity
+  artifactKey: Guid(97069876a605edb45959322d073ab583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/OG_FlappyBird.unity using Guid(97069876a605edb45959322d073ab583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8a35b853354f390141b38c31c6053bf') in 0.000636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\EMall\Documents\GitHub\GMTK-Game-Jam-2023\GMTK2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\EMall\Documents\GitHub\GMTK-Game-Jam-2023\GMTK2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.932 seconds
+Refreshing native plugins compatible for Editor in 9.19 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Adding registration method Yarn.Unity.DefaultActions.RegisterActions
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Yarn.Unity.Actions:AddRegistrationMethod (System.Action`1<Yarn.Unity.IActionRegistration>) (at ./Library/PackageCache/dev.yarnspinner.unity@80c1e26e8a/Runtime/Commands/Actions.cs:606)
+Yarn.Unity.DefaultActions:AddRegisterFunction () (at ./Library/PackageCache/dev.yarnspinner.unity@80c1e26e8a/Runtime/Commands/DefaultActions.cs:18)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/dev.yarnspinner.unity@80c1e26e8a/Runtime/Commands/Actions.cs Line: 606)
+
+Adding registration method Yarn.Unity.Generated.ActionRegistration.RegisterActions
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Yarn.Unity.Actions:AddRegistrationMethod (System.Action`1<Yarn.Unity.IActionRegistration>) (at ./Library/PackageCache/dev.yarnspinner.unity@80c1e26e8a/Runtime/Commands/Actions.cs:606)
+Yarn.Unity.Generated.ActionRegistration:AddRegisterFunction () (at ./YarnSpinner.Unity.SourceCodeGenerator/ActionRegistrationSourceGenerator/YarnActionRegistration-YarnSpinnerTests.CommandsInAnAssemblyDefinition.Generated.cs:12)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/dev.yarnspinner.unity@80c1e26e8a/Runtime/Commands/Actions.cs Line: 606)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.724 seconds
+Domain Reload Profiling: 2653ms
+	BeginReloadAssembly (168ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (15ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (64ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (53ms)
-	LoadAllAssembliesAndSetupDomain (1444ms)
-		LoadAssemblies (885ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (694ms)
+		LoadAssemblies (398ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (630ms)
-			TypeCache.Refresh (623ms)
-				TypeCache.ScanAssembly (600ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (2375ms)
+		AnalyzeDomain (350ms)
+			TypeCache.Refresh (340ms)
+				TypeCache.ScanAssembly (325ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1724ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (811ms)
+		SetupLoadedEditorAssemblies (647ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (49ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (165ms)
-			ProcessInitializeOnLoadAttributes (543ms)
-			ProcessInitializeOnLoadMethodAttributes (42ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (493ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 29.32 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (12ms)
+Shader '2DxFX/AL/4Gradients': fallback shader 'Sprites-Defaultt' not found
+Shader '2DxFX/AL/4Gradients': fallback shader 'Sprites-Defaultt' not found
+Refreshing native plugins compatible for Editor in 8.32 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4627 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 61 unused Assets / (49.6 KB). Loaded Objects now: 5110.
-Memory consumption went from 158.0 MB to 157.9 MB.
-Total: 4.855100 ms (FindLiveObjects: 0.365200 ms CreateObjectMapping: 0.546500 ms MarkObjects: 3.850000 ms  DeleteObjects: 0.092100 ms)
+Unloading 5032 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 314 unused Assets / (22.1 MB). Loaded Objects now: 5276.
+Memory consumption went from 244.3 MB to 222.2 MB.
+Total: 11.817700 ms (FindLiveObjects: 0.435300 ms CreateObjectMapping: 0.160800 ms MarkObjects: 3.243900 ms  DeleteObjects: 7.975900 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
@@ -426,17 +726,733 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 694.944091 seconds.
+  path: Assets/Animations/OGFB_Animations
+  artifactKey: Guid(af87cbe4cf9d5de4a94db97d49ed2b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/OGFB_Animations using Guid(af87cbe4cf9d5de4a94db97d49ed2b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e68e70716e0ad6f807cba245139a59f') in 0.002432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.251131 seconds.
+  path: Assets/Animations/OGFB_Animations/Bird
+  artifactKey: Guid(3cff6e3b12c4d584f8b925362294ab1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/OGFB_Animations/Bird using Guid(3cff6e3b12c4d584f8b925362294ab1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8221234bc28e831c8bc1b4309ccf22a') in 0.000551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.159532 seconds.
+  path: Assets/Animations/OGFB_Animations/OGFB_RotDown.anim
+  artifactKey: Guid(995d3bacd9091ec419c048edb3ecabbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/OGFB_Animations/OGFB_RotDown.anim using Guid(995d3bacd9091ec419c048edb3ecabbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df6ab54383c3d36ca073978a88b93acd') in 0.010522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 12.242782 seconds.
+  path: Assets/Animations/OGFB_Animations/UI
+  artifactKey: Guid(d0ab05ea77e8d1e4e87a83565d1fcf0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/OGFB_Animations/UI using Guid(d0ab05ea77e8d1e4e87a83565d1fcf0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc22cb26eddbb9f2f1790e9d6b4ceaa') in 0.000469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 135.994008 seconds.
+  path: Assets/2DxFX/ExtraShaders
+  artifactKey: Guid(03ca120461319c74db94566c60c91d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders using Guid(03ca120461319c74db94566c60c91d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2bb56df864800cf63d2b6ea69530056') in 0.000507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.284122 seconds.
+  path: Assets/2DxFX/ExtraShaders/Shader
+  artifactKey: Guid(4bdf663f2e0271240a4eebbe91fcd825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Shader using Guid(4bdf663f2e0271240a4eebbe91fcd825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8114ed516168ea66f7e69c1869a7c864') in 0.000452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.664544 seconds.
+  path: Assets/2DxFX/ExtraShaders/Examples/BackgroundRepeat.mat
+  artifactKey: Guid(2e9bef2352d700c4da606fe783771af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Examples/BackgroundRepeat.mat using Guid(2e9bef2352d700c4da606fe783771af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45377398edf201a0cc505257a1329c08') in 0.122494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/2DxFX/ExtraShaders/Examples/BackgroundRepeat2.mat
+  artifactKey: Guid(3a122af8078ec0145a0f0df8613755fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Examples/BackgroundRepeat2.mat using Guid(3a122af8078ec0145a0f0df8613755fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bf87422099f9e6a6470a9376fcdcd9e') in 0.014431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.526265 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/Additive.mat
+  artifactKey: Guid(889ccc247ea079e428c488ca8a573dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/Additive.mat using Guid(889ccc247ea079e428c488ca8a573dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9fa8ba7431aee0a4b72fa3b61565714') in 0.025802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/AnimatedZoom.mat
+  artifactKey: Guid(b3252ad06dce8e8408d14a04f548f490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/AnimatedZoom.mat using Guid(b3252ad06dce8e8408d14a04f548f490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb6146d1321c50b21fe7d4a1fa048a15') in 0.026157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/Plasma.mat
+  artifactKey: Guid(f6d70d1362798ad4480d22f6b710e89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/Plasma.mat using Guid(f6d70d1362798ad4480d22f6b710e89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec3dc07098d16c265d874b51426c594') in 0.038426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/ColorHDRCreation.mat
+  artifactKey: Guid(ea74e37c8e1d18a44904a0aba018089d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/ColorHDRCreation.mat using Guid(ea74e37c8e1d18a44904a0aba018089d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '402eba295710654e7a9958a8e1b23430') in 0.028033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/Emboss.mat
+  artifactKey: Guid(813614c9b16e53a4f95e5705aaeb24eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/Emboss.mat using Guid(813614c9b16e53a4f95e5705aaeb24eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc6e746810a3e44dc29dba1123b2ab0') in 0.032592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/ColorRGB.mat
+  artifactKey: Guid(557ad0c19e48c934abde36b493041952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/ColorRGB.mat using Guid(557ad0c19e48c934abde36b493041952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b93d4438da99bbec8b9b8d006ac3919') in 0.026024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/LightGlow.mat
+  artifactKey: Guid(60a31ad48d32f0744922de271d8e0c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/LightGlow.mat using Guid(60a31ad48d32f0744922de271d8e0c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31095bf5ca31237422ecf04564915e1e') in 0.042779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/ColorTint.mat
+  artifactKey: Guid(c36fc2fb82dabdd4b8c851ec68b190db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/ColorTint.mat using Guid(c36fc2fb82dabdd4b8c851ec68b190db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1e2e5bcb8ccd04835dd5c2c50bdf145') in 0.029898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/Fluo.mat
+  artifactKey: Guid(8e3041aa6c6f7c34797732421908c853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/Fluo.mat using Guid(8e3041aa6c6f7c34797732421908c853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d94e08ce74918a252d0ad16653ae266') in 0.031412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/PixelGravityDie.mat
+  artifactKey: Guid(3d5a7f32af9fdaa4585cd1092d6e1a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/PixelGravityDie.mat using Guid(3d5a7f32af9fdaa4585cd1092d6e1a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482cabbbbe7a970ea1794113259afbe1') in 0.028741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/MotionBlurFast.mat
+  artifactKey: Guid(cc395b3b8a8b9ed468c6d3378b49e2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/MotionBlurFast.mat using Guid(cc395b3b8a8b9ed468c6d3378b49e2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9453b705ad285ed5b177331c20106470') in 0.037077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/Fusion3Sprites.mat
+  artifactKey: Guid(8e8c2dacd1fb415449376b53738b4d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/Fusion3Sprites.mat using Guid(8e8c2dacd1fb415449376b53738b4d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9144fff81457c4b9f1e9f4f8be91a08') in 0.037881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/Distortion.mat
+  artifactKey: Guid(30511546d42945f4db49994e2d20b70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/Distortion.mat using Guid(30511546d42945f4db49994e2d20b70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b7d985d767a4e79001c2b747d20df96') in 0.027275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/BreakingGlassFull.mat
+  artifactKey: Guid(7435f0edfd9940b41a6a882665caf52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/BreakingGlassFull.mat using Guid(7435f0edfd9940b41a6a882665caf52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a97c2c18d3e33645d8a651fa60a049a6') in 0.053790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/HolographicTint.mat
+  artifactKey: Guid(3d776797ead97fd43b06bfb1ecbe4bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/HolographicTint.mat using Guid(3d776797ead97fd43b06bfb1ecbe4bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24f6c9ac0371acd1a23834f2cf1f1153') in 0.056222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/PixelisationXY.mat
+  artifactKey: Guid(211b0ea32295b494c93f2502c375129e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/PixelisationXY.mat using Guid(211b0ea32295b494c93f2502c375129e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ac416affe49779c3253c87b042f2a47') in 0.025805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/BurnPixel.mat
+  artifactKey: Guid(4a595699ecd1dce459ee81644994ed84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/BurnPixel.mat using Guid(4a595699ecd1dce459ee81644994ed84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ec576da97e53a94a9ddd3f83f09b4c9') in 0.055987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/Holographic.mat
+  artifactKey: Guid(bb891ad9d756dbe46bc81aa7fa703c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/Holographic.mat using Guid(bb891ad9d756dbe46bc81aa7fa703c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64ec053b1056333d5057e47cd308feaf') in 0.051937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/DoodleDraw.mat
+  artifactKey: Guid(f671211ee68a2734789d7b7241d41d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/DoodleDraw.mat using Guid(f671211ee68a2734789d7b7241d41d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92236564bbe0cd5e11ba7fdc4b6213cc') in 0.030664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/Glitch.mat
+  artifactKey: Guid(b03b0631d010605489747d60338016c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/Glitch.mat using Guid(b03b0631d010605489747d60338016c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36838f5fbdd107b82f8d08de51acbe39') in 0.033025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/ColorHSV.mat
+  artifactKey: Guid(128d2dfbb80407c46ba2b30477a456d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/ColorHSV.mat using Guid(128d2dfbb80407c46ba2b30477a456d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5da8a74303b5cba9aadf4b2caf3906c') in 0.034625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/AnimatedTwist.mat
+  artifactKey: Guid(41ccbfe55c19ea44ea64b3108b9b58d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/AnimatedTwist.mat using Guid(41ccbfe55c19ea44ea64b3108b9b58d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e19bd10043bc79d16f421a37884d5317') in 0.031103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/AnimatedBurn.mat
+  artifactKey: Guid(1a7aaa4ebafbc6d4290d77a15a90bcd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/AnimatedBurn.mat using Guid(1a7aaa4ebafbc6d4290d77a15a90bcd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12fb87e589576ebe3c545fde32119746') in 0.035280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/Automatic2Lerp.mat
+  artifactKey: Guid(d7226ec1b7e832944a3606bf6976457b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/Automatic2Lerp.mat using Guid(d7226ec1b7e832944a3606bf6976457b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7fd977fad7a676a15b04187b5052917') in 0.041372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/BreakingGlass.mat
+  artifactKey: Guid(d9abe6a3b01351744953696e1615fa4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/BreakingGlass.mat using Guid(d9abe6a3b01351744953696e1615fa4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c187ea7783729ae2c9632bccefd0ebe7') in 0.053773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/BreakingMirror.mat
+  artifactKey: Guid(b93bc70dbb9b98c458fb66ec4c2f8123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/BreakingMirror.mat using Guid(b93bc70dbb9b98c458fb66ec4c2f8123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '880b2867a983e1a42692849f58e69ba5') in 0.035915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/DisolveHDR.mat
+  artifactKey: Guid(ef5a452858b26a840ae3a160fc16b42f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/DisolveHDR.mat using Guid(ef5a452858b26a840ae3a160fc16b42f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac061741fc799dd73b55473fc5a93b87') in 0.058580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/Explode.mat
+  artifactKey: Guid(0a7ac80dedb67544a97f73ebac78ae4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/Explode.mat using Guid(0a7ac80dedb67544a97f73ebac78ae4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51adf96f6e2f01eb52333b798e71c0a6') in 0.031484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/Outline.mat
+  artifactKey: Guid(9c08bf20737bfad498e26b4a21540853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/Outline.mat using Guid(9c08bf20737bfad498e26b4a21540853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11fdf806e36f5240b3065deba72308e0') in 0.028005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/HologramScanLine.mat
+  artifactKey: Guid(d6c44c46a1ebf754bb49357d32579b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/HologramScanLine.mat using Guid(d6c44c46a1ebf754bb49357d32579b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d6b664f1e1518d306c9a0c8507e2b10') in 0.072549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/Perspective3D.mat
+  artifactKey: Guid(59daa1c6364edfb4db7bf9aab0d2d829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/Perspective3D.mat using Guid(59daa1c6364edfb4db7bf9aab0d2d829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '798fe55f449bd1dbc3eb5b12a58f433c') in 0.036393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/AlphaIntensity.mat
+  artifactKey: Guid(58bb2102699c0bc4f872973b87e0b954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/AlphaIntensity.mat using Guid(58bb2102699c0bc4f872973b87e0b954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b0938e994e641450595b71616bbca3b') in 0.028394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/JpegCompressionStyle.mat
+  artifactKey: Guid(24e027c7d6318dc40bbdbf0f25e00a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/JpegCompressionStyle.mat using Guid(24e027c7d6318dc40bbdbf0f25e00a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43742e58694e81b4d2afa2cb731878a3') in 0.028371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/InnerGlow.mat
+  artifactKey: Guid(bbb7b838af0b3c54da10be2befb345f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/InnerGlow.mat using Guid(bbb7b838af0b3c54da10be2befb345f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11639f3743cb801d26925631269d66c3') in 0.054893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/ColorDarkness.mat
+  artifactKey: Guid(203023f09e24ee94d9c05a5daead52ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/ColorDarkness.mat using Guid(203023f09e24ee94d9c05a5daead52ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5312bea1b9ed4275442ea12584ccb82') in 0.031185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/CompressionTintAdditive.mat
+  artifactKey: Guid(637337dd4e394064c985ea634d53aae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/CompressionTintAdditive.mat using Guid(637337dd4e394064c985ea634d53aae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1130beecd62d4f8485e214f4635286b5') in 0.041383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/Blur.mat
+  artifactKey: Guid(98c04aa50a773b540aaf124e4b0fddb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/Blur.mat using Guid(98c04aa50a773b540aaf124e4b0fddb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a735a8a4fee0b36856f5064eceeabde') in 0.035132 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/LiquidWave.mat
+  artifactKey: Guid(c2d62323571e8354abfd614b3b4d339f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/LiquidWave.mat using Guid(c2d62323571e8354abfd614b3b4d339f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '012141d30081f93ed911df6c135592d1') in 0.032310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/HologramParasite.mat
+  artifactKey: Guid(2532e384e4523f74d9a6561fb1e91948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/HologramParasite.mat using Guid(2532e384e4523f74d9a6561fb1e91948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3c3342c5b9b40a5f239afc10b3cc89f') in 0.049380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/ColorOnly.mat
+  artifactKey: Guid(a7d7645f72e65594288f7380c05d405f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/ColorOnly.mat using Guid(a7d7645f72e65594288f7380c05d405f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6e0b91d3d1bddd8c6e3d2154c82233a') in 0.032120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/Burn.mat
+  artifactKey: Guid(dc1f712ddb4dd4442bb3ddf765991596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/Burn.mat using Guid(dc1f712ddb4dd4442bb3ddf765991596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '314b245ffccebddbe01be175e1114d6b') in 0.057243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/DisolvePixel.mat
+  artifactKey: Guid(65206cb3ecd08a647878d97388c2b146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/DisolvePixel.mat using Guid(65206cb3ecd08a647878d97388c2b146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa6e232a38464f39937b49eef66da9e') in 0.056138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/HologramScanLineAdditive.mat
+  artifactKey: Guid(4fb6cc6201be25b4483cdecc2d312c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/HologramScanLineAdditive.mat using Guid(4fb6cc6201be25b4483cdecc2d312c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1475c9ca960e54dd627b4d75e9b1b34') in 0.056470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/Kaleidoscope.mat
+  artifactKey: Guid(edf057de252404d4a9738c67de51267e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/Kaleidoscope.mat using Guid(edf057de252404d4a9738c67de51267e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb5da62157f6927f40df4ac17ff33c62') in 0.032343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/Offset.mat
+  artifactKey: Guid(82cc69615061bff44ab06e499814c002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/Offset.mat using Guid(82cc69615061bff44ab06e499814c002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31dddc60ecd7c96163bdd7229a2916e1') in 0.029653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/AnimatedOffset.mat
+  artifactKey: Guid(4fb42b021a872644e8c63fd1fe56d38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/AnimatedOffset.mat using Guid(4fb42b021a872644e8c63fd1fe56d38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e653d168d5962ed80721c8a04042bf8e') in 0.029278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/Pinch.mat
+  artifactKey: Guid(16b0f9ac963c82f41846441128804c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/Pinch.mat using Guid(16b0f9ac963c82f41846441128804c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07e7cbd073fcc3e9077389e1c59ed178') in 0.035322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/NoiseBlur_Horizontal.mat
+  artifactKey: Guid(8bf7b52e0340f7f46990ad5f0e70ed91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/NoiseBlur_Horizontal.mat using Guid(8bf7b52e0340f7f46990ad5f0e70ed91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63e6c56fe3e2583ac3c4ec8d74fda0e0') in 0.029727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/InsideDistortion.mat
+  artifactKey: Guid(3f7fdc471703e1e45807f333cae5b532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/InsideDistortion.mat using Guid(3f7fdc471703e1e45807f333cae5b532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '097c77f587055fbefbfc4a78836fd7d2') in 0.029968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/GhostClipping.mat
+  artifactKey: Guid(09fedb262a702974abf9e5e592070738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/GhostClipping.mat using Guid(09fedb262a702974abf9e5e592070738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2aedd1f53858d9b62d20a9e7733c967') in 0.036751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/FishEye.mat
+  artifactKey: Guid(f388de08011c4bf43a1d92901b8b3145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/FishEye.mat using Guid(f388de08011c4bf43a1d92901b8b3145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffed2936e9bcf02d8b3d1fb453126795') in 0.030002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/Fusion2Sprites.mat
+  artifactKey: Guid(203b375f691d24b48a263d03ab83a1d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/Fusion2Sprites.mat using Guid(203b375f691d24b48a263d03ab83a1d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96d9d6c479f51d36e2731e8a45b3271b') in 0.035897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/DesintegrationPixel.mat
+  artifactKey: Guid(813cb534eba916c4c80cad3480e3ac13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/DesintegrationPixel.mat using Guid(813cb534eba916c4c80cad3480e3ac13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c4103cbf2f1eaa7f70bc003cc9942a') in 0.056756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/NoiseBlur_Vertical.mat
+  artifactKey: Guid(e9db5b8e2aa452d4bb69f0d7485b5d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/NoiseBlur_Vertical.mat using Guid(e9db5b8e2aa452d4bb69f0d7485b5d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '445453833c7b50be787e18087ddcd880') in 0.029659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/AnimatedPingPong.mat
+  artifactKey: Guid(8e646474e4723334fb6f840dc21e10dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/AnimatedPingPong.mat using Guid(8e646474e4723334fb6f840dc21e10dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '185e8e22b47b3eaf883c2d2c67001662') in 0.028859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/Fusion2SpritesAdditive.mat
+  artifactKey: Guid(eb8846e66a1be8b41bdde39940594782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/Fusion2SpritesAdditive.mat using Guid(eb8846e66a1be8b41bdde39940594782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d6336fe4a21e472fd210031f04f4a4b') in 0.029705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/ColorBrightness.mat
+  artifactKey: Guid(0a68d5ca83878ce4ca808889b2ccaddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/ColorBrightness.mat using Guid(0a68d5ca83878ce4ca808889b2ccaddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c1f74420231db186f766825a63a2b71') in 0.033562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/EmbossFull.mat
+  artifactKey: Guid(fc5fc6e73dd9b1d4c8e09ccbee8256b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/EmbossFull.mat using Guid(fc5fc6e73dd9b1d4c8e09ccbee8256b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f8ce81013704f6bb28987886d7aa9c9') in 0.034422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/NightVision.mat
+  artifactKey: Guid(90db568f5c4deca458037e4ca0cef99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/NightVision.mat using Guid(90db568f5c4deca458037e4ca0cef99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc435d663f65a538754b982ac691baae') in 0.033711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/HologramParasiteTintAdditive.mat
+  artifactKey: Guid(d93f410b9f302734e90f9a053062623b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/HologramParasiteTintAdditive.mat using Guid(d93f410b9f302734e90f9a053062623b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5a24f20389648c2c4a4c3b127d44870') in 0.049072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/AnimatedMovement.mat
+  artifactKey: Guid(c41c2182696baa24ab6ada5a845181d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/AnimatedMovement.mat using Guid(c41c2182696baa24ab6ada5a845181d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c2dc99d05b895bdae0a6a1d8adc7f20') in 0.028170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/InfiniteZoom.mat
+  artifactKey: Guid(10547da6a4d8b7b4abd4ce9da67afb18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/InfiniteZoom.mat using Guid(10547da6a4d8b7b4abd4ce9da67afb18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f35aa3ff2c39344bccbdbbb48f8fd17c') in 0.035935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/HologramParasiteAdditive.mat
+  artifactKey: Guid(9d460bd51dc52984fac02768960d8e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/HologramParasiteAdditive.mat using Guid(9d460bd51dc52984fac02768960d8e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bddfcb0d92f41a3b5acdf0aa545c529') in 0.041284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/OutlineEmpty.mat
+  artifactKey: Guid(ce739a81fba56cd49b902e14ff38a731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/OutlineEmpty.mat using Guid(ce739a81fba56cd49b902e14ff38a731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a964d47f40948a89c78068de9f66c65') in 0.035308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/CircleHole.mat
+  artifactKey: Guid(a5b3164b3bc558d40ba3b3554a2c4e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/CircleHole.mat using Guid(a5b3164b3bc558d40ba3b3554a2c4e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '870d50d6c80e8d462b966cad131bf584') in 0.029330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/CircleFade.mat
+  artifactKey: Guid(a4b45b4db1d6eb4489c6626d76206c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/CircleFade.mat using Guid(a4b45b4db1d6eb4489c6626d76206c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99d02e85c893d63c6af7694449a7b29b') in 0.029230 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/ColorNegative.mat
+  artifactKey: Guid(8f6e919fceecd3241aab3a1ad6904586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/ColorNegative.mat using Guid(8f6e919fceecd3241aab3a1ad6904586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c47e4d70f7e69d03e8d204f11e084320') in 0.031309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/HolographicTintAdditive.mat
+  artifactKey: Guid(fa69ff8536462ec499c739e3b8c7d6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/HolographicTintAdditive.mat using Guid(fa69ff8536462ec499c739e3b8c7d6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66dc5f96306d880a66fe1c48911890bc') in 0.053258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/HologramParasiteTint.mat
+  artifactKey: Guid(ee6d4e235126cda41ad8acf955ac5ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/HologramParasiteTint.mat using Guid(ee6d4e235126cda41ad8acf955ac5ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91e8800ccb29204961d0218cb4cce470') in 0.050251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/AnimatedPingPongRotation.mat
+  artifactKey: Guid(9db58edf1afb51845aca09c88902e631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/AnimatedPingPongRotation.mat using Guid(9db58edf1afb51845aca09c88902e631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57fce217dd45a10a408f5ef03ac9685e') in 0.027100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/PixelExplosion.mat
+  artifactKey: Guid(7d3406740d97cf1468126e2393d1748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/PixelExplosion.mat using Guid(7d3406740d97cf1468126e2393d1748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0787eab59865fd121b3b04a08c43d236') in 0.031066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/Lerp2sprites.mat
+  artifactKey: Guid(a67a46c6a2ef1a0499ea5e555f9629bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/Lerp2sprites.mat using Guid(a67a46c6a2ef1a0499ea5e555f9629bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '754b72ea2014c54c47066487d0f8758b') in 0.035011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/BlurHQ.mat
+  artifactKey: Guid(d190429bc7d17bd479bc2e9667eec9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/BlurHQ.mat using Guid(d190429bc7d17bd479bc2e9667eec9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d2ad2a49d636512c66e820121ae1440') in 0.053415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/ColorGrayscale.mat
+  artifactKey: Guid(9e1ec409ed176124fb8f231af0fbb44d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/ColorGrayscale.mat using Guid(9e1ec409ed176124fb8f231af0fbb44d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd24baf8c866cba113a2f4482aaa7d2ea') in 0.027914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/BlurHQPlus.mat
+  artifactKey: Guid(69582a832341c184f889eeebbddd7622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/BlurHQPlus.mat using Guid(69582a832341c184f889eeebbddd7622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7464bd88de877f8b1064b1f9902ad8c2') in 0.049299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/2DxFX/ExtraShaders/Material/Pixelisation.mat
+  artifactKey: Guid(f2ecbaf3928e5d84498c0b5ade40ce6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DxFX/ExtraShaders/Material/Pixelisation.mat using Guid(f2ecbaf3928e5d84498c0b5ade40ce6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20f857545f8d88f0e7131817815d772d') in 0.026255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 119.025525 seconds.
+  path: Assets/Animations/OGFB_Animations/Bird/Bird
+  artifactKey: Guid(f6e3e722c0f73e041a9927a2905f4f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/OGFB_Animations/Bird/Bird using Guid(f6e3e722c0f73e041a9927a2905f4f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e61d45f45de5fceb8de34800c9cc002') in 0.000573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.607349 seconds.
+  path: Assets/Animations/OGFB_Animations/Bird/New Folder
+  artifactKey: Guid(b49da34f91ff8004093d78b5ca91f952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/OGFB_Animations/Bird/New Folder using Guid(b49da34f91ff8004093d78b5ca91f952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5912442a8c5458326a24d8ef45566f7') in 0.000610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.962300 seconds.
+  path: Assets/Animations/OGFB_Animations/Bird/ui
+  artifactKey: Guid(b49da34f91ff8004093d78b5ca91f952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/OGFB_Animations/Bird/ui using Guid(b49da34f91ff8004093d78b5ca91f952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76f1ea444d3f15788f9c2c017c76e590') in 0.000454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.379004 seconds.
+  path: Assets/Animations/OGFB_Animations/Bird/UI
+  artifactKey: Guid(b49da34f91ff8004093d78b5ca91f952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/OGFB_Animations/Bird/UI using Guid(b49da34f91ff8004093d78b5ca91f952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b3c9f8827c46511a31096a95214b589') in 0.000440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.917433 seconds.
+  path: Assets/Animations/OGFB_Animations/Bird/UI/NewBehaviourScript.cs
+  artifactKey: Guid(2fbb7ad01e87e5248a73d6068c796356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/OGFB_Animations/Bird/UI/NewBehaviourScript.cs using Guid(2fbb7ad01e87e5248a73d6068c796356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51a76d20a8f5d5d864d68f89274b059f') in 0.000558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 38.716926 seconds.
+  path: Assets/Animations/OGFB_Animations/Bird/UI/OGFB_UI_Overlay.controller
+  artifactKey: Guid(94b3b15c18c8b2549b7cf17b8d578b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/OGFB_Animations/Bird/UI/OGFB_UI_Overlay.controller using Guid(94b3b15c18c8b2549b7cf17b8d578b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e6e9d3146b304549ab09e32b4b46aa4') in 0.001768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Fumple Desktop\Development Projects\Unity Projects\GMTK-Jam-2023\GMTK-Game-Jam-2023\GMTK2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Fumple Desktop\Development Projects\Unity Projects\GMTK-Jam-2023\GMTK-Game-Jam-2023\GMTK2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.667 seconds
-Refreshing native plugins compatible for Editor in 29.02 ms, found 4 plugins.
-Native extension for UWP target not found
+Symbol file LoadedFromMemory doesn't match image C:\Users\EMall\Documents\GitHub\GMTK-Game-Jam-2023\GMTK2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\EMall\Documents\GitHub\GMTK-Game-Jam-2023\GMTK2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.987 seconds
+Refreshing native plugins compatible for Editor in 9.06 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
 Adding registration method Yarn.Unity.DefaultActions.RegisterActions
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
@@ -464,143 +1480,53 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 (Filename: ./Library/PackageCache/dev.yarnspinner.unity@80c1e26e8a/Runtime/Commands/Actions.cs Line: 606)
 
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.741 seconds
-Domain Reload Profiling: 4397ms
-	BeginReloadAssembly (263ms)
+- Finished resetting the current domain, in  1.202 seconds
+Domain Reload Profiling: 2185ms
+	BeginReloadAssembly (183ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (14ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (58ms)
-	RebuildCommonClasses (53ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (57ms)
-	LoadAllAssembliesAndSetupDomain (1267ms)
-		LoadAssemblies (835ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (712ms)
+		LoadAssemblies (399ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (537ms)
-			TypeCache.Refresh (526ms)
-				TypeCache.ScanAssembly (507ms)
-			ScanForSourceGeneratedMonoScriptInfo (5ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (2742ms)
+		AnalyzeDomain (370ms)
+			TypeCache.Refresh (355ms)
+				TypeCache.ScanAssembly (338ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1202ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (907ms)
+		SetupLoadedEditorAssemblies (627ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (51ms)
-			SetLoadedEditorAssemblies (10ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (240ms)
-			ProcessInitializeOnLoadAttributes (556ms)
-			ProcessInitializeOnLoadMethodAttributes (45ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
-Refreshing native plugins compatible for Editor in 28.52 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4627 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 61 unused Assets / (49.6 KB). Loaded Objects now: 5114.
-Memory consumption went from 158.0 MB to 157.9 MB.
-Total: 4.792800 ms (FindLiveObjects: 0.381300 ms CreateObjectMapping: 0.353800 ms MarkObjects: 3.935900 ms  DeleteObjects: 0.120600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Fumple Desktop\Development Projects\Unity Projects\GMTK-Jam-2023\GMTK-Game-Jam-2023\GMTK2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Fumple Desktop\Development Projects\Unity Projects\GMTK-Jam-2023\GMTK-Game-Jam-2023\GMTK2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  2.334 seconds
-Refreshing native plugins compatible for Editor in 60.84 ms, found 4 plugins.
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Adding registration method Yarn.Unity.DefaultActions.RegisterActions
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Yarn.Unity.Actions:AddRegistrationMethod (System.Action`1<Yarn.Unity.IActionRegistration>) (at ./Library/PackageCache/dev.yarnspinner.unity@80c1e26e8a/Runtime/Commands/Actions.cs:606)
-Yarn.Unity.DefaultActions:AddRegisterFunction () (at ./Library/PackageCache/dev.yarnspinner.unity@80c1e26e8a/Runtime/Commands/DefaultActions.cs:18)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: ./Library/PackageCache/dev.yarnspinner.unity@80c1e26e8a/Runtime/Commands/Actions.cs Line: 606)
-
-Adding registration method Yarn.Unity.Generated.ActionRegistration.RegisterActions
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Yarn.Unity.Actions:AddRegistrationMethod (System.Action`1<Yarn.Unity.IActionRegistration>) (at ./Library/PackageCache/dev.yarnspinner.unity@80c1e26e8a/Runtime/Commands/Actions.cs:606)
-Yarn.Unity.Generated.ActionRegistration:AddRegisterFunction () (at ./YarnSpinner.Unity.SourceCodeGenerator/ActionRegistrationSourceGenerator/YarnActionRegistration-YarnSpinnerTests.CommandsInAnAssemblyDefinition.Generated.cs:12)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: ./Library/PackageCache/dev.yarnspinner.unity@80c1e26e8a/Runtime/Commands/Actions.cs Line: 606)
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  4.628 seconds
-Domain Reload Profiling: 6950ms
-	BeginReloadAssembly (271ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (16ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (70ms)
-	RebuildCommonClasses (48ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (62ms)
-	LoadAllAssembliesAndSetupDomain (1925ms)
-		LoadAssemblies (847ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1192ms)
-			TypeCache.Refresh (1179ms)
-				TypeCache.ScanAssembly (1152ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (4629ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1653ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (64ms)
-			SetLoadedEditorAssemblies (7ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (273ms)
-			ProcessInitializeOnLoadAttributes (1238ms)
-			ProcessInitializeOnLoadMethodAttributes (62ms)
+			BeforeProcessingInitializeOnLoad (111ms)
+			ProcessInitializeOnLoadAttributes (458ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
 			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (3ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (25ms)
-Refreshing native plugins compatible for Editor in 28.83 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (11ms)
+Shader '2DxFX/AL/4Gradients': fallback shader 'Sprites-Defaultt' not found
+Shader '2DxFX/AL/4Gradients': fallback shader 'Sprites-Defaultt' not found
+Refreshing native plugins compatible for Editor in 8.70 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4627 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 61 unused Assets / (49.8 KB). Loaded Objects now: 5118.
-Memory consumption went from 158.0 MB to 157.9 MB.
-Total: 4.963500 ms (FindLiveObjects: 0.367000 ms CreateObjectMapping: 0.428300 ms MarkObjects: 4.040900 ms  DeleteObjects: 0.126000 ms)
+Unloading 5196 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 239 unused Assets / (19.4 MB). Loaded Objects now: 5569.
+Memory consumption went from 249.4 MB to 229.9 MB.
+Total: 10.798500 ms (FindLiveObjects: 0.484500 ms CreateObjectMapping: 0.169100 ms MarkObjects: 3.206200 ms  DeleteObjects: 6.937700 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
@@ -612,281 +1538,34 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Fumple Desktop\Development Projects\Unity Projects\GMTK-Jam-2023\GMTK-Game-Jam-2023\GMTK2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Fumple Desktop\Development Projects\Unity Projects\GMTK-Jam-2023\GMTK-Game-Jam-2023\GMTK2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  2.580 seconds
-Refreshing native plugins compatible for Editor in 67.21 ms, found 4 plugins.
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Adding registration method Yarn.Unity.DefaultActions.RegisterActions
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Yarn.Unity.Actions:AddRegistrationMethod (System.Action`1<Yarn.Unity.IActionRegistration>) (at ./Library/PackageCache/dev.yarnspinner.unity@80c1e26e8a/Runtime/Commands/Actions.cs:606)
-Yarn.Unity.DefaultActions:AddRegisterFunction () (at ./Library/PackageCache/dev.yarnspinner.unity@80c1e26e8a/Runtime/Commands/DefaultActions.cs:18)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: ./Library/PackageCache/dev.yarnspinner.unity@80c1e26e8a/Runtime/Commands/Actions.cs Line: 606)
-
-Adding registration method Yarn.Unity.Generated.ActionRegistration.RegisterActions
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Yarn.Unity.Actions:AddRegistrationMethod (System.Action`1<Yarn.Unity.IActionRegistration>) (at ./Library/PackageCache/dev.yarnspinner.unity@80c1e26e8a/Runtime/Commands/Actions.cs:606)
-Yarn.Unity.Generated.ActionRegistration:AddRegisterFunction () (at ./YarnSpinner.Unity.SourceCodeGenerator/ActionRegistrationSourceGenerator/YarnActionRegistration-YarnSpinnerTests.CommandsInAnAssemblyDefinition.Generated.cs:12)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: ./Library/PackageCache/dev.yarnspinner.unity@80c1e26e8a/Runtime/Commands/Actions.cs Line: 606)
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  4.368 seconds
-Domain Reload Profiling: 6934ms
-	BeginReloadAssembly (299ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (21ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (66ms)
-	RebuildCommonClasses (49ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (69ms)
-	LoadAllAssembliesAndSetupDomain (2131ms)
-		LoadAssemblies (971ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1292ms)
-			TypeCache.Refresh (1277ms)
-				TypeCache.ScanAssembly (1244ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (4369ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1726ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (62ms)
-			SetLoadedEditorAssemblies (9ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (250ms)
-			ProcessInitializeOnLoadAttributes (1334ms)
-			ProcessInitializeOnLoadMethodAttributes (65ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (25ms)
-Refreshing native plugins compatible for Editor in 28.60 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4627 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 61 unused Assets / (49.7 KB). Loaded Objects now: 5122.
-Memory consumption went from 158.0 MB to 157.9 MB.
-Total: 5.543500 ms (FindLiveObjects: 0.365700 ms CreateObjectMapping: 0.486200 ms MarkObjects: 4.540000 ms  DeleteObjects: 0.150500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 1150.900439 seconds.
+  path: Assets/ScriptableObjects
+  artifactKey: Guid(f794527b28fadc9478ebd7c0b67fcd96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects using Guid(f794527b28fadc9478ebd7c0b67fcd96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b76e017f45e11a8b34a0c110f101c56e') in 0.002095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Fumple Desktop\Development Projects\Unity Projects\GMTK-Jam-2023\GMTK-Game-Jam-2023\GMTK2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Fumple Desktop\Development Projects\Unity Projects\GMTK-Jam-2023\GMTK-Game-Jam-2023\GMTK2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.828 seconds
-Refreshing native plugins compatible for Editor in 107.99 ms, found 4 plugins.
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Adding registration method Yarn.Unity.DefaultActions.RegisterActions
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Yarn.Unity.Actions:AddRegistrationMethod (System.Action`1<Yarn.Unity.IActionRegistration>) (at ./Library/PackageCache/dev.yarnspinner.unity@80c1e26e8a/Runtime/Commands/Actions.cs:606)
-Yarn.Unity.DefaultActions:AddRegisterFunction () (at ./Library/PackageCache/dev.yarnspinner.unity@80c1e26e8a/Runtime/Commands/DefaultActions.cs:18)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: ./Library/PackageCache/dev.yarnspinner.unity@80c1e26e8a/Runtime/Commands/Actions.cs Line: 606)
-
-Adding registration method Yarn.Unity.Generated.ActionRegistration.RegisterActions
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Yarn.Unity.Actions:AddRegistrationMethod (System.Action`1<Yarn.Unity.IActionRegistration>) (at ./Library/PackageCache/dev.yarnspinner.unity@80c1e26e8a/Runtime/Commands/Actions.cs:606)
-Yarn.Unity.Generated.ActionRegistration:AddRegisterFunction () (at ./YarnSpinner.Unity.SourceCodeGenerator/ActionRegistrationSourceGenerator/YarnActionRegistration-YarnSpinnerTests.CommandsInAnAssemblyDefinition.Generated.cs:12)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: ./Library/PackageCache/dev.yarnspinner.unity@80c1e26e8a/Runtime/Commands/Actions.cs Line: 606)
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.191 seconds
-Domain Reload Profiling: 4018ms
-	BeginReloadAssembly (255ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (17ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (66ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (58ms)
-	LoadAllAssembliesAndSetupDomain (1452ms)
-		LoadAssemblies (813ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (725ms)
-			TypeCache.Refresh (683ms)
-				TypeCache.ScanAssembly (653ms)
-			ScanForSourceGeneratedMonoScriptInfo (12ms)
-			ResolveRequiredComponents (30ms)
-	FinalizeReload (2192ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (848ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (55ms)
-			SetLoadedEditorAssemblies (8ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (178ms)
-			ProcessInitializeOnLoadAttributes (561ms)
-			ProcessInitializeOnLoadMethodAttributes (39ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
-Refreshing native plugins compatible for Editor in 28.14 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4627 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 61 unused Assets / (49.6 KB). Loaded Objects now: 5126.
-Memory consumption went from 158.0 MB to 157.9 MB.
-Total: 4.795400 ms (FindLiveObjects: 0.390600 ms CreateObjectMapping: 0.411500 ms MarkObjects: 3.895300 ms  DeleteObjects: 0.096500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 37.855589 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(c07f36832d7db374cb472ab7b9663b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(c07f36832d7db374cb472ab7b9663b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0240ef09c8bec3753748244d6c8a9276') in 0.000444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Fumple Desktop\Development Projects\Unity Projects\GMTK-Jam-2023\GMTK-Game-Jam-2023\GMTK2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Fumple Desktop\Development Projects\Unity Projects\GMTK-Jam-2023\GMTK-Game-Jam-2023\GMTK2023\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  2.411 seconds
-Refreshing native plugins compatible for Editor in 63.51 ms, found 4 plugins.
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Adding registration method Yarn.Unity.DefaultActions.RegisterActions
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Yarn.Unity.Actions:AddRegistrationMethod (System.Action`1<Yarn.Unity.IActionRegistration>) (at ./Library/PackageCache/dev.yarnspinner.unity@80c1e26e8a/Runtime/Commands/Actions.cs:606)
-Yarn.Unity.DefaultActions:AddRegisterFunction () (at ./Library/PackageCache/dev.yarnspinner.unity@80c1e26e8a/Runtime/Commands/DefaultActions.cs:18)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: ./Library/PackageCache/dev.yarnspinner.unity@80c1e26e8a/Runtime/Commands/Actions.cs Line: 606)
-
-Adding registration method Yarn.Unity.Generated.ActionRegistration.RegisterActions
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Yarn.Unity.Actions:AddRegistrationMethod (System.Action`1<Yarn.Unity.IActionRegistration>) (at ./Library/PackageCache/dev.yarnspinner.unity@80c1e26e8a/Runtime/Commands/Actions.cs:606)
-Yarn.Unity.Generated.ActionRegistration:AddRegisterFunction () (at ./YarnSpinner.Unity.SourceCodeGenerator/ActionRegistrationSourceGenerator/YarnActionRegistration-YarnSpinnerTests.CommandsInAnAssemblyDefinition.Generated.cs:12)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: ./Library/PackageCache/dev.yarnspinner.unity@80c1e26e8a/Runtime/Commands/Actions.cs Line: 606)
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  4.372 seconds
-Domain Reload Profiling: 6771ms
-	BeginReloadAssembly (257ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (17ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (62ms)
-	RebuildCommonClasses (44ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (65ms)
-	LoadAllAssembliesAndSetupDomain (2018ms)
-		LoadAssemblies (866ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1256ms)
-			TypeCache.Refresh (1242ms)
-				TypeCache.ScanAssembly (1214ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (4372ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1706ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (66ms)
-			SetLoadedEditorAssemblies (10ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (207ms)
-			ProcessInitializeOnLoadAttributes (1328ms)
-			ProcessInitializeOnLoadMethodAttributes (86ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (33ms)
-Refreshing native plugins compatible for Editor in 31.43 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4627 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 61 unused Assets / (49.8 KB). Loaded Objects now: 5130.
-Memory consumption went from 158.0 MB to 158.0 MB.
-Total: 6.356300 ms (FindLiveObjects: 0.960300 ms CreateObjectMapping: 0.941500 ms MarkObjects: 4.351300 ms  DeleteObjects: 0.102200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 9.155568 seconds.
+  path: Assets/Scenes/Dev_Scenes
+  artifactKey: Guid(8dc347a7d30fedc479affe49ac66c5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Dev_Scenes using Guid(8dc347a7d30fedc479affe49ac66c5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58cf9cb6c5ba1cae2e5b09e203ad0612') in 0.000599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 15.451745 seconds.
+  path: Assets/Scenes/Dev_Scenes/Effects_Scene.unity
+  artifactKey: Guid(768ce4842c4230a418d62522f3495d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Dev_Scenes/Effects_Scene.unity using Guid(768ce4842c4230a418d62522f3495d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '873fc98bc87cc31b80150ca782bb261c') in 0.000550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
