@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5824603060368721235
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6436876764085817031}
+  - component: {fileID: 5375121672694035757}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6436876764085817031
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824603060368721235}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.1368225, y: 2.3389099, z: -0.08238793}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5375121672694035757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824603060368721235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff481ab57faa85f44a61e89f6531f306, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainMixer: {fileID: 24300002, guid: 53c8c860f67b44f4486a2ef15ab413c0, type: 2}
+  music:
+  - name: GoofyAhSong
+    clip: {fileID: 8300000, guid: 4279ed7fe4cf47f48aac96e481e72524, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  sounds:
+  - name: DefeatedMale
+    clip: {fileID: 8300000, guid: 782ddc97234879148b181a6b1055f7ac, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: DeskSmash
+    clip: {fileID: 8300000, guid: 084087d8486137a4ea9aaa45017d8ae2, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: FastHeartBeat
+    clip: {fileID: 8300000, guid: 1f37ee9afad83864684ee57082262e99, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: FlappyDeath
+    clip: {fileID: 8300000, guid: 59b8594f128e24d49a8b1e0cba56dddf, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: FlappyFlap
+    clip: {fileID: 8300000, guid: 697a7beaa213fdf43a972e9d0f9fc613, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MaleCutsey
+    clip: {fileID: 8300000, guid: 3cae1185acbf3dd42846e05b1069de2d, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MaleInterest1
+    clip: {fileID: 8300000, guid: 793294d3b1f75fc42ab1d6b517506675, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MaleInterest2
+    clip: {fileID: 8300000, guid: 85bd93a9bc0c94a4fb77182be88d9c47, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MaleSigh
+    clip: {fileID: 8300000, guid: 542dcd41e6958aa4ab39b89ab0dc805f, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MaleSurprise
+    clip: {fileID: 8300000, guid: d41d6cba10d48ca499d89a920e990a78, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MediumHeartBeat
+    clip: {fileID: 8300000, guid: aeea71950e57798448d94f775384e013, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: ShyMaleGrunt
+    clip: {fileID: 8300000, guid: 7e58fd7311a1d7b42995c813bff4d17f, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SlowHeartBeat
+    clip: {fileID: 8300000, guid: 406b1f4880aaf264cbd76ed783795ab1, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MenuReturn
+    clip: {fileID: 8300000, guid: 1561d2763e33c10498c0a6e13024b82f, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MenuSelect
+    clip: {fileID: 8300000, guid: c067b01b527622d48af5e3290d318b5a, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  curTrack:
+    name: 
+    clip: {fileID: 0}
+    volume: 0
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  startTrack: 
+  dialogueRunner: {fileID: 0}

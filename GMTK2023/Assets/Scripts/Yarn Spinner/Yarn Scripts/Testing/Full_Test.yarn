@@ -6,6 +6,7 @@ position: 17,-272
 {Name()}
 <<Enter "Middle" "Squarey">>
 <<RunScreenFX "Love">>
+<<Play "DefeatedMale">>
 <<jump BobChoice>>
 ===
 
