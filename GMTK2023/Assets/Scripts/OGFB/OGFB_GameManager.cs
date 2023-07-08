@@ -27,9 +27,6 @@ namespace OGFB
         private void Awake()
         {
             if(instance == null) instance = this;
-
-            //Debug: Show for now
-            uiAnim.SetBool("Show", true);
         }
 
         private void Update()
@@ -44,6 +41,12 @@ namespace OGFB
                 {
                     StartGame();
                 }
+            }
+
+            //Show/Hide Phone
+            if(Mouse.current.rightButton.wasPressedThisFrame)
+            {
+                SetPhoneShown(!uiAnim.GetBool("Show"));
             }
         }
 
@@ -87,6 +90,15 @@ namespace OGFB
             moveGround.SetMoving(true);
             ResetScore();
             gameRunning = false;
+        }
+
+        //Phone interaction
+        public void SetPhoneShown(bool set)
+        {
+            if (!set)
+                ResetGame();
+
+            uiAnim.SetBool("Show", set);
         }
     }
 }
