@@ -21,6 +21,7 @@ namespace OGFB
         [SerializeField] private OGFB_PipePooler pipePooler;
         [SerializeField] private OGFB_MoveGround moveGround;
 
+        private bool gameRunning;
         private int score;
 
         private void Awake()
@@ -33,10 +34,16 @@ namespace OGFB
 
         private void Update()
         {
-            if(ui_GameOverPage.activeInHierarchy)
+            if(Keyboard.current.spaceKey.wasPressedThisFrame)
             {
-                if (Mouse.current.leftButton.wasPressedThisFrame)
+                if (ui_GameOverPage.activeInHierarchy)
+                {
                     ResetGame();
+                }
+                else if (!gameRunning && uiAnim.GetBool("Show"))
+                {
+                    StartGame();
+                }
             }
         }
 
@@ -52,11 +59,24 @@ namespace OGFB
             scoreText.text = score.ToString();
         }
 
+        public int GetScore()
+        {
+            return score;
+        }
+
         public void GameOver()
         {
             ui_GameOverPage.SetActive(true);
             pipePooler.StopPipes();
             moveGround.SetMoving(false);
+        }
+
+        public void StartGame()
+        {
+            gameRunning = true;
+            birdScript.SetPhysicsActive(true);
+            birdScript.Flap();
+            pipePooler.SetIsSpawning(true);
         }
 
         public void ResetGame()
@@ -66,6 +86,7 @@ namespace OGFB
             ui_GameOverPage.SetActive(false);
             moveGround.SetMoving(true);
             ResetScore();
+            gameRunning = false;
         }
     }
 }

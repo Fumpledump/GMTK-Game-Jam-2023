@@ -11,6 +11,7 @@ namespace OGFB
         [SerializeField] private float maxSpawnTime = 1.5f;
         [SerializeField] private float heightRange = 0.45f;
 
+        private bool isSpawning;
         private float timer;
 
         //Start/Endpoints
@@ -20,18 +21,20 @@ namespace OGFB
 
         private void Start()
         {
-            SpawnPipe();
         }
 
         private void Update()
         {
-            if(timer > maxSpawnTime)
+            if(isSpawning)
             {
-                SpawnPipe();
-                timer = 0;
-            }
+                if (timer > maxSpawnTime)
+                {
+                    SpawnPipe();
+                    timer = 0;
+                }
 
-            timer += Time.deltaTime;
+                timer += Time.deltaTime;
+            }
         }
 
         private void SpawnPipe()
@@ -54,6 +57,11 @@ namespace OGFB
             if (lastSpawnedPipeIndex >= pipePool.Count) lastSpawnedPipeIndex = 0;
         }
 
+        public void SetIsSpawning(bool set)
+        {
+            isSpawning = set;
+        }
+
         public void StopPipes()
         {
             foreach(GameObject pipe in pipePool)
@@ -62,6 +70,7 @@ namespace OGFB
                 if (movePipeScript)
                     movePipeScript.SetMoving(false);
             }
+
         }
 
         public void ResetPipes()
@@ -73,6 +82,7 @@ namespace OGFB
                 if (movePipeScript)
                     movePipeScript.SetMoving(true);
             }
+            SetIsSpawning(false);
         }
     }
 }
