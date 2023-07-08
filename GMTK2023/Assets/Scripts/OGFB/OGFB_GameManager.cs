@@ -21,22 +21,32 @@ namespace OGFB
         [SerializeField] private OGFB_PipePooler pipePooler;
         [SerializeField] private OGFB_MoveGround moveGround;
 
+        private bool gameRunning;
         private int score;
 
         private void Awake()
         {
             if(instance == null) instance = this;
-
-            //Debug: Show for now
-            uiAnim.SetBool("Show", true);
         }
 
         private void Update()
         {
-            if(ui_GameOverPage.activeInHierarchy)
+            if(Keyboard.current.spaceKey.wasPressedThisFrame)
             {
-                if (Mouse.current.leftButton.wasPressedThisFrame)
+                if (ui_GameOverPage.activeInHierarchy)
+                {
                     ResetGame();
+                }
+                else if (!gameRunning && uiAnim.GetBool("Show"))
+                {
+                    StartGame();
+                }
+            }
+
+            //Show/Hide Phone
+            if(Mouse.current.rightButton.wasPressedThisFrame)
+            {
+                SetPhoneShown(!uiAnim.GetBool("Show"));
             }
         }
 
@@ -52,11 +62,24 @@ namespace OGFB
             scoreText.text = score.ToString();
         }
 
+        public int GetScore()
+        {
+            return score;
+        }
+
         public void GameOver()
         {
             ui_GameOverPage.SetActive(true);
             pipePooler.StopPipes();
             moveGround.SetMoving(false);
+        }
+
+        public void StartGame()
+        {
+            gameRunning = true;
+            birdScript.SetPhysicsActive(true);
+            birdScript.Flap();
+            pipePooler.SetIsSpawning(true);
         }
 
         public void ResetGame()
@@ -66,6 +89,16 @@ namespace OGFB
             ui_GameOverPage.SetActive(false);
             moveGround.SetMoving(true);
             ResetScore();
+            gameRunning = false;
+        }
+
+        //Phone interaction
+        public void SetPhoneShown(bool set)
+        {
+            if (!set)
+                ResetGame();
+
+            uiAnim.SetBool("Show", set);
         }
     }
 }

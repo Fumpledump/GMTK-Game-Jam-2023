@@ -3,12 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - OGFB_Barrier
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - FX
   - Water
   - UI
   - 
