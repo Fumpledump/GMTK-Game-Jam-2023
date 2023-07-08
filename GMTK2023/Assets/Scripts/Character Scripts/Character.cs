@@ -158,8 +158,8 @@ public class Character : MonoBehaviour {
             ch.ExitNotify(this, this.position);
 
         if (!(state == State.Disappearing && this.position == position))
-            AdjustExit();
-        
+            transform.position = new(exitTargets[position].x, exitTargets[position].y, transform.position.z);
+
         SetState(State.Appearing);
         this.position = position;
     }
@@ -174,7 +174,7 @@ public class Character : MonoBehaviour {
             ch.ExitNotify(this, this.position);
 
         if (!(state == State.Appearing && this.position == position))
-            AdjustEnter();
+            transform.position = new(entranceTargets[position].x, entranceTargets[position].y, transform.position.z);
 
         SetState(State.Disappearing);
         this.position = position;
