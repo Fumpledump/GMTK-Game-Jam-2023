@@ -3,13 +3,30 @@ title: Full_Test
 tags:
 position: 17,-272
 ---
+{Name()}
+<<jump BobChoice>>
+===
+
+title: BobChoice
+position: 12,87
+---
 Bob:Yo we really do be testing the dialogue. What do you think?
 -> Pretty cool stuff.
     <<jump PositiveResponse>>
--> Ehhhh
-    <<jump NegativeResponse>>
--> AAAAAAAAH
-    <<jump LoudResponse>>
+-> Ehhhh (5 Flappy Bird Points)
+    <<if FlappyPoints() == 5>>
+        <<jump NegativeResponse>>
+    <<else>>
+        OPTION LOCKED! GET GUD!
+        <<jump BobChoice>>
+    <<endif>>
+-> AAAAAAAAH (10 Flappy Bird Points)
+    <<if FlappyPoints() == 10>>
+        <<jump LoudResponse>>
+    <<else>>
+        OPTION LOCKED! GET GUD!
+        <<jump BobChoice>>
+    <<endif>>
 ===
 
 title: PositiveResponse
