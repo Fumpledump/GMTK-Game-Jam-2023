@@ -22,6 +22,8 @@ namespace OGFB
         [SerializeField] private OGFB_MoveGround moveGround;
 
         private bool gameRunning;
+        private bool allowControl;
+
         private int score;
 
         private void Awake()
@@ -31,20 +33,9 @@ namespace OGFB
 
         private void Update()
         {
-            if(Keyboard.current.spaceKey.wasPressedThisFrame)
-            {
-                if (ui_GameOverPage.activeInHierarchy)
-                {
-                    ResetGame();
-                }
-                else if (!gameRunning && uiAnim.GetBool("Show"))
-                {
-                    StartGame();
-                }
-            }
-
-            //Show/Hide Phone
-            if(Mouse.current.rightButton.wasPressedThisFrame)
+            //Show/Hide Phone (Shouldnt be available when allow control is off)
+            if(allowControl && Mouse.current.rightButton.wasPressedThisFrame 
+                || !allowControl && uiAnim.GetBool("Show"))
             {
                 SetPhoneShown(!uiAnim.GetBool("Show"));
             }
@@ -78,7 +69,7 @@ namespace OGFB
         {
             gameRunning = true;
             birdScript.SetPhysicsActive(true);
-            birdScript.Flap();
+            birdScript.Flap(true);
             pipePooler.SetIsSpawning(true);
         }
 
@@ -100,5 +91,22 @@ namespace OGFB
 
             uiAnim.SetBool("Show", set);
         }
+
+        public void OnPhonePress()
+        {
+            if (ui_GameOverPage.activeInHierarchy)
+            {
+                ResetGame();
+            }
+            else if (!gameRunning && uiAnim.GetBool("Show"))
+            {
+                StartGame();
+            }
+        }
+
+        public void SetAllowControl(bool set)
+        {
+            allowControl = set;
+        } 
     }
 }

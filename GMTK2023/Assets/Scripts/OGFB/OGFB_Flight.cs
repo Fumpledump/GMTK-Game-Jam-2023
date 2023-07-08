@@ -29,10 +29,6 @@ namespace OGFB
 
         private void Update()
         {
-            if (physicsActive && isControllable && Keyboard.current.spaceKey.wasPressedThisFrame)
-            {
-                Flap();
-            }
         }
 
         private void FixedUpdate()
@@ -49,9 +45,12 @@ namespace OGFB
             anim.SetBool("Active", true);
         }
 
-        public void Flap()
+        public void Flap(bool force)
         {
-            rb.velocity = Vector2.up * vel;
+            if (physicsActive && isControllable || force)
+            {
+                rb.velocity = Vector2.up * vel;
+            }
         }
 
         public void SetPhysicsActive(bool set)
