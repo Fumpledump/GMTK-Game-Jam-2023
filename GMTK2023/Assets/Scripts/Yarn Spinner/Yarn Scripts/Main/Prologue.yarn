@@ -112,91 +112,80 @@ Fruit Ninja: “Okay, that might just be the 3rd saddest thing I’ve heard toda
 Fruit Ninja: “Anyways, I just wanted to let you know, if you’re thinking about using this freetime to get with Flappy-”
 Fruit Ninja: “The two of us will have trouble~”
 
-404:
-“(uh-oh, this is bad!)”
+<<jump Fruit_Ninja_Choice>>>
+===
 
-Options: 
-404, please don’t aggravate the weaponized ninja in my name. (Free)
-Why did you say that threat with a flirtatious intonation? (5 points)
-What kind of trouble? Are you threatening me with violence? (10 points)
+title: Fruit_Ninja_Choice
+tags:
+---
+404: “(uh-oh, this is bad!)”
+-> 404, please don’t aggravate the weaponized ninja in my name. (Free)
+    Fruit Ninja: “Ha! I knew I was right!” 
+    Fruit Ninja: “Damn, I am just so smart.”
+    {Name()}: “Except, I never said I liked him! 404 is just putting words in my mouth for some reason.”
+    <<jump Encounter>>
+-> Why did you say that threat with a flirtatious intonation? (5 points)
+    <<if FlappyPoints() >= 5>>
+        Fruit Ninja: “Wait what?! T-that was supposed to be my scary sexy tone, not a sexy sexy tone.”
+        Fruit Ninja: “W-why are you two looking at me like that? There’s a MAJOR difference, OK?”
+        <<jump Encounter>>
+    <<else>>
+        OPTION LOCKED! GET GUD!
+        <<jump Fruit_Ninja_Choice>>>
+    <<endif>>
+-> What kind of trouble? Are you threatening me with violence? (10 points)  
+    <<if FlappyPoints() >= 10>>
+        Fruit Ninja: “Ah shit.”
+        Fruit Ninja: “No, not really. I was just kinda hoping being the girl with visible weapons and bombs at school would earn me a kind of unspoken clout, ya know?”
+        Fruit Ninja: “Like, 'don’t get on her bad side' and stuff?”
+        Fruit Ninja: “No? I don’t have that effect? Well… shit.”
+        <<jump Encounter>>
+    <<else>>
+        OPTION LOCKED! GET GUD!
+        <<jump Fruit_Ninja_Choice>>>
+    <<endif>>
+===
 
-1 - 
-Fruit Ninja:
-“Ha! I knew I was right!” 
-“Damn, I am just so smart.”
+title: Encounter
+tags:
+---
+Fruit Ninja: “Anywas, Flappy is a total MSSI. (mega sexy succssful icon), so it’s just natrual we’d end up together.”
+Fruit Ninja: “Besides, you’re nothing more than a hazard, you’d just hurt him if you got too close~” 
 
-Pipe: 
-“Except, I never said I liked him! 404 is just putting words in my mouth for some reason.”
+Harsh, but true.
+Flappy is the reason I got into this school in the first place.
+Our game became mega popular, like MSSI level of popular.
+So popular, even a nobody hazard like me was considered popular enough to be let in.
+But the truth is, I’m not popular at all. I’m just a green pipe meant to blend into the background.
+... Ugh, now I’m just depressed and feeling sorry for myself.
+{Name()}:“I should get going. There’s still a lot of studying to do”
 
-2 - 
-Fruit Ninja:
-“Wait what?! T-that was supposed to be my scary sexy tone, not a sexy sexy tone.”
-“W-why are you two looking at me like that? There’s a MAJOR difference, OK?”
+404: “W-wait!”
+404: “L-let me come with you.”
 
-3 - 
-Fruit Ninja:
-“Ah shit.”
-“No, not really. I was just kinda hoping being the girl with visible weapons and bombs at school would earn me a kind of unspoken clout, ya know?”
-“Like, “don’t get on her bad side” and stuff?”
-“No? I don’t have that effect? Well… shit.”  
+{Name()}: “No, it’s too cold in the library. Besides, you should use this time to garden” 
 
-1, 2, 3: 
-Fruit Ninja:
-“Anywas, Flappy is a total MSSI. (mega sexy succssful icon), so it’s just natrual we’d end up together.”
-“Besides, you’re nothing more than a hazard, you’d just hurt him if you got too close~” 
+404: “o-okay”
+404: “See you later then” 
 
-Pipe:
-(Harsh, but true)
-(Flappy is the reason I got into this school in the first place.)
-(Our game became mega popular, like MSSI level of popular)
-(So popular, even a nobody hazard like me was considered popular enough to be let in)
-(But the truth is, I’m not popular at all. I’m just a green pipe meant to blend into the background.)
-(... Ugh, now I’m just depressed and feeling sorry for myself.)
-“I should get going. There’s still a lot of studying to do”
+Fruit Ninja: “Sayonara~”
 
-404:
-“W-wait!”
-“L-let me come with you.”
+: Act 1: Encounter
 
-Pipe:
-“No, it’s too cold in the library. Besides, you should use this time to garden” 
+: > January 6th, Library, 9:40 am 
 
-404:
-“o-okay”
-“See you later then” 
+I’ve been here for over an hour, and it’s stayed surprisingly empty the whole time.)
+With finals right around the corner, you’d expect to see more students focusing on their students.
+Maybe everyone is just working towards that “thing they need”.
+So I guess I’m the real fool for wasting what little time I have left of highschool studying for classes I don’t even care about.
+…
+I guess if there was one thing I wish I could have done-
+No, that’s a stupid thought. I’m sitting alone in this big empty library, it’s too late for me to fall in love.
+Well, if I suppose there’s one person I could fall in love with…
+Stupid idea. I’m just letting Ninja’s idiot threats get to me
+Besides, there’s no way he’d even-
 
-Fruit Ninja:
-“Sayonara~”
+Flappy: “Hello there”
 
-Act 1: Encounter
-
-> January 6th, Library, 9:40 am 
-
-Pipe:
-(I’ve been here for over an hour, and it’s stayed surprisingly empty the whole time.) 
-(With finals right around the corner, you’d expect to see more students focusing on their students.) 
-(Maybe everyone is just working towards that “thing they need”.)
-(So I guess I’m the real fool for wasting what little time I have left of highschool studying for classes I don’t even care about.)
-(…)
-(I guess if there was one thing I wish I could have done-) 
-(No, that’s a stupid thought. I’m sitting alone in this big empty library, it’s too late for me to fall in love.)
-(Well, if I suppose there’s one person I could fall in love with…)
-(Stupid idea. I’m just letting Ninja’s idiot threats get to me)
-(Besides, there’s no way he’d even-)
-
-Flappy:
-“Hello there ✨” 
-
-Pipe:
-(I’ve be
-
-
-Future Lines:
-
-Flappy:
-“Telling me not to be with you is like telling Cool Ranch not to be the most popular kid in school!”
-
-Pipe: 
-“But- you’re a total MSSI and, I’m just some nobody P.I.P.E”
-
+{Name()}: “F-flappy???”
 ===
