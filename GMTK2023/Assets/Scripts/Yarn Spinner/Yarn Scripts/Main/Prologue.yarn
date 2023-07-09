@@ -1,7 +1,7 @@
 ﻿title: Prologue
 tags:
 ---
-//<<SetSprite "Flappy" "flappy_cheerful">>
+<<jump Act1>>
 
 <<SetBackground "School">>
  : > January 6th, 7:45 AM, School Exterior
@@ -180,6 +180,8 @@ Fruit Ninja: “The two of us will have trouble~”
 <<jump Fruit_Ninja_Choice>>>
 ===
 
+
+
 title: Fruit_Ninja_Choice
 tags:
 ---
@@ -220,6 +222,8 @@ tags:
     <<endif>>
 ===
 
+
+
 title: Encounter
 tags:
 ---
@@ -258,29 +262,176 @@ But the truth is, I’m not popular at all. I’m just a green pipe meant to ble
 
 Fruit Ninja: “Sayonara~”
 
-: Act 1: Encounter
+<<jump Act1>>
+===
 
+
+
+title: Act1
+tags:
+---
+<<RunScreenFX "None">>
+<<SetBackground "Club">>
 : > January 6th, Library, 9:40 am 
 
+<<if Name() == "Pipe-Kun">>
+    <<Enter "Middle" "BottomPipe">>
+<<else>>
+    <<Enter "Middle" "TopPipe">>
+<<endif>>
+
+<<RunScreenFX "Confused">>
 I’ve been here for over an hour, and it’s stayed surprisingly empty the whole time.
-With finals right around the corner, you’d expect to see more students focusing on their studies.
+<<RunScreenFX "None">>
+With finals right around the corner, you’d expect to see more students focusing on their students.
 Maybe everyone is just working towards that “thing they need”.
 So I guess I’m the real fool for wasting what little time I have left of highschool studying for classes I don’t even care about.
 …
+
+<<RunScreenFX "Heartbeat">>
+<<Play "SlowHeartBeat">>
+
 I guess if there was one thing I wish I could have done-
 
-<<RunScreenFX "Angry">>
+<<RunScreenFX "Extreme_Shock">>
 
 No, that’s a stupid thought. I’m sitting alone in this big empty library, it’s too late for me to fall in love.
+
 Well, if I suppose there’s one person I could fall in love with…
+
+<<RunScreenFX "Heartbeat">>
+<<Play "MediumHeartBeat">>
+
 Stupid idea. I’m just letting Ninja’s idiot threats get to me
 Besides, there’s no way he’d even-
 
-<<RunScreenFX "None">>
-
-Flappy: “Hello there”
+<<Exit "Middle">>
 
 <<RunScreenFX "Love">>
 
-{Name()}: “F-flappy???”
+<<Enter "Left" "Flappy">>
+<<SetSprite "Flappy" "flappy_cheerful">>
+<<Play "MaleCutsey">>
+
+Flappy: “Hello there”
+
+<<if Name() == "Pipe-Kun">>
+    <<Enter "Right" "BottomPipe">>
+<<else>>
+    <<Enter "Right" "TopPipe">>
+<<endif>>
+
+{Name()}: “F-Flappy-kun???”
+Sitting across from me was the most popular boy in school, Flappy Bird.
+Our app got pulled due to legal concerns, but his fame was so strong you wouldn’t even know it. 
+And why wouldn’t everyone love him? He’s clever, charming, handsome…
+A-anyways. The point is, he’s amazing, so what does he want from a nobody like me?
+{Name()}: “How long have you been sitting there?”
+
+<<SetSprite "Flappy" "flappy_soft">>
+
+Flappy: “For quite some time now.”
+<<Play "MaleInterest2">>
+Flappy: “You seemed busy internally monologuing, so I waited faithfully for you to stop.”
+
+<<RunScreenFX "Confused">>
+{Name()}: “Aren’t you… cold?”
+
+<<Play "MaleInterest1">>
+<<SetSprite "Flappy" "flappy_confused">>
+Flappy: “Whatever do you mean?”
+
+<<RunScreenFX "Suprised">>
+{Name()}: “Well, it’s just...”
+{Name()}: “It’s the middle of winter, and here you are, wearing nothing but a summertime floatie?” 
+
+<<SetSprite "Flappy" "flappy_happy">>
+<<RunScreenFX "None">>
+Flappy: “I’m a bird, silly! Have you ever seen a bird get cold?”
+
+{Name()}: “I guess not.”
+{Name()}: “Wait, don’t most birds fly south for the winter?” 
+
+<<SetSprite "Flappy" "flappy_cheerful">>
+Flappy: “So that they do!”
+<<Play "MaleSurprise">>
+<<RunScreenFX "Love">>
+Flappy: “I suppose this frigid weather must be why my exposed supple body screams in frozen agony.” 
+
+{Name()}: “Yeah, I guess so.”
+<<RunScreenFX "Saucy">>
+Damn, how can I NOT want to fuck him?
+{Name()}:“S-so, I guess you're going to fly down south now?”
+
+<<SetSprite "Flappy" "flappy_confused">>
+<<Play ShyMaleGrunt>>
+<<if Name() == "Pipe-Kun">>
+    Flappy: “No Bottom-Kun, I can’t fly away from my problems any more!”  
+<<else>>
+    Flappy: “No Top-Chan, I can’t fly away from my problems any more!”  
+<<endif>>
+
+<<RunScreenFX "Extreme_Shock">>
+
+{Name()}: “!!!”
+
+<<RunScreenFX "Love">>
+<<SetSprite "Flappy" "flappy_soft">>
+Flappy: “I’m tired of always narrowly avoiding you, I-” 
+Flappy: “I want to be with you Bottom-Kun/Top-Chan.” 
+Flappy: “I dream of feeling your cold, green, metallic casing against my feathers.”
+Flappy: “After hearing what Doodle said, I realized it doesn’t matter how far I fly if it means I can’t be with you.”
+
+<<Play "FastHeartBeat">>
+<<RunScreenFX "Saucy">>
+
+
+(Someone call a plumber, because I am FLOODING over here)
+{Name()}: “Flappy-Kun, I-”
+
+I’m… I’m kind of in the middle of studying here…
+If you really loved me, why are you just now telling me? (10 points)
+Oh man, Fruit Ninja is going to be PISSED. (20 points)
+1 - 
+Flappy:
+“Oh yeah, no problem.” 
+“What are we studying here, Nucleotides?”
+“They look mostly right, but I’m not sure how you got that answer for 5” 
+“Aaand 1-4, none of this makes any sense to me at all actually!”
+
+2 -
+Flappy:
+“I’ve always loved you, but the thing is-“
+“Flying through those narrow gaps is crazy addictive!” 
+“I get easily distracted and focused on little things like that.” 
+“It’s a character flaw!”
+
+3 -
+Flappy:
+“Whozat?“
+“Oh! You mean the baddie with the melons don’t you.”
+
+Pipe:
+(Melons? Plural?)
+
+Flappy:
+“Well you don’t have to worry about her, our love can triumph even the fiercest of anime femmes.” 
+
+1, 2, 3: 
+Pipe:
+“Listen, this is all just, really sudden.”
+
+Flappy:
+“Bottom-Kun/Top-Chan…”
+“Don’t you feel this love too?”
+
+Pipe:
+“I- I- I-”
+“I thought I’d have like 2 weeks to work this out!”
+“I need time to think!”
+(I hastily got up from my set and ran out the door)
+(I’m sure my face would have been bright red, but I’m just an animated pipe, and don’t even have a face much less blood flow.)
+
+Flappy:
+“Bottom-Kun/Top-Chan!”
 ===
