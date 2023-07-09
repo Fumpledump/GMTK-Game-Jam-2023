@@ -6,7 +6,7 @@ namespace OGFB
 {
     public class OGFB_MoveGround : MonoBehaviour
     {
-        private bool active = true;
+        [SerializeField] private bool active = true;
 
         [SerializeField] private float speed = 1f;
         [SerializeField] private float width = 6f;
@@ -20,6 +20,8 @@ namespace OGFB
             spriteRenderer = GetComponent<SpriteRenderer>();
 
             startSize = new Vector2(spriteRenderer.size.x, spriteRenderer.size.y);
+
+            SetMoving(active);
         }
 
         private void Update()

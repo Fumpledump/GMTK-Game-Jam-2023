@@ -69,7 +69,7 @@ namespace OGFB
                 if (movePipeScript)
                     movePipeScript.SetMoving(false);
             }
-
+            SetIsSpawning(false);
         }
 
         public void ResetPipes()

@@ -9,10 +9,12 @@ namespace OGFB
     {
         [SerializeField] private float speed = 0.65f;
 
-        private bool active = true;
+        [SerializeField] private bool active = true;
 
         private void Update()
         {
+            SetMoving(active);
+
             if(active)
                 transform.position += Vector3.left * speed * Time.deltaTime;
         }
