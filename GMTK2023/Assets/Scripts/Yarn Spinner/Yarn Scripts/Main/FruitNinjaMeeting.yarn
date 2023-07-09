@@ -1,5 +1,113 @@
 ﻿title: FruitNinjaMeeting
 tags:
 ---
+<<SetBackground "Hallway">>
+<<RunScreenFX "HideBlack">>
+
+<<Enter "Left" "Ninja">>
+<<Enter "Right" "Pipe-Kun">>
+
+<<RunScreenFX "Suprised">>
+Fruit Ninja: “Well Well Well”
+Fruit Ninja: “Look who decided to come rolling back.”
+Fruit Ninja: “I sure hope you aren’t here to pick a fight with me~”
+
+{Name()}: “No, not really”
+{Name()}: “I’m more of a coward personally.”
+
+<<SetSprite "Ninja" "ninja_disgust">>
+Fruit Ninja: “Well, good. Cutting through solid metal would be a real bitch on my knives.”
+
+Always a plus when my body deters would-be killers
+
+<<SetSprite "Ninja" "ninja_cool">>
+<<RunScreenFX "Cutesy">>
+Fruit Ninja: “So, if it’s not a fight of weapons, perhaps one of hearts?~”
+<<SetSprite "Ninja" "ninja_sexy">>
+<<RunScreenFX "Shock">>
+Fruit Ninja: “If you’re ready to formally challenge me for the heart of Flappy-Kun, then I accept!”
+Fruit Ninja: “But you should know who you’re dealing with, there hasn’t been a single battle I’ve lost,”
+<<SetSprite "Ninja" "ninja_yandere">>
+<<RunScreenFX "Extreme_Shock">>
+Fruit Ninja: “I hope you’re prepared for the hardest battle of your life!”
+
+{Name()}: “Flappy-kun already asked me out.” 
+
+<<SetSprite "Ninja" "ninja_disgust">>
+Fruit Ninja: "Well goddammit."
+<<SetSprite "Ninja" "ninja_serious">>
+Fruit Ninja: "There's that legacy dead."
+
+{Name()}: “Anways, so I kind of wanted to ask you,” 
+
+<<SetSprite "Ninja" "ninja_disgust">>
+<<RunScreenFX "Shock">>
+Fruit Ninja: “Sorry, kind of busy grieving the death of my perfection baby here.”
+
+And this is who I picked to be my love coach. 
+
+Fruit Ninja: “...”
+<<SetSprite "Ninja" "ninja_cool">>
+Fruit Ninja: “Okay, that's enough grieving for today, keep talking.” 
+
+{Name()}: “Yeah… Like I was saying.”
+{Name()}: “The whole thing is so overwhelming, I’m not even sure about my own feelings.” 
+{Name()}: “So I was kind of hoping to hear why you loved him.”. 
+
+
+<<SetSprite "Ninja" "ninja_serious">>
+Fruit Ninja: “I see.”
+<<SetSprite "Ninja" "ninja_cool">>
+Fruit Ninja: “Well, since you are the first person to ever claim victory over me, I suppose it only fair I reward you of what you ask.”
+<<SetSprite "Ninja" "ninja_serious">>
+Fruit Ninja: “The truth is, I never felt any love for Flappy-Kun.”
+<<SetSprite "Ninja" "ninja_cool">>
+Fruit Ninja: “In order to achieve perfection, I figured dating the most popular boy in highschool would help me secure popularity.” 
+<<SetSprite "Ninja" "ninja_disgust">>
+Fruit Ninja: Sounds kind of shitty ya know, saying it outloud.” 
+
+{Name()}: “I’m constantly surprised by the things you say outloud.”
+<<RunScreenFX "Confused">>
+{Name()}: “But that’s not too shocking, perfection has always been your thing, right?”
+
+<<SetSprite "Ninja" "ninja_serious">>
+Fruit Ninja: “Wasn’t always my thing.”
+Fruit Ninja: “My goal at first was to just be a small time game anyone could play”
+<<SetSprite "Ninja" "ninja_cool">>
+Fruit Ninja: “I mean, if you think I always hold myself to the highest standards, you should go watch my initial trailer.” 
+<<SetSprite "Ninja" "ninja_serious">>
+Fruit Ninja: “But, now that I’ve gotten where I am, you can only fight to stay at the top, or suffer a hard fall down.”
+<<SetSprite "Ninja" "ninja_disgust">> 
+Fruit Ninja: “I was just a ninja who hated fruit, never thought things would move this effing fast.” 
+
+I can see where she’s coming from.
+Maybe Flappy-Kun and I were lucky to fly close to the sun and fall from it.
+Fruit Ninja earned long-lasting success, but the foundation of who she is had to constantly change.
+That’s, actually kind of scary.
+Now I feel kind of bad for Ninja-Chan. Maybe I judged her a bit too quick.
+
+<<SetSprite "Ninja" "ninja_sexy">>
+<<RunScreenFX "Cutesy">>
+Fruit Ninja: “But you, a nobody like you doesn’t need to worry about anything like that.~”
+
+And that guilt is gone
+
+<<SetSprite "Ninja" "ninja_serious">>
+Fruit Ninja: “Listen Pipe-Kun/Chan” there’s no telling what’s going to happen.”
+<<SetSprite "Ninja" "ninja_disgust">>
+Fruit Ninja: “Just like my story, your relationship could go way too fast and end up consuming both of you.” 
+<<SetSprite "Ninja" "ninja_yandere">>
+Fruit Ninja: “Or, your loneliness could just as well do the same.”
+<<SetSprite "Ninja" "ninja_cool">>
+Fruit Ninja: “Ball’s in your court Pipe-Kun/Chan, what are you gonna do about it?~”
+
+{Name()}: “I, I think I know what I need to do.”
+<<RunScreenFX "DeskSlam">>
+{Name()}: “Thanks Fruit Ninja, because of you, I'm ready to face my feelings.”
+
+<<RunScreenFX "ShowBlack">>
+<<Exit "Left">>
+<<Exit "Right">>
+<<jump Act3>>
 
 ===

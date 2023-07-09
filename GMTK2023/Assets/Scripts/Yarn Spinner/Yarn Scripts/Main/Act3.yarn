@@ -1,0 +1,147 @@
+﻿title: Act3
+tags:
+---
+
+<<if Name() == "Pipe-Kun">>
+    <<Enter "Left" "BottomPipe">>
+<<else>>
+    <<Enter "Left" "TopPipe">>
+<<endif>>
+
+<<Enter "Middle" "Flappy">>
+<<SetSprite "Flappy" "flappy_cheerful">>
+
+<<SetBackground "Library_Evening">>
+
+<<RunScreenFX "None">>
+
+{Name()}: “F-Flappy-Kun…”
+
+<<Play MaleInterest1>>
+<<SetSprite "Flappy" "flappy_confused">>
+<<if Name() == "Pipe-Kun">>
+    Flappy: “B-Bottom-Kun” 
+<<else>>
+    Flappy: “T-Top-Chan” 
+<<endif>>
+
+<<SetSprite "Flappy" "flappy_happy">>
+Flappy: “I’m so happy to see your return.” 
+
+{Name()}: “Listen Flappy-Kun.”
+<<Play SlowHeartBeat>>
+<<RunScreenFX "Love">>
+{Name()}: “I’ve given your confession some consideration, and-” 
+
+<<SetSprite "Flappy" "flappy_soft">>
+Flappy: “And?” 
+
+<<RunScreenFX "Sad">>
+{Name()}: “I just can’t understand why you would want to be with me!”
+{Name()}: “You’re a total MSSI and, I’m just some nobody P.I.P.E.”
+{Name()}: “Plus, I’m a threat to you. There’s no telling what would happen to you if we got close.” 
+{Name()}: “I’m dangerous to both your ability to live and worse, your reputation.” 
+
+<<SetSprite "Flappy" "flappy_confused">>
+<<if Name() == "Pipe-Kun">>
+    Flappy: “B-Bottom-Kun” 
+<<else>>
+    Flappy: “T-Top-Chan” 
+<<endif>>
+
+<<RunScreenFX "None">>
+
+<<SetSprite "Flappy" "flappy_cheerful">>
+Flappy: “I don’t care about things like my vitality and popularity if it means giving you up.”
+<<RunScreenFX "Doritos">>
+Flappy: “Telling me not to be with you is like telling Cool Ranch not to be the most popular kid in school!”
+<<RunScreenFX "Extreme_Shock">>
+{Name()}: “You really should care about those things dude!”
+<<RunScreenFX "None">>
+{Name()}: “If you’re willing to risk your life just to be with a cynical, anti-social pipe,”
+{Name()}: “You might actually be stupid.”
+
+<<Play DefeatedMale>>
+<<SetSprite "Flappy" "flappy_happy">>
+Flappy: “Maybe I am stupid!” 
+Flappy: “I’m a naive bird too ignorant to fly south for the winter and too arrogant to put on clothes afterall.”
+<<if Name() == "Pipe-Kun">>
+    Flappy: “Don’t you get what I’m saying Bottom-Kun?!” 
+<<else>>
+    Flappy: “Don’t you get what I’m saying Top-Chan?!” 
+<<endif>>
+
+<<RunScreenFX "Shock">>
+{Name()}: “All I’m really getting from that is you’re some stupid jock?” 
+
+<<SetSprite "Flappy" "flappy_cheerful">>
+Flappy: “Exactly!”
+
+<<RunScreenFX "Confused">>
+{Name()}: “???” 
+
+<<SetSprite "Flappy" "flappy_soft">>
+Flappy: “You kept asking me how I could fall in love with a weird nobody like you.”
+<<SetSprite "Flappy" "flappy_happy">>
+<<if Name() == "Pipe-Kun">>
+    Flappy: “But I’m weird too Bottom-Kun!”
+<<else>>
+    Flappy: “But I’m weird too Top-Chan!”
+<<endif>>
+
+<<SetSprite "Flappy" "flappy_soft">>
+<<RunScreenFX "Love">>
+Flappy: “Being with you, I don’t feel like crying whenever primary schoolers laugh at me for being so bad at chess.”
+
+<<RunScreenFX "None">>
+{Name()}: “I know it’s just because the horse piece really confuses you.” 
+
+<<RunScreenFX "None">>
+Flappy: “Watching you inspires me. Seeing you study so hard has taught me the value of studious work as well.”
+<<SetSprite "Flappy" "flappy_happy">>
+Flappy: “Besides, haven’t you noticed everyone in this school is a little bit weird?”
+
+That’s putting it lightly…
+
+<<RunScreenFX "Shock">>
+<<SetSprite "Flappy" "flappy_cheerful">>
+Flappy: “But would you tell 404 to stop forming emotional bonds with cacti, or Ninja-Chan to start loving fruits?” 
+<<RunScreenFX "None">>
+Flappy: “Maybe! Again, I’m not all that smart, but the way I see it, those silly little passions of their’s give them their light.”
+
+He’s- he’s right.
+What I want, what I’m jumping towards
+
+<<SetSprite "Flappy" "flappy_soft">>
+<<if Name() == "Pipe-Kun">>
+    Flappy: “B-Bottom-Kun” 
+<<else>>
+    Flappy: “T-Top-Chan” 
+<<endif>>
+
+I want to find that light for myself.
+And if Flappy-Kun will stand at my side-
+
+<<SetSprite "Flappy" "flappy_cheerful">>
+Flappy: “What do you say?” 
+
+<<jump FinalChoice>>
+===
+
+
+title: FinalChoice
+tags:
+---
+I- I say
+-> I love you Flappy-Kun!
+-> Let us stop running, and shine our lights together. (25 points)
+    <<if FlappyPoints() >= 25>>
+    <<else>>
+        <<jump FinalChoice>>
+    <<endif>>
+->Ram into my pipe Flappy-Kun!!! (40 points)
+    <<if FlappyPoints() >= 40>>
+    <<else>>
+        <<jump FinalChoice>>
+    <<endif>>
+===
