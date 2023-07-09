@@ -2,4 +2,75 @@
 tags:
 ---
 
+<<if Name() == "Pipe-Kun">>
+    <<Enter "Right" "BottomPipe">>
+<<else>>
+    <<Enter "Right" "TopPipe">>
+<<endif>>
+
+<<Enter "Left" "Doodle">>
+<<SetSprite "Doodle" "doodle_chill">>
+
+{Name()}: “Hey professor Doodle,” 
+
+<<if Name() == "Pipe-Kun">>
+    Professor Jump: “Ah, Bottom-Kun.”
+<<else>>
+    Professor Jump: “Ah, Top-Chan.”
+<<endif>>
+
+{Name()}: “Would it be inappropriate to ask you for love advice?” 
+
+<<RunScreenFX "Shock">>
+<<SetSprite "Doodle" "doodle_annoyed">>
+Professor Jump: “Given that you are a student and I am your teacher, I’d say it would be absolutely unprofessional and grounds for firing.”
+<<RunScreenFX "None">>
+<<SetSprite "Doodle" "doodle_smug">>
+Professor Jump: “But I’m tenured, so go ahead” 
+
+{Name()}: “Well, it’s just-” 
+This is so embarrassing.
+I don’t think I’ve ever talked to professor Jump privately before.
+And now I’m standing here talking about my love life?
+Was I just not good enough at Flappy Bird and had to settle for this?
+
+{Name()}: “Flappy Bird confessed feelings for me, and I don’t know what to do about it.”
+{Name()}: “I think I might like him, but I don’t know for sure? Also, he’s supposed to avoid me, I don’t even know what will happen if we get connect.”
+{Name()}: “But then you went and gave that speech this morning, and everyone’s all freaked out trying to make the most out of their highschool experience-” 
+{Name()}: “And I’m just all spun around about what to do!”
+
+<<SetSprite "Doodle" "doodle_chill">>
+Professor Jump: “I see…”
+Professor Jump: “Maybe my information this morning came out… a little too harsh”
+
+{Name()}: “It was a bit odd, but to your credit, everyone’s been out of pocket today.” 
+
+<<if Name() == "Pipe-Kun">>
+    Professor Jump: “Bottom-Kun, romance is perhaps the trickest game you can play” 
+<<else>>
+    Professor Jump: “Top-Chan, romance is perhaps the trickest game you can play”
+<<endif>>
+
+<<SetSprite "Doodle" "doodle_chill">>
+Professor Jump: “The higher up you go, the more exciting and wonderful it becomes,”
+<<SetSprite "Doodle" "doodle_annoyed">>
+<<RunScreenFX "DeskSlam">>
+<<Play DeskSmash>>
+Professor Jump: “But it’s filled with obstacles and pitfalls, some that will change you forever.”
+<<SetSprite "Doodle" "doodle_chill">>
+Professor Jump: “Even though it will hurt, it’s not a bad thing,” 
+Professor Jump: “Memories of someone you love is the kindest gift you can ever receive.” 
+Professor Jump: “...”
+<<SetSprite "Doodle" "doodle_smug">>
+Professor Jump: “That’s all the advice I have, be sure to look before you leap and you’ll be fine.” 
+
+<<Exit "Left">>
+
+{Name()}: “Uhh, thanks.” 
+Wow, that answer was way more involved than I thought.
+Maybe I’m too young, or maybe that was just nonsense he spat out to get me to go away, but regardless.
+I think I should go and confront my feelings.
+
+<<Exit "Right">>
+<<jump Act3>>>
 ===

@@ -1,5 +1,141 @@
 ﻿title: DinoMeeting
 tags:
 ---
+Yeah, 404 has always been there for me!
+I’ll go talk to her, I’m sure she’ll have good advice for me
 
+<<Exit "Middle">>>>
+
+<<SetBackground "School">>
+: > January 6th - 1:11 PM - School Exterior
+
+<<if Name() == "Pipe-Kun">>
+    <<Enter "Right" "BottomPipe">>
+<<else>>
+    <<Enter "Right" "TopPipe">>
+<<endif>>
+
+<<RunScreenFX "Confused">>
+She wasn’t in the greenhouse, so I guess she should be on her way back into the school.
+Oh, there she is.
+{Name()}: “Hey 404.”
+
+<<Enter "Left" "Dino">>
+<<SetSprite "Dino" "404_cheerful">>
+
+<<if Name() == "Pipe-Kun">>
+    404: “Pipe-Kun!”
+<<else>>
+    404: “Pipe-Chan!”
+<<endif>>
+
+<<RunScreenFX "Sad">>
+<<SetSprite "Dino" "404_concerned">>
+404: “Ah, you still look kinda down.”
+<<SetSprite "Dino" "404_serious">>
+404: “L-listen: I know this may not mean much coming from me, but Ninja is totally wrong!” 
+<<RunScreenFX "None">>
+<<SetSprite "Dino" "404_cheerful">>
+404: “You’re filled with charm and I’m sure if you went up to Flappy, he’d fall out of the sky for you!” 
+
+{Name()}: “Yeah, I know.”
+{Name()}: “Flappy just asked me out.”
+
+<<SetSprite "Dino" "404_serious">>
+404: “You’re beautiful as you are and-”
+<<SetSprite "Dino" "404_concerned">>
+<<RunScreenFX "DeskSlam">>
+404: “W-w-wait”
+404: “Flappy Asked You Out?!?! O_o”  
+
+<<RunScreenFX "None">>
+{Name()}: “Not so loud!”
+{Name()}: “But also, yeah. Just now in, in the library” 
+
+<<SetSprite "Dino" "404_cheerful">>
+404: “Omigosh omigosh.” 
+<<RunScreenFX "DeskSlam">>
+404: “This is so totally exciting!”
+<<RunScreenFX "None">>
+404: “Wait a second.” 
+<<RunScreenFX "DeskSlam">>
+<<SetSprite "Dino" "404_concerned">>
+404: “DID YOU SAY NO?”
+
+<<RunScreenFX "None">>
+
+{Name()}: “Again with the volume!” 
+{Name()}: “And, not exactly.” 
+<<RunScreenFX "Sad">>
+{Name()}: “I kind of just, ran away…” 
+
+<<SetSprite "Dino" "404_serious">>
+404: “To have a total dream bird fly right up to you,”
+<<SetSprite "Dino" "404_cheerful">>
+404: “You might be the luckiest pipe in the world ya know?”  
+
+{Name()}: “Sometimes I think I might be cursed with good luck.” 
+{Name()}: “Getting into this school, becoming friends with you, and now this?”
+{Name()}: “It’s like, all these good things keep happening to me, and I haven’t done anything to deserve a single one.” 
+It’s just a matter of time before my luck runs out.
+That, or I’ll have to pay some karmic price for all the good luck I’ve wasted.
+
+<<RunScreenFX "None">>
+
+<<SetSprite "Dino" "404_serious">>
+404: “...”
+404: “Hey Pipe-Chan/Kun”
+404: “I don’t know what you’re going through right now, but-” 
+<<SetSprite "Dino" "404_cheerful">>
+<<RunScreenFX "Shock">>
+404: “I’m just as lucky to have you as a friend.”
+
+<<RunScreenFX "None">>
+{Name()}: “404, I-” 
+
+<<SetSprite "Dino" "404_serious">>
+404: “You bought me a new cactus for Christmas when my old one died,” 
+404: “You reminded our teachers I existed so I wouldn’t fail 11th grade,”
+404: “And you drove me out to the desert for my 16th birthday, just so I could run around by myself.” 
+404: “There’s a lot of variations on my name, but officially, it’s “The Lonely T-Rex”.”
+404: “Before I met you, that’s all I was. So don’t say we’re friends just because of dumb luck…” 
+
+404…
+
+<<RunScreenFX "Love">>
+<<SetSprite "Dino" "404_cheerful">>
+404: “Ya know, I’m really happy I had the chance to finally tell you that before we go.”
+404: “And, I also want to tell you this-” 
+404: “Considering how socially anxious I am, I get why you ran away, and if I was in your steel, I’m not sure I’d have the courage to go back"
+
+<<RunScreenFX "None">>
+{Name()}: “Yeah…”
+
+<<RunScreenFX "Shock">>
+404: “BUT- What I do know, is I’d end up hating myself forever, plagued by what could have happened.” 
+404: “I’d have wanted my best friend to have knocked some sense into me.”
+<<RunScreenFX "None">>
+<<SetSprite "Dino" "404_serious">>
+404: “So, what we’re going to do is march you right back up there so you can confess your feelings, and one day, when I’m in your position, you’ll do the exact same for me!”
+
+<<RunScreenFX "Extreme_Shock">>
+{Name()}: “!!!”
+{Name()}: “Yeah!”
+
+<<RunScreenFX "None">>
+
+404: “Well?! March your little green self right back up there, and get yourself that hunky bird boy: NOW!” 
+
+{Name()}: “!”
+{Name()}: “You’re absolutely right!”
+{Name()}: “I’m not going to worry about my luck, I’m not going to worry about what Flappy-kun says, and I’m not going to worry about everyone hearing us!” 
+
+<<SetSprite "Dino" "404_concerned">>
+404: “o, right, volume.”
+
+<<Exit "Left">>
+{Name()}: “Thank you 404!” 
+Now, it’s time to go and confess my feelings!
+<<Exit "Right">>
+<<jump Act3>>>
 ===

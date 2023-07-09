@@ -3,7 +3,7 @@ tags:
 ---
 
 <<SetBackground "Hallway">>
- : > January 6th, 1:00 PM - Hallway
+: > January 6th, 1:00 PM - Hallway
 
 <<if Name() == "Pipe-Kun">>
     <<Enter "Middle" "BottomPipe">>
@@ -25,8 +25,8 @@ Let's see:
 ===
 title: EncounterChoice
 tags:
-
 ---
+Let's see:
 -> Go find 404 (1 point)
     <<if FlappyPoints() >= 1>>
         <<jump DinoMeeting>>
