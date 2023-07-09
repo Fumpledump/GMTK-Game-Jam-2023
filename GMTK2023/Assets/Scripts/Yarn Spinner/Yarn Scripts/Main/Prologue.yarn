@@ -1,8 +1,14 @@
 ﻿title: Prologue
 tags:
 ---
+<<SetBackground "School">>
  : > January 6th, 7:45 AM, School Exterior
-
+ 
+<<if Name() == "Pipe-Kun">>
+    <<Enter "Right" "BottomPipe">>
+<<else>>
+    <<Enter "Right" "TopPipe">>
+<<endif>>
 {Name()}: “Welp, here I am again...”
 Mobile Prep, the go to school for all applications.
 Entry here is brutal, thousands of students apply, but only a select few are trendy enough to make it in.

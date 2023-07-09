@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Yarn.Unity;
 
 public class Background : MonoBehaviour
 {
+    [SerializeField] private DialogueRunner dialogueRunner; // Yarn Spinner Dialogue Runner
 
     [Header("Sprites")]
     [SerializeField]
@@ -18,19 +20,15 @@ public class Background : MonoBehaviour
 
         foreach (Sprite i in sprites)
             spriteLookup[i.name] = i;
-        
+
+        dialogueRunner.AddCommandHandler<string>("SetBackground", SetBackground);
     }
 
-    void Update()
-    {
-        
-    }
-
-    public void SetSprite(string sprite) {
+    public void SetBackground(string sprite) {
+        Debug.Log("Yee");
         if (!spriteLookup.ContainsKey(sprite))
             return;
 
         sr.sprite = spriteLookup[sprite];
     }
-
 }
