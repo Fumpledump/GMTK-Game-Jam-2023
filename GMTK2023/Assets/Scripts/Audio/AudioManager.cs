@@ -66,7 +66,6 @@ public class AudioManager : MonoBehaviour
         curTrack = Array.Find(music, sound => sound.name == startTrack);
         if (curTrack == null)
         {
-            Debug.LogWarning("Music: " + name + " not found");
             return;
         }
         curTrack.source.Play();
