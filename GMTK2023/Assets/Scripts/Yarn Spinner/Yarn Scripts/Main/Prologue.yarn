@@ -152,13 +152,19 @@ Fruit Ninja: “The two of us will have trouble~”
 title: Fruit_Ninja_Choice
 tags:
 ---
-404: “(uh-oh, this is bad!)”
--> 404, please don’t aggravate the weaponized ninja in my name. (Free)
-    <<RunScreenFX "Heartbeat">>
-    Fruit Ninja: “Ha! I knew I was right!” 
-    Fruit Ninja: “Damn, I am just so smart.”
-    {Name()}: “Except, I never said I liked him! 404 is just putting words in my mouth for some reason.”
-    <<jump Encounter>>
+404: “(uh-oh, this is bad! What would Flappy do? Wait! My phone!)”
+<<SetPhoneShown true>>
+-> 404, please don’t aggravate the weaponized ninja in my name. (1 point)
+    <<if FlappyPoints() >= 1>>
+        <<RunScreenFX "Heartbeat">>
+        Fruit Ninja: “Ha! I knew I was right!” 
+        Fruit Ninja: “Damn, I am just so smart.”
+        {Name()}: “Except, I never said I liked him! 404 is just putting words in my mouth for some reason.”
+        <<jump Encounter>>
+    <<else>>
+        I can't even get one point!? I need to keep trying!
+        <<jump Fruit_Ninja_Choice>>>
+    <<endif>>
 -> Why did you say that threat with a flirtatious intonation? (5 points)
     <<if FlappyPoints() >= 5>>
         <<RunScreenFX "Shock">>
@@ -166,7 +172,7 @@ tags:
         Fruit Ninja: “W-why are you two looking at me like that? There’s a MAJOR difference, OK?”
         <<jump Encounter>>
     <<else>>
-        OPTION LOCKED! GET GUD!
+        Five points is way too hard! Flappy is so much better at this.
         <<jump Fruit_Ninja_Choice>>>
     <<endif>>
 -> What kind of trouble? Are you threatening me with violence? (10 points)  
@@ -178,9 +184,10 @@ tags:
         Fruit Ninja: “No? I don’t have that effect? Well… shit.”
         <<jump Encounter>>
     <<else>>
-        OPTION LOCKED! GET GUD!
+        Ten?! Ten points! Getting through one or five is difficult enough!
         <<jump Fruit_Ninja_Choice>>>
     <<endif>>
+    <<SetPhoneShown false>>
 ===
 
 title: Encounter

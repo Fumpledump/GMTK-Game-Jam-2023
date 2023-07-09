@@ -48,7 +48,6 @@ namespace OGFB
                 spawnedPipe.SetActive(true);
                 IncrementIndex();
             }
-
         }
 
         private void IncrementIndex()

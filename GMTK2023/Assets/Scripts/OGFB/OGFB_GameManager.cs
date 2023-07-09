@@ -3,12 +3,15 @@ using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using Yarn.Unity;
 
 namespace OGFB
 {
     public class OGFB_GameManager : MonoBehaviour
     {
         public static OGFB_GameManager instance;
+
+        [SerializeField] private DialogueRunner dialogueRunner; // Yarn Spinner Dialogue Runner
 
         //UI
         [SerializeField] private GameObject ui_GameOverPage;
@@ -29,6 +32,8 @@ namespace OGFB
         private void Awake()
         {
             if(instance == null) instance = this;
+
+            dialogueRunner.AddCommandHandler<bool>("SetPhoneShown", SetPhoneShown);
         }
 
         private void Update()
@@ -67,6 +72,9 @@ namespace OGFB
 
         public void StartGame()
         {
+            if (!gameRunning)
+                ResetGame();
+
             gameRunning = true;
             birdScript.SetPhysicsActive(true);
             birdScript.Flap(true);
