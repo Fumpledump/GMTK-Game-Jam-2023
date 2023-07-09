@@ -1,7 +1,7 @@
 ﻿title: Prologue
 tags:
 ---
-<<jump Act2>>
+<<jump Act1>>
 
 <<SetBackground "School">>
  : > January 6th, 7:45 AM, School Exterior
@@ -387,51 +387,78 @@ Flappy: “After hearing what Doodle said, I realized it doesn’t matter how fa
 
 
 (Someone call a plumber, because I am FLOODING over here)
+<<jump FlappyAct1>>
+===
+
+title: FlappyAct1
+tags:
+---
+<<SetPhoneShown true>>
 {Name()}: “Flappy-Kun, I-”
+-> I’m… I’m kind of in the middle of studying here…
+    <<RunScreenFX "None">>
+    <<SetSprite "Flappy" "flappy_confused">>
+    Flappy: “Oh yeah, no problem.” 
+    Flappy: “What are we studying here, Nucleotides?”
+    {Name()}: “They look mostly right, but I’m not sure how you got that answer for 5”
+    {Name()}: “Aaand 1-4, none of this makes any sense to me at all actually!”
+-> If you really loved me, why are you just now telling me? (5 points)
+    <<if FlappyPoints() >= 5>>
+        <<RunScreenFX "Love">>
+        <<Play "MaleCutsey">>
+        <<SetSprite "Flappy" "flappy_soft">>
+        Flappy: “I’ve always loved you, but the thing is-“
+        Flappy: “Flying through those narrow gaps is crazy addictive!” 
+        Flappy: “I get easily distracted and focused on little things like that.” 
+        Flappy: “It’s a character flaw!”
+        <<jump Act1Continue>>
+    <<else>>
+        AHHHHH! I'm too nervous!!!
+        <<jump FlappyAct1>>>
+    <<endif>>
+-> Oh man, Fruit Ninja is going to be PISSED. (15 points)
+    <<if FlappyPoints() >= 15>>
+        <<RunScreenFX "Suprised">>
+        <<SetSprite "Flappy" "flappy_confused">>
+        Flappy: “Whozat?“
+        <<Play "MaleSigh">>
+        <<SetSprite "Flappy" "flappy_cheerful">>
+        Flappy: “Oh! You mean the baddie with the melons don’t you.”
+        Melons? Plural?
+        <<SetSprite "Flappy" "flappy_happy">>
+        Flappy: “Well you don’t have to worry about her, our love can triumph even the fiercest of anime femmes.” 
+        <<jump Act1Continue>>
+    <<else>>
+        I need to build up the courage to say that!
+        <<jump FlappyAct1>>>
+    <<endif>>
+===
 
-I’m… I’m kind of in the middle of studying here…
-If you really loved me, why are you just now telling me? (10 points)
-Oh man, Fruit Ninja is going to be PISSED. (20 points)
-1 - 
-Flappy:
-“Oh yeah, no problem.” 
-“What are we studying here, Nucleotides?”
-“They look mostly right, but I’m not sure how you got that answer for 5” 
-“Aaand 1-4, none of this makes any sense to me at all actually!”
+title: Act1Continue
+tags:
+---
+<<RunScreenFX "None">>
+{Name()} “Listen, this is all just, really sudden.”
 
-2 -
-Flappy:
-“I’ve always loved you, but the thing is-“
-“Flying through those narrow gaps is crazy addictive!” 
-“I get easily distracted and focused on little things like that.” 
-“It’s a character flaw!”
+<<SetSprite "Flappy" "flappy_confused">>
+<<if Name() == "Pipe-Kun">>
+    Flappy: "Bottom-Kun…”  
+<<else>>
+    Flappy: "Top-Chan…”  
+<<endif>>
+Flappy: “Don’t you feel this love too?”
 
-3 -
-Flappy:
-“Whozat?“
-“Oh! You mean the baddie with the melons don’t you.”
+{Name()}: “I- I- I-”
+{Name()}: “I thought I’d have like 2 weeks to work this out!”
+{Name()}: “I need time to think!”
 
-Pipe:
-(Melons? Plural?)
+<<Exit "Right">>>
+I hastily got up from my seat and ran out the door
+I’m sure my face would have been bright red, but I’m just an animated pipe, and don’t even have a face much less blood flow...
 
-Flappy:
-“Well you don’t have to worry about her, our love can triumph even the fiercest of anime femmes.” 
-
-1, 2, 3: 
-Pipe:
-“Listen, this is all just, really sudden.”
-
-Flappy:
-“Bottom-Kun/Top-Chan…”
-“Don’t you feel this love too?”
-
-Pipe:
-“I- I- I-”
-“I thought I’d have like 2 weeks to work this out!”
-“I need time to think!”
-(I hastily got up from my set and ran out the door)
-(I’m sure my face would have been bright red, but I’m just an animated pipe, and don’t even have a face much less blood flow.)
-
-Flappy:
-“Bottom-Kun/Top-Chan!”
+<<if Name() == "Pipe-Kun">>
+    Flappy: Bottom-Kun!!!!”  
+<<else>>
+    Flappy: Top-Chan!!!!”  
+<<endif>>
 ===
