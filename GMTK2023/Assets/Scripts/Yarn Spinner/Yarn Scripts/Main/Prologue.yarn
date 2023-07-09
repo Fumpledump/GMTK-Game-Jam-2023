@@ -359,6 +359,7 @@ Flappy: “So that they do!”
 Flappy: “I suppose this frigid weather must be why my exposed supple body screams in frozen agony.” 
 
 {Name()}: “Yeah, I guess so.”
+<<RunScreenFX "Saucy">>
 Damn, how can I NOT want to fuck him?
 {Name()}:“S-so, I guess you're going to fly down south now?”
 
