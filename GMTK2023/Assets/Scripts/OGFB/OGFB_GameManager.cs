@@ -33,7 +33,8 @@ namespace OGFB
         {
             if(instance == null) instance = this;
 
-            dialogueRunner.AddCommandHandler<bool>("SetPhoneShown", SetPhoneShown);
+            if(dialogueRunner != null)
+                dialogueRunner.AddCommandHandler<bool>("SetPhoneShown", SetPhoneShown);
         }
 
         private void Update()

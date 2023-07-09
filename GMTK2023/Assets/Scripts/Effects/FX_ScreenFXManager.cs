@@ -25,11 +25,12 @@ public class FX_ScreenFXManager : MonoBehaviour
     [SerializeField] private ParticleSystem animeTwinkleFX;
     [SerializeField] private ParticleSystem questionFX;
     [SerializeField] private ParticleSystem doritosFX;
+    [SerializeField] private ParticleSystem sadFX;
 
     private Animator anim;
 
     //NOTE: Look here for screen fx types
-    //public enum FX_ScreenFXType { None, Suprised, Shock, Confused, Extreme_Shock, Angry, Cutesy, Love, Saucy, Heartbeat, DeskSlam, Doritos };
+    //public enum FX_ScreenFXType { None, Suprised, Shock, Confused, Extreme_Shock, Angry, Cutesy, Love, Saucy, Heartbeat, DeskSlam, Doritos, Sad, ShowSepia, HideSepia, ShowBlack, HideBlack, ShowWhite, HideWhite };
 
     private void Awake()
     {
@@ -37,12 +38,14 @@ public class FX_ScreenFXManager : MonoBehaviour
         anim = GetComponent<Animator>();
         cameraShake = GetComponent<FX_CameraShake>();
 
-        dialogueRunner.AddCommandHandler<string>("RunScreenFX", RunScreenFX);
+        if(dialogueRunner != null)
+            dialogueRunner.AddCommandHandler<string>("RunScreenFX", RunScreenFX);
     }
 
     private void RunScreenFX(string fxType)
     {
         bool resetColor = true;
+        bool resetSepia = true;
         bool resetIris = true;
         bool resetSteam = true;
         anim.SetBool("ShowRoses", fxType == "Love");
@@ -116,12 +119,40 @@ public class FX_ScreenFXManager : MonoBehaviour
             case "Doritos":
                 doritosFX.Play();
                 break;
+            case "Sad":
+                sadFX.Play();
+                break;
+            case "ShowSepia":
+                anim.Play("Sepia_Show");
+                resetSepia = false;
+                break;
+            case "HideSepia":
+                anim.Play("Sepia_Hide");
+                resetSepia = false;
+                break;
+            case "ShowBlack":
+                anim.Play("FX_Color_FadeInBlack");
+                resetColor = false;
+                break;
+            case "HideBlack":
+                anim.Play("FX_Color_FadeOutBlack");
+                resetColor = false;
+                break;
+            case "ShowWhite":
+                anim.Play("FX_Color_FadeInWhite");
+                resetColor = false;
+                break;
+            case "HideWhite":
+                anim.Play("FX_Color_FadeInWhite");
+                resetColor = false;
+                break;
             default:
                 break;
         }
 
         if (resetColor) anim.Play("FX_Color_Hidden");
         if (resetIris) anim.Play("FX_Iris_Hidden");
+        if (resetSepia) anim.Play("Sepia_Hidden");
         if (resetSteam) steamFX.Stop();
     }
 }

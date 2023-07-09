@@ -19,12 +19,18 @@ I suppose I should feel lucky to be here, but the only reason I got in is becaus
 <<endif>>
 
 {Name()}: “Oh, morning 404.”
+
+<<RunScreenFX "ShowSepia">>
+
 This is 404, my best friend in this cut-throat hellhole.
 She’s basically my rock, my anchor; the only reason I’ve gotten through these past 3 years without blowing my casing out.
 Her family is ludicrously wealthy, but so big, they almost always forget about her.
 School isn’t much better, she’s so shy and introverted she almost got held back last year because half of her teachers forgot she existed.
 She’s quiet, but incredibly kind. She’s the best friend anyone could ever have.
 Just another miracle I should be grateful for.
+
+<<RunScreenFX "HideSepia">>
+
 {Name()}: “How was your winter break?”
 
 404: “Pretty good!”
@@ -66,10 +72,13 @@ Professor Jump: “In just two months from now, you’ll all be graduating from 
 Professor Jump: “I’m sure you all found highschool a fast, turbulent time in your life” 
 Professor Jump: “And I’m sure you’ll find the real world to move much slower, and be far less forgiving” 
 
+<<RunScreenFX "ShowSepia">>
 That’s Professor Jump for you.
 He graduated from the school before all of us, he’s treated like a veteran by both staff and students.
 He never sugarcoats anything, it freaks me out at times, but I respect it.
 It’s genuine, he’s gained a lot of wisdom in those 2 years since graduation.
+<<RunScreenFX "HideSepia">>
+
 
 Professor Jump: “For that reason, I’m giving everyone Study Hall for the next two weeks.” 
 

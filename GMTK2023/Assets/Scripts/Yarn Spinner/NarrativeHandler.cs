@@ -52,7 +52,8 @@ public class NarrativeHandler : MonoBehaviour
     // Converts Functions to Yarn Commands
     private void AddYarnCommands()
     {
-        dialogueRunner.AddCommandHandler("YarnTest", () => YarnTest());
+        if(dialogueRunner != null)
+            dialogueRunner.AddCommandHandler("YarnTest", () => YarnTest());
     }
     
 
