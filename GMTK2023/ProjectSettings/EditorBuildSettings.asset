@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Main/MainMenu.unity
     guid: 02b33042144a14f439b75a7c1676c403
   - enabled: 1
-    path: Assets/Scenes/Dev_Scenes/Yarn_Test.unity
-    guid: 07069535813bab04e84d46683e7145be
+    path: Assets/Scenes/Main/Game.unity
+    guid: 02bc9dd522e13dc44985f0cfaad1e4be
   m_configObjects: {}
