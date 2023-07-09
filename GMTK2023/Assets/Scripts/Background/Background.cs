@@ -25,7 +25,6 @@ public class Background : MonoBehaviour
     }
 
     public void SetBackground(string sprite) {
-        Debug.Log("Yee");
         if (!spriteLookup.ContainsKey(sprite))
             return;
 
