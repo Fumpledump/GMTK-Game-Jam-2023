@@ -9,7 +9,7 @@ namespace OGFB
     {
         [SerializeField] private int lastSpawnedPipeIndex = 0;
         [SerializeField] private float maxSpawnTime = 1.5f;
-        [SerializeField] private float heightRange = 0.45f;
+        [SerializeField] private float heightRange = 0.40f;
 
         private bool isSpawning;
         private float timer;
