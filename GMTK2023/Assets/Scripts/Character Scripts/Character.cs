@@ -18,6 +18,8 @@ public class Character : MonoBehaviour {
     [SerializeField]
     protected float SIDE_BUFFER = 2f;
     [SerializeField]
+    protected float BOTTOM_BUFFER = 0f;
+    [SerializeField]
     protected float SPEED = 8f;
 
     [Header("Default State")]
@@ -69,7 +71,7 @@ public class Character : MonoBehaviour {
     }
     private void UpdateTargets() {
         targetX = cameraBounds.center.x;
-        targetY = cameraBounds.center.y - cameraBounds.extents.y + sr.bounds.extents.y;
+        targetY = cameraBounds.center.y - cameraBounds.extents.y + sr.bounds.extents.y + BOTTOM_BUFFER;
         entranceTargets[Character_Handler.Position.Left] = new(cameraBounds.center.x - cameraBounds.extents.x + SIDE_BUFFER, targetY);
         entranceTargets[Character_Handler.Position.Right] = new(cameraBounds.center.x + cameraBounds.extents.x - SIDE_BUFFER, targetY);
         entranceTargets[Character_Handler.Position.Middle] = new(targetX, targetY);
