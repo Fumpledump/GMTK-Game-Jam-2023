@@ -1,7 +1,16 @@
 ﻿title: Prologue
 tags:
 ---
+//<<SetSprite "Flappy" "flappy_cheerful">>
+
+<<SetBackground "School">>
  : > January 6th, 7:45 AM, School Exterior
+
+<<if Name() == "Pipe-Kun">>
+    <<Enter "Middle" "BottomPipe">>
+<<else>>
+    <<Enter "Middle" "TopPipe">>
+<<endif>>
 
 {Name()}: “Welp, here I am again...”
 Mobile Prep, the go to school for all applications.
@@ -12,11 +21,22 @@ I suppose I should feel lucky to be here, but the only reason I got in is becaus
 
 <<RunScreenFX "Surprised">>
 
+<<Exit "Middle">>
+
 <<if Name() == "Pipe-Kun">>
     ???: “Pipe-Kunnnnnnn!”
 <<else>>
     ???: “Pipe-Channnnnn!”
 <<endif>>
+
+<<if Name() == "Pipe-Kun">>
+    <<Enter "Right" "BottomPipe">>
+<<else>>
+    <<Enter "Right" "TopPipe">>
+<<endif>>
+
+<<Enter "Left" "Dino">>
+<<SetSprite "Dino" "404_cheerful">>
 
 {Name()}: “Oh, morning 404.”
 
@@ -40,6 +60,8 @@ Just another miracle I should be grateful for.
 <<RunScreenFX "Confused">>
 
 {Name()}: “You’d rather stay indoors all day?”
+
+<<SetSprite "Dino" "404_concerned">>
 
 404: “No way! I’d spend all day running if I could”
 404: “But I’m a cold blooded gal \\(°Ω°)\/, weather like this could literally extinct Cool Ranch and I” 

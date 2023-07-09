@@ -30,7 +30,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5375121672694035757
 MonoBehaviour:
@@ -50,7 +50,7 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 4279ed7fe4cf47f48aac96e481e72524, type: 3}
     volume: 1
     pitch: 1
-    loop: 0
+    loop: 1
     source: {fileID: 0}
   sounds:
   - name: DefeatedMale
