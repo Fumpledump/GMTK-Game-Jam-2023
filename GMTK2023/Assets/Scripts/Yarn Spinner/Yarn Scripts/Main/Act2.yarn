@@ -1,5 +1,37 @@
 ﻿title: Act2
 tags:
 ---
-"Test": Yee yaw hee haw
+<<jump Act2>>
+
+<<SetBackground "Hallway">>
+ : > January 6th, 1:00 PM - Hallway
+
+<<if Name() == "Pipe-Kun">>
+    <<Enter "Middle" "BottomPipe">>
+<<else>>
+    <<Enter "Middle" "TopPipe">>
+<<endif>>
+
+{Name()}: "I can't believe that."
+{Name()}: "I can't believe Flappy-Kun would-"
+My world's been spinning ever since that confession in the library
+{Name()}: “What do I do?”
+I spent all lunch thinking about it, and still can't understanding these feelings!
+{Name()}: “Maybe, maybe I should go talk to someone about this”
+Yeah, that could give me some answers.
+It’s got to be better than talking outloud in an empty hallway
+
+Let's see:
+
+===
+title: Encounter
+tags:
+
+---
+-> Go find 404 (1 point)
+    <<if FlappyPoints() >= 1>>
+-> Go find Professor Doodle (20 points)
+    <<if FlappyPoints() >= 20>>
+-> Go find Fruit Ninja (30 points)
+    <<if FlappyPoints() >= 20>>
 ===
