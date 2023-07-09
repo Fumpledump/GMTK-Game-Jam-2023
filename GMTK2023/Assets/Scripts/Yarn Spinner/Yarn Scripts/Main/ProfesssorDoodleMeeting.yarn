@@ -1,7 +1,6 @@
 ﻿title: ProfesssorDoodleMeeting
 tags:
 ---
-
 <<if Name() == "Pipe-Kun">>
     <<Enter "Right" "BottomPipe">>
 <<else>>

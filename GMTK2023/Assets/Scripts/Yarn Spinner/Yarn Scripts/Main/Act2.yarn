@@ -20,29 +20,34 @@ I spent all lunch thinking about it, and still can't understanding these feeling
 Yeah, that could give me some answers.
 It’s got to be better than talking outloud in an empty hallway
 
-Let's see:
-
+<<SetPhoneShown true>>
+<<jump EncounterChoice>>
 ===
+
+
 title: EncounterChoice
 tags:
 ---
-Let's see:
+Let's see
 -> Go find 404 (1 point)
     <<if FlappyPoints() >= 1>>
         <<jump DinoMeeting>>
     <<else>>
         How don't I have a single point? We're already near the end of the game?
+        <<jump EncounterChoice>>
     <<endif>>
 -> Go find Professor Doodle (20 points)
     <<if FlappyPoints() >= 20>>
         <<jump ProfessorDoodleMeeting>>
     <<else>>
         Professor Doodle is a pretty intimidating man, I better secure a bunch of points.
+        <<jump EncounterChoice>>
     <<endif>>
 -> Go find Fruit Ninja (30 points)
     <<if FlappyPoints() >= 30>>
         <<jump FruitNinjaMeeting>>
     <<else>>
         Fruit Ninja is crazy scary! I better have enough points if I'm going to talk to her.
+        <<jump EncounterChoice>>
     <<endif>>
 ===

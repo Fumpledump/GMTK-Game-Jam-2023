@@ -1,6 +1,8 @@
 ﻿title: Prologue
 tags:
 ---
+<<jump Act1Continue>>
+
 <<SetBackground "School">>
  : > January 6th, 7:45 AM, School Exterior
 
@@ -555,7 +557,7 @@ Flappy: “Don’t you feel this love too?”
 {Name()}: “I thought I’d have like 2 weeks to work this out!”
 {Name()}: “I need time to think!”
 
-<<Exit "Right">>>
+<<Exit "Right">>
 I hastily got up from my seat and ran out the door
 I’m sure my face would have been bright red, but I’m just an animated pipe, and don’t even have a face much less blood flow...
 
@@ -564,4 +566,6 @@ I’m sure my face would have been bright red, but I’m just an animated pipe, 
 <<else>>
     Flappy: Top-Chan!!!!”  
 <<endif>>
+
+<<jump Act2>>
 ===

@@ -84,7 +84,13 @@ That, or I’ll have to pay some karmic price for all the good luck I’ve waste
 
 <<SetSprite "Dino" "404_serious">>
 404: “...”
-404: “Hey Pipe-Chan/Kun”
+
+<<if Name() == "Pipe-Kun">>
+    404: “Hey Pipe-Kun”
+<<else>>
+    404: “Hey Pipe-Chan”
+<<endif>>
+
 404: “I don’t know what you’re going through right now, but-” 
 <<SetSprite "Dino" "404_cheerful">>
 <<RunScreenFX "Shock">>

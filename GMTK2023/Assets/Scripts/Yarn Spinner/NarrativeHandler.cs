@@ -44,11 +44,6 @@ public class NarrativeHandler : MonoBehaviour
         this.gender = gender;
     }
 
-    public void RunScreenFX(string gender)
-    {
-        this.gender = gender;
-    }
-
     // Converts Functions to Yarn Commands
     private void AddYarnCommands()
     {
