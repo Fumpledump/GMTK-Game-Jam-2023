@@ -187,12 +187,12 @@ tags:
         Ten?! Ten points! Getting through one or five is difficult enough!
         <<jump Fruit_Ninja_Choice>>>
     <<endif>>
-    <<SetPhoneShown false>>
 ===
 
 title: Encounter
 tags:
 ---
+<<SetPhoneShown false>>
 Fruit Ninja: “Anywas, Flappy is a total MSSI. (mega sexy succssful icon), so it’s just natrual we’d end up together.”
 
 <<RunScreenFX "Angry">>
