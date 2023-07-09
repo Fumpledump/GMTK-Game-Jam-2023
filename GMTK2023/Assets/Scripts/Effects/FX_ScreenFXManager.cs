@@ -143,8 +143,24 @@ public class FX_ScreenFXManager : MonoBehaviour
                 resetColor = false;
                 break;
             case "HideWhite":
-                anim.Play("FX_Color_FadeInWhite");
+                anim.Play("FX_Color_FadeOutWhite");
                 resetColor = false;
+                break;
+            case "IncrementEnding":
+                int endingIndex = anim.GetInteger("EndingIndex");
+                anim.SetInteger("EndingIndex", endingIndex + 1);
+
+                if(endingIndex == 2)
+                {
+                    anim.Play("FX_Iris_RedPulsateFast");
+                    resetIris = false;
+                }
+                else if(endingIndex >= 3)
+                {
+                    anim.Play("FX_Color_FadeInWhite");
+                    resetColor = false;
+                }
+
                 break;
             default:
                 break;

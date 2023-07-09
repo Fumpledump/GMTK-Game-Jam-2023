@@ -7,7 +7,7 @@ namespace OGFB
 {
     public class OGFB_Flight : MonoBehaviour
     {
-        private bool physicsActive;
+        [SerializeField] private bool physicsActive;
         private bool isControllable = true;
 
         [SerializeField] private float vel = 1.5f;
@@ -24,7 +24,7 @@ namespace OGFB
             anim = GetComponent<Animator>();
             spriteRenderer = GetComponentInChildren<SpriteRenderer>();
             localOrigin = transform.localPosition;
-            SetPhysicsActive(false);
+            SetPhysicsActive(physicsActive);
         }
 
         private void Update()
@@ -73,7 +73,8 @@ namespace OGFB
 
             isControllable = false;
             anim.SetBool("Active", false);
-            OGFB_GameManager.instance.GameOver();
+            if(OGFB_GameManager.instance != null)
+                OGFB_GameManager.instance.GameOver();
         }
     }
 }
