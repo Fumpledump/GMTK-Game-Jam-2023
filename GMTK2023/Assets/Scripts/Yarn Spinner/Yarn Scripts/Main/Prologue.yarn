@@ -69,6 +69,8 @@ Just another miracle I should be grateful for.
 
 {Name()}: “Wait, what the hell is Cool Ranch?” 
 
+<<SetSprite "Dino" "404_cheerful">>
+
 404: “My cacti! <(^_^)>”
 
 <<jump Dino_Choice_Plant_Name>>
@@ -78,9 +80,11 @@ Just another miracle I should be grateful for.
 title: Dino_Choice_Plant_Name
 tags:
 ---
+<<SetPhoneShown true>>
 404: “Isn’t it such a cute name?”
 -> “Yes, it’s the perfect name for a plant. (1 point)”
     <<if FlappyPoints() >= 1>>
+        <<SetPhoneShown false>>
         <<RunScreenFX "Cutesy">>
         404: Yippe! :D
         404: I knew you had taste.
@@ -92,7 +96,9 @@ tags:
     <<RunScreenFX "Shock">>
 -> “No, that name is dumb as hell. (3 points)”
     <<if FlappyPoints() >= 3>>
+        <<SetPhoneShown false>>
         <<RunScreenFX "Cutesy">>
+        <<SetSprite "Dino" "404_concerned">>
         404: Okay, well.
         404: M=maybe you're dumb as hell  for saying that. :<
         <<jump Move_Into_Classroom>>
@@ -102,6 +108,8 @@ tags:
     <<endif>>
 -> “You just looked around your room when you came up with that name, didn’t you? (5 points)”
     <<if FlappyPoints() >= 5>>
+        <<SetPhoneShown false>>
+        <<SetSprite "Dino" "404_concerned">>
         <<RunScreenFX "Sad">>
         404: H-hey man.
         404: W-why'd you have to be like that?
@@ -116,15 +124,25 @@ tags:
 title: Move_Into_Classroom
 tags:
 ---
+<<SetPhoneShown false>>
 {Name()}: Yeah... Okay, let's just get going.
 
 <<RunScreenFX "None">>
+<<RunScreenFX "ShowBlack">>
+<<Exit "Left">>
+<<Exit "Right">>
+<<SetBackground "Classroom">>
+<<RunScreenFX "HideBlack">>
+
 
 : > January 6th, 8:00 AM, Classroom Interior
 
+<<Enter "Middle" "Doodle">>
 <<RunScreenFX "DeskSlam">>
+<<SetSprite "Doodle" "doodle_chill">>
 Professor Jump: “Good morning class, I hope everyone had a good break.”
 Professor Jump: “After all, it’ll be the last break you’ll ever get.” 
+<<SetSprite "Doodle" "doodle_smug">>
 Professor Jump: “In just two months from now, you’ll all be graduating from here and be expected to fully integrate into the real world..” 
 Professor Jump: “I’m sure you all found highschool a fast, turbulent time in your life” 
 Professor Jump: “Just as I”m sure you’ll find the real world to be disorienting and unforgiving.” 
@@ -144,18 +162,25 @@ Professor Jump: “For that reason, I’m giving everyone Study Hall for the nex
 No Classwork for 2 weeks?
 That’s unusually kind.
 
+<<SetSprite "Doodle" "doodle_chill">>
 Professor Jump: “Use this freedom I’ve given you however you see fit, but keep in mind…”
+<<SetSprite "Doodle" "doodle_annoyed">>
 Professor Jump: “In the real world, you’ll keep jumping forever, but eventually, you will fall.”
 Professor Jump: “Everyone does…”
 
 Class: …
 Class: …
 
+<<SetSprite "Doodle" "doodle_smug">>
 Professor Jump: “What I mean to say,”
 Professor Jump: “I suggest everyone use this time I’ve given to find out what you need before then”
+<<SetSprite "Doodle" "doodle_chill">>
 Professor Jump: “...”
 Professor Jump: “Class dismissed, study hall until the end of the day”
+<<Exit "Middle">>
 
+<<Enter "Left" "Dino">>
+<<SetSprite "Dino" "404_concerned">>
 404: “Professor Jump is kind of… (╥_╥)”
 
 {Name()}: “Yeah, I know what you mean.” 
@@ -168,7 +193,8 @@ Professor Jump: “Class dismissed, study hall until the end of the day”
 ???: "I guess we can't all be Mega Sexy Successful Icons,"
 
 <<RunScreenFX "Extreme_Shock">>
-
+<<Enter "Right" "Ninja">>
+<<SetSprite "Ninja" "ninja_sexy">>
 Fruit Ninja: “But don’t feel bad, some people just aren’t meant to make the cut~” 
 
 <<RunScreenFX "None">>
@@ -182,10 +208,12 @@ That being said, I have no clue why she keeps butting in with a bunch of nobodie
 <<RunScreenFX "Confused">>
 {Name()}: “What does your yandere ass want?” 
 
+<<SetSprite "Ninja" "ninja_cool">>
 Fruit Ninja: “Well, if you must know,”
 Fruit Ninja: “I was drawn in by what your little dino friend overthere is holding.”
 Fruit Ninja: “I thought it may have been one of those dastaradly fruits,” 
 <<RunScreenFX "Love">>
+<<SetSprite "Ninja" "ninja_yandere">>
 Fruit Ninja: “And I was fully prepared to introduce it to my blades.” 
 
 <<RunScreenFX "Extreme_Shock">>
@@ -194,41 +222,52 @@ Fruit Ninja: “And I was fully prepared to introduce it to my blades.”
 404: “And not one of the fruit bearing variety! >_<”
 
 <<RunScreenFX "Confused">>
+<<SetSprite "Ninja" "ninja_serious">>
 Fruit Ninja: “I’m sorry, Cool, what?”
 
 <<RunScreenFX "Doritos">>
 
+<<SetSprite "Dino" "404_cheerful">>
 404: Cool Ranch, the potted Cactus! 
 
 <<RunScreenFX "None">>
 
 Fruit Ninja: “....”
-Fruit Ninja: “Tf kind of name is Cool Ranch?”  
+<<SetSprite "Ninja" "ninja_disgust">>
+Fruit Ninja: “The fuck kind of name is Cool Ranch?”  
 
+<<SetSprite "Dino" "404_concerned">>
 404: “It’s catching on!” 
 
 <<RunScreenFX "Confused">>
 {Name()}: “The name of your potted cactus is catching on?”
 
+<<SetSprite "Dino" "404_concerned">>
 404: “Y-yeah,” 
+<<SetSprite "Dino" "404_serious">>
 404: “A lot of people are talking about it!”
 
+<<SetSprite "Ninja" "ninja_serious">>
 Fruit Ninja: “Like, who?”  
 
+<<SetSprite "Dino" "404_concerned">>
 404: “Ya know… People… Of the popular variety.” 
 
+<<SetSprite "Ninja" "ninja_disgust">>
 Fruit Ninja: “Okay, that might just be the third saddest thing I’ve heard today.”
-Fruit Ninja: “Anyways, I also wanted 
+<<SetSprite "Ninja" "ninja_cool">>
+Fruit Ninja: “Anyways,  I also wanted to let you {Name()} know,”
+<<SetSprite "Ninja" "ninja_sexy">>
 Fruit Ninja: "If you’re thinking about using this freetime to get with Flappy-”
 
 <<RunScreenFX "Shock">>
 
+<<SetSprite "Ninja" "ninja_yandere">>
 Fruit Ninja: “The two of us will have trouble~”
 
 <<RunScreenFX "None">>
 
-404:
-“Uh-oh, this is bad!”
+404:“Uh-oh, this is bad!”
 
 <<jump Fruit_Ninja_Choice>>>
 ===
@@ -239,8 +278,11 @@ tags:
 <<SetPhoneShown true>>
 -> 404, please don’t aggravate the weaponized ninja in my name. (1 point)
     <<if FlappyPoints() >= 1>>
+        <<SetPhoneShown false>>
+        <<SetSprite "Ninja" "ninja_yandere">>
         Fruit Ninja: “Ha! I knew I was right!” 
         Fruit Ninja: "You are crushing on him!"
+        <<SetSprite "Ninja" "ninja_cool">>
         Fruit Ninja: “Damn, I am just so smart.”
         {Name()}: “Except, I never said I liked him. 404 is just putting words in my mouth for some reason.”
         <<jump Encounter>>
@@ -250,7 +292,9 @@ tags:
     <<endif>>
 -> Why did you say that threat with a flirtatious intonation? (5 points)
     <<if FlappyPoints() >= 5>>
+        <<SetPhoneShown false>>
         <<RunScreenFX "Shock">>
+        <<SetSprite "Ninja" "ninja_disgust">>
         Fruit Ninja: “Wait what?! T-that was supposed to be my scary sexy tone, not a sexy sexy tone.”
         <<RunScreenFX "Extreme_Shock">>
         Fruit Ninja: “W-why are you two looking at me like that? There’s a MAJOR difference, OK?”
@@ -261,10 +305,14 @@ tags:
     <<endif>>
 -> What kind of trouble? Are you threatening me with violence? (10 points)  
     <<if FlappyPoints() >= 10>>
+        <<SetPhoneShown false>>
+        <<SetSprite "Ninja" "ninja_serious">>
         Fruit Ninja: “Ah shit.”
+        <<SetSprite "Ninja" "ninja_cool">>
         Fruit Ninja: “No, not really. I was just kinda hoping being the girl with visible weapons and bombs at school would earn me a kind of unspoken clout, ya know?”
         Fruit Ninja: “Like, 'don’t get on her bad side' and stuff?”
         <<RunScreenFX "Sad">>
+        <<SetSprite "Ninja" "ninja_disgust">>
         Fruit Ninja: “No? I don’t have that effect? Well… shit.”
         <<jump Encounter>>
     <<else>>
@@ -278,11 +326,12 @@ tags:
 title: Encounter
 tags:
 ---
-<<SetPhoneShown false>>
+<<SetSprite "Ninja" "ninja_cool">>
 Fruit Ninja: “Anywas, Flappy is a total MSSI. (mega sexy succssful icon), so it’s just natrual we’d end up together.”
 
 <<RunScreenFX "Angry">>
 
+<<SetSprite "Ninja" "ninja_sexy">>
 Fruit Ninja: “Besides, you’re nothing more than a hazard, you’d just hurt him if you got too close~” 
 
 <<RunScreenFX "None">>
@@ -311,8 +360,11 @@ But the truth is, I’m not popular at all. I’m just a green pipe meant to ble
 404: “o-okay”
 404: “See you later then” 
 
+<<SetSprite "Ninja" "ninja_cool">>
 Fruit Ninja: “Sayonara~”
-
+<<RunScreenFX "ShowBlack">>
+<<Exit "Left">>
+<<Exit "Right">>
 <<jump Act1>>
 ===
 
@@ -321,8 +373,8 @@ Fruit Ninja: “Sayonara~”
 title: Act1
 tags:
 ---
-<<RunScreenFX "None">>
 <<SetBackground "Club">>
+<<RunScreenFX "HideBlack">>
 : > January 6th, Library, 9:40 am 
 
 <<if Name() == "Pipe-Kun">>
