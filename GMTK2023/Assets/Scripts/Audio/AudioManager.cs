@@ -84,12 +84,13 @@ public class AudioManager : MonoBehaviour
 
     public void ChangeTrack(string name)
     {
-        if (curTrack.name == name)
+        if (curTrack != null && curTrack.name == name)
         {
             return;
         }
 
-        curTrack.source.Stop();
+        if(curTrack != null && curTrack.source)
+            curTrack.source.Stop();
         curTrack = null;
 
         curTrack = Array.Find(music, sound => sound.name == name);
@@ -99,5 +100,18 @@ public class AudioManager : MonoBehaviour
             return;
         }
         curTrack.source.Play();
+    }
+
+    public void SetVolume(float value)
+    {
+        foreach (Sound s in sounds)
+        {
+            s.source.volume = value;
+        }
+
+        foreach (Sound m in music)
+        {
+            m.source.volume = value;
+        }
     }
 }

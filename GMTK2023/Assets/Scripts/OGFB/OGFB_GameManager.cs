@@ -51,6 +51,7 @@ namespace OGFB
         {
             score++;
             scoreText.text = score.ToString();
+            if (AudioManager.Instance != null) AudioManager.Instance.Play("OGFB_Point");
         }
 
         public void ResetScore()
@@ -66,6 +67,7 @@ namespace OGFB
 
         public void GameOver()
         {
+            if (!ui_GameOverPage.activeInHierarchy && AudioManager.Instance != null) AudioManager.Instance.Play("OGFB_Death");
             ui_GameOverPage.SetActive(true);
             pipePooler.StopPipes();
             moveGround.SetMoving(false);

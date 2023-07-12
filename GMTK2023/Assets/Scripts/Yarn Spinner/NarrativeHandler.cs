@@ -5,12 +5,15 @@ using UnityEngine;
 using UnityEngine.Events;
 using Yarn.Unity;
 using OGFB;
+using UnityEngine.SceneManagement;
 
 public class NarrativeHandler : MonoBehaviour
 {
     public string gender;
 
     [SerializeField] private DialogueRunner dialogueRunner; // Yarn Spinner Dialogue Runner
+
+    public UnityEvent<string> onGenderSelected;
 
     private static NarrativeHandler instance; // Singleton for the Narrative Handler
 
@@ -42,13 +45,27 @@ public class NarrativeHandler : MonoBehaviour
     public void SetGender(string gender)
     {
         this.gender = gender;
+        onGenderSelected?.Invoke(gender);
+    }
+
+    public void TriggerGoToEnding()
+    {
+        Invoke("GoToEndingScene", 2f);
+    }
+
+    public void GoToEndingScene()
+    {
+        SceneManager.LoadScene(2);
     }
 
     // Converts Functions to Yarn Commands
     private void AddYarnCommands()
     {
         if(dialogueRunner != null)
+        {
             dialogueRunner.AddCommandHandler("YarnTest", () => YarnTest());
+            dialogueRunner.AddCommandHandler("TriggerEnding", TriggerGoToEnding);
+        }
     }
     
 

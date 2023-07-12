@@ -50,6 +50,7 @@ namespace OGFB
             if (physicsActive && isControllable || force)
             {
                 rb.velocity = Vector2.up * vel;
+                if (AudioManager.Instance != null) AudioManager.Instance.Play("OGFB_Flap");
             }
         }
 

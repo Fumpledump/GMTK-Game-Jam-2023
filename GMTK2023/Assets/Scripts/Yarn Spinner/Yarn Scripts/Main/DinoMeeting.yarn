@@ -4,7 +4,8 @@ tags:
 Yeah, 404 has always been there for me!
 I’ll go talk to her, I’m sure she’ll have good advice for me
 
-<<Exit "Middle">>>>
+<<Exit "Middle">>
+<<ChangeTrack "None">>
 
 <<SetBackground "School">>
 : > January 6th - 1:11 PM - School Exterior
@@ -29,6 +30,7 @@ Oh, there she is.
     404: “Pipe-Chan!”
 <<endif>>
 
+<<ChangeTrack "Sad">>
 <<RunScreenFX "Sad">>
 <<SetSprite "Dino" "404_concerned">>
 404: “Ah, you still look kinda down.”
@@ -45,9 +47,11 @@ Oh, there she is.
 404: “You’re beautiful as you are and-”
 <<SetSprite "Dino" "404_concerned">>
 <<RunScreenFX "DeskSlam">>
+<<ChangeTrack "None">>
 404: “W-w-wait”
 404: “Flappy Asked You Out?!?! O_o”  
 
+<<ChangeTrack "Goofy">>
 <<RunScreenFX "None">>
 {Name()}: “Not so loud!”
 {Name()}: “But also, yeah. Just now in, in the library” 
@@ -82,6 +86,7 @@ That, or I’ll have to pay some karmic price for all the good luck I’ve waste
 
 <<RunScreenFX "None">>
 
+<<ChangeTrack "Generic">>
 <<SetSprite "Dino" "404_serious">>
 404: “...”
 
@@ -91,6 +96,7 @@ That, or I’ll have to pay some karmic price for all the good luck I’ve waste
     404: “Hey Pipe-Chan”
 <<endif>>
 
+<<ChangeTrack "Sad">>
 404: “I don’t know what you’re going through right now, but-” 
 <<SetSprite "Dino" "404_cheerful">>
 <<RunScreenFX "Shock">>
@@ -117,6 +123,7 @@ That, or I’ll have to pay some karmic price for all the good luck I’ve waste
 <<RunScreenFX "None">>
 {Name()}: “Yeah…”
 
+<<ChangeTrack "Generic">>
 <<RunScreenFX "Shock">>
 404: “BUT- What I do know, is I’d end up hating myself forever, plagued by what could have happened.” 
 404: “I’d have wanted my best friend to have knocked some sense into me.”

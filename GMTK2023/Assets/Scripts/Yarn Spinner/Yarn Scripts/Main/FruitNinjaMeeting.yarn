@@ -11,6 +11,7 @@ tags:
 Fruit Ninja: “Well Well Well”
 Fruit Ninja: “Look who decided to come rolling back.”
 Fruit Ninja: “I sure hope you aren’t here to pick a fight with me~”
+<<ChangeTrack "Sad">>
 
 {Name()}: “No, not really”
 {Name()}: “I’m more of a coward personally.”
@@ -31,8 +32,10 @@ Fruit Ninja: “But you should know who you’re dealing with, there hasn’t be
 <<RunScreenFX "Extreme_Shock">>
 Fruit Ninja: “I hope you’re prepared for the hardest battle of your life!”
 
+<<ChangeTrack "None">>
 {Name()}: “Flappy-kun already asked me out.” 
 
+<<ChangeTrack "Goofy">>
 <<SetSprite "Ninja" "ninja_disgust">>
 Fruit Ninja: "Well goddammit."
 <<SetSprite "Ninja" "ninja_serious">>
@@ -49,6 +52,8 @@ And this is who I picked to be my love coach.
 Fruit Ninja: “...”
 <<SetSprite "Ninja" "ninja_cool">>
 Fruit Ninja: “Okay, that's enough grieving for today, keep talking.” 
+
+<<ChangeTrack "Generic">>
 
 {Name()}: “Yeah… Like I was saying.”
 {Name()}: “The whole thing is so overwhelming, I’m not even sure about my own feelings.” 

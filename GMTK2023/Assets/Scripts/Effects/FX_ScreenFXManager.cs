@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Text;
 using UnityEditor;
 using UnityEngine;
 using Yarn.Unity;
@@ -10,6 +11,9 @@ public class FX_ScreenFXManager : MonoBehaviour
     [SerializeField] private DialogueRunner dialogueRunner; // Yarn Spinner Dialogue Runner
 
     [SerializeField] private FX_CameraShake cameraShake;
+
+    [SerializeField] private UnityEngine.UI.Image topPipeSprite;
+    [SerializeField] private UnityEngine.UI.Image botPipeSprite;
 
     [Header("Particle Systems")]
     [SerializeField] private ParticleSystem suprisedFX;
@@ -42,7 +46,13 @@ public class FX_ScreenFXManager : MonoBehaviour
             dialogueRunner.AddCommandHandler<string>("RunScreenFX", RunScreenFX);
     }
 
-    private void RunScreenFX(string fxType)
+    public void SetFinalPipeGender(string gender)
+    {
+        topPipeSprite.enabled = gender == "T";
+        botPipeSprite.enabled = gender == "B";
+    }
+
+    public void RunScreenFX(string fxType)
     {
         bool resetColor = true;
         bool resetSepia = true;
@@ -161,6 +171,10 @@ public class FX_ScreenFXManager : MonoBehaviour
                     resetColor = false;
                 }
 
+                break;
+            case "Flash":
+                anim.Play("FX_Color_Flash");
+                resetColor = false;
                 break;
             default:
                 break;

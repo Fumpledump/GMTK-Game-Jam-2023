@@ -1,4 +1,4 @@
-﻿title: ProfesssorDoodleMeeting
+﻿title: ProfessorDoodleMeeting
 tags:
 ---
 <<if Name() == "Pipe-Kun">>
@@ -20,6 +20,7 @@ tags:
 
 {Name()}: “Would it be inappropriate to ask you for love advice?” 
 
+<<ChangeTrack "None">>
 <<RunScreenFX "Shock">>
 <<SetSprite "Doodle" "doodle_annoyed">>
 Professor Jump: “Given that you are a student and I am your teacher, I’d say it would be absolutely unprofessional and grounds for firing.”
@@ -44,6 +45,7 @@ Professor Jump: “Maybe my information this morning came out… a little too ha
 
 {Name()}: “It was a bit odd, but to your credit, everyone’s been out of pocket today.” 
 
+<<ChangeTrack "Generic">>
 <<if Name() == "Pipe-Kun">>
     Professor Jump: “Bottom-Kun, romance is perhaps the trickest game you can play” 
 <<else>>

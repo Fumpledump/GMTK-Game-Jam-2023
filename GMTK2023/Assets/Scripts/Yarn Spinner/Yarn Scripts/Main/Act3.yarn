@@ -1,11 +1,11 @@
 ﻿title: Act3
 tags:
 ---
-
+<<ChangeTrack "Romantic">>
 <<if Name() == "Pipe-Kun">>
-    <<Enter "Left" "BottomPipe">>
+    <<Enter "Right" "BottomPipe">>
 <<else>>
-    <<Enter "Left" "TopPipe">>
+    <<Enter "Right" "TopPipe">>
 <<endif>>
 
 <<Enter "Middle" "Flappy">>
@@ -91,6 +91,14 @@ Flappy: “You kept asking me how I could fall in love with a weird nobody like 
 
 <<SetSprite "Flappy" "flappy_soft">>
 <<RunScreenFX "Love">>
+<<RunScreenFX "IncrementEnding">>
+<<SetBackground "Kiss">>
+<<if Name() == "Pipe-Kun">>
+    <<Exit "Right">>
+<<else>>
+    <<Exit "Right">>
+<<endif>>
+<<Exit "Middle">>
 Flappy: “Being with you, I don’t feel like crying whenever primary schoolers laugh at me for being so bad at chess.”
 
 <<RunScreenFX "None">>
@@ -122,6 +130,7 @@ What I want, what I’m jumping towards
 I want to find that light for myself.
 And if Flappy-Kun will stand at my side-
 
+<<RunScreenFX "IncrementEnding">>
 <<SetSprite "Flappy" "flappy_cheerful">>
 Flappy: “What do you say?” 
 
@@ -133,14 +142,31 @@ title: FinalChoice
 tags:
 ---
 I- I say
--> I love you Flappy-Kun!
+<<SetPhoneShown true>>
+-> I love you Flappy-Kun! (5 points)
+    <<if FlappyPoints() >= 5>>
+        <<SetPhoneShown false>>
+        <<RunScreenFX "ShowWhite">>
+        <<TriggerEnding>>
+    <<else>>
+        <<jump FinalChoice>>
+    <<endif>>
 -> Let us stop running, and shine our lights together. (25 points)
     <<if FlappyPoints() >= 25>>
+        <<SetPhoneShown false>>
+        <<RunScreenFX "IncrementEnding">>
+        <<RunScreenFX "Love">>
+        <<RunScreenFX "ShowWhite">>
+        <<TriggerEnding>>
     <<else>>
         <<jump FinalChoice>>
     <<endif>>
 ->Ram into my pipe Flappy-Kun!!! (40 points)
     <<if FlappyPoints() >= 40>>
+        <<SetPhoneShown false>>
+        <<RunScreenFX "IncrementEnding">>
+        <<RunScreenFX "Love">>
+        <<TriggerEnding>>
     <<else>>
         <<jump FinalChoice>>
     <<endif>>

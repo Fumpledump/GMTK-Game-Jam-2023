@@ -1,9 +1,9 @@
 ﻿title: Prologue
 tags:
 ---
-<<jump Act1Continue>>
 
 <<SetBackground "School">>
+<<ChangeTrack "Generic">>
  : > January 6th, 7:45 AM, School Exterior
 
 <<if Name() == "Pipe-Kun">>
@@ -68,6 +68,7 @@ Just another miracle I should be grateful for.
 {Name()}: “Ah, fair enough, let’s head on in then-” 
 
 <<RunScreenFX "Confused">>
+<<ChangeTrack "Goofy">>
 
 {Name()}: “Wait, what the hell is Cool Ranch?” 
 
@@ -127,6 +128,7 @@ title: Move_Into_Classroom
 tags:
 ---
 <<SetPhoneShown false>>
+<<ChangeTrack "Generic">>
 {Name()}: Yeah... Okay, let's just get going.
 
 <<RunScreenFX "None">>
@@ -167,12 +169,14 @@ That’s unusually kind.
 <<SetSprite "Doodle" "doodle_chill">>
 Professor Jump: “Use this freedom I’ve given you however you see fit, but keep in mind…”
 <<SetSprite "Doodle" "doodle_annoyed">>
+<<ChangeTrack "None">>
 Professor Jump: “In the real world, you’ll keep jumping forever, but eventually, you will fall.”
 Professor Jump: “Everyone does…”
 
 Class: …
 Class: …
 
+<<ChangeTrack "Generic">>
 <<SetSprite "Doodle" "doodle_smug">>
 Professor Jump: “What I mean to say,”
 Professor Jump: “I suggest everyone use this time I’ve given to find out what you need before then”
@@ -378,6 +382,7 @@ tags:
 <<SetBackground "Club">>
 <<RunScreenFX "HideBlack">>
 : > January 6th, Library, 9:40 am 
+<<ChangeTrack "Sad">>
 
 <<if Name() == "Pipe-Kun">>
     <<Enter "Middle" "BottomPipe">>
@@ -413,6 +418,7 @@ Besides, there’s no way he’d even-
 <<Exit "Middle">>
 
 <<RunScreenFX "Love">>
+<<ChangeTrack "Romantic">>
 
 <<Enter "Left" "Flappy">>
 <<SetSprite "Flappy" "flappy_cheerful">>
@@ -483,35 +489,42 @@ Damn, how can I NOT want to fuck him?
 <<RunScreenFX "Love">>
 <<SetSprite "Flappy" "flappy_soft">>
 Flappy: “I’m tired of always narrowly avoiding you, I-” 
-Flappy: “I want to be with you Bottom-Kun/Top-Chan.” 
+<<if Name() == "Pipe-Kun">>
+    Flappy: “I want to be with you Bottom-Kun.”  
+<<else>>
+   Flappy: “I want to be with you Top-Chan.” 
+<<endif>>
 Flappy: “I dream of feeling your cold, green, metallic casing against my feathers.”
 Flappy: “After hearing what Doodle said, I realized it doesn’t matter how far I fly if it means I can’t be with you.”
 
 <<Play "FastHeartBeat">>
 <<RunScreenFX "Saucy">>
 
-
-(Someone call a plumber, because I am FLOODING over here)
+Someone call a plumber, because I am FLOODING over here!
 <<jump FlappyAct1>>
 ===
 
 title: FlappyAct1
 tags:
 ---
+<<ChangeTrack "Generic">>
 <<SetPhoneShown true>>
 {Name()}: “Flappy-Kun, I-”
 -> I’m… I’m kind of in the middle of studying here…
     <<RunScreenFX "None">>
     <<SetSprite "Flappy" "flappy_confused">>
+    <<SetPhoneShown false>>
     Flappy: “Oh yeah, no problem.” 
     Flappy: “What are we studying here, Nucleotides?”
     {Name()}: “They look mostly right, but I’m not sure how you got that answer for 5”
     {Name()}: “Aaand 1-4, none of this makes any sense to me at all actually!”
+    <<jump Act1Continue>>
 -> If you really loved me, why are you just now telling me? (5 points)
     <<if FlappyPoints() >= 5>>
         <<RunScreenFX "Love">>
         <<Play "MaleCutsey">>
         <<SetSprite "Flappy" "flappy_soft">>
+        <<SetPhoneShown false>>
         Flappy: “I’ve always loved you, but the thing is-“
         Flappy: “Flying through those narrow gaps is crazy addictive!” 
         Flappy: “I get easily distracted and focused on little things like that.” 
@@ -523,6 +536,7 @@ tags:
     <<endif>>
 -> Oh man, Fruit Ninja is going to be PISSED. (15 points)
     <<if FlappyPoints() >= 15>>
+        <<SetPhoneShown false>>
         <<RunScreenFX "Suprised">>
         <<SetSprite "Flappy" "flappy_confused">>
         Flappy: “Whozat?“
@@ -542,6 +556,7 @@ tags:
 title: Act1Continue
 tags:
 ---
+<<ChangeTrack "None">>
 <<RunScreenFX "None">>
 {Name()} “Listen, this is all just, really sudden.”
 
@@ -558,6 +573,7 @@ Flappy: “Don’t you feel this love too?”
 {Name()}: “I need time to think!”
 
 <<Exit "Right">>
+<<Exit "Left">>
 I hastily got up from my seat and ran out the door
 I’m sure my face would have been bright red, but I’m just an animated pipe, and don’t even have a face much less blood flow...
 
