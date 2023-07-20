@@ -3240,7 +3240,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Manny Mallea - Super Duper Dorito Lord '
+  m_text: Manny Mallea - Programmer and Dorito Lord
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e0504809774fb5f4da733a12c51ef36b, type: 2}
   m_sharedMaterial: {fileID: -8216516724478557990, guid: e0504809774fb5f4da733a12c51ef36b, type: 2}
