@@ -54,6 +54,7 @@ Flappy: “And?”
 <<SetSprite "Flappy" "flappy_cheerful">>
 Flappy: “I don’t care about things like my vitality and popularity if it means giving you up.”
 <<RunScreenFX "Doritos">>
+<<SetSprite "Flappy" "flappy_cheerful_pizza">>
 Flappy: “Telling me not to be with you is like telling Cool Ranch not to be the most popular kid in school!”
 <<RunScreenFX "Extreme_Shock">>
 {Name()}: “You really should care about those things dude!”

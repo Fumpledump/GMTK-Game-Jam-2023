@@ -16,6 +16,7 @@ namespace OGFB
         //UI
         [SerializeField] private GameObject ui_GameOverPage;
         [SerializeField] private TMPro.TextMeshProUGUI scoreText;
+        [SerializeField] private TMPro.TextMeshProUGUI lastScoreText;
 
         [SerializeField] private Animator uiAnim;
 
@@ -28,6 +29,7 @@ namespace OGFB
         private bool allowControl;
 
         private int score;
+        private int lastScore;
 
         private void Awake()
         {
@@ -50,6 +52,12 @@ namespace OGFB
         public void IncrementScore()
         {
             score++;
+            if(score > lastScore)
+            {
+                lastScore = score;
+                lastScoreText.text = lastScore.ToString();
+            }
+
             scoreText.text = score.ToString();
             if (AudioManager.Instance != null) AudioManager.Instance.Play("OGFB_Point");
         }
@@ -63,6 +71,11 @@ namespace OGFB
         public int GetScore()
         {
             return score;
+        }
+
+        public int GetLastScore()
+        {
+            return lastScore;
         }
 
         public void GameOver()
@@ -98,7 +111,12 @@ namespace OGFB
         public void SetPhoneShown(bool set)
         {
             if (!set)
+            {
                 ResetGame();
+                //Reset last score
+                lastScore = 0;
+                lastScoreText.text = lastScore.ToString();
+            }
 
             uiAnim.SetBool("Show", set);
         }

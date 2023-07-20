@@ -20,7 +20,6 @@ I spent all lunch thinking about it, and still can't understanding these feeling
 Yeah, that could give me some answers.
 It’s got to be better than talking outloud in an empty hallway
 
-<<SetPhoneShown true>>
 <<jump EncounterChoice>>
 ===
 
@@ -29,6 +28,7 @@ title: EncounterChoice
 tags:
 ---
 Let's see
+<<SetPhoneShown true>>
 -> Go find 404 (3 points)
     <<if FlappyPoints() >= 3>>
         <<SetPhoneShown false>>

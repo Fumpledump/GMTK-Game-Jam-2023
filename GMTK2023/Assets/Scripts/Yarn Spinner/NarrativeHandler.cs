@@ -99,6 +99,6 @@ public static class AdderFunction
     public static int FlappyPoints()
     {
         Debug.Log(oGFB_GameManager.GetScore());
-        return oGFB_GameManager.GetScore();
+        return oGFB_GameManager.GetLastScore();
     }
 }
